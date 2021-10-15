@@ -1,0 +1,3977 @@
+select * from p_15min where  index >= '2020-08-27 15:01:53.006312+00:00' order by index 
+calculating percent change:A
+Theres no transactions please change BUY/SELL params
+calculating percent change:AAL
+Theres no transactions please change BUY/SELL params
+calculating percent change:AAP
+Theres no transactions please change BUY/SELL params
+calculating percent change:AAPL
+go up 2020-08-28 11:00:00+00:00 - boll:280.376499999999 -prev: 500.6 - curr:502.44
+buying:  AAPL 2020-08-28 11:00:00+00:00 -- 502.44
+go down 2020-08-31 11:00:00+00:00 - boll:124.90774999999954 -prev: 499.18 - curr:125.92
+selling: AAPL 2020-08-31 11:00:00+00:00 -- 125.92
+ ---------SUMMARY--------------- 
+STOCKS: AAPL
+Stocks in buy: 0 | Last price: 129.41 | Last buyed price: 502.44
+First stock p.: 504.38 | Last stock p. : 129.41 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -374.97 | -74.34%
+transactions: 1
+best settings{}
+calculating percent change:ABBV
+ ---------SUMMARY--------------- 
+STOCKS: ABBV
+Stocks in buy: 0 | Last price: 95.72 | Last buyed price: 502.44
+First stock p.: 94.719 | Last stock p. : 95.72 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 1.0 | 1.06%
+transactions: 1
+best settings{}
+calculating percent change:ABEV
+ ---------SUMMARY--------------- 
+STOCKS: ABEV
+Stocks in buy: 0 | Last price: 2.285 | Last buyed price: 502.44
+First stock p.: 2.265 | Last stock p. : 2.285 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 0.02 | 0.88%
+transactions: 1
+best settings{}
+calculating percent change:ABT
+ ---------SUMMARY--------------- 
+STOCKS: ABT
+Stocks in buy: 0 | Last price: 109.74 | Last buyed price: 502.44
+First stock p.: 110.405 | Last stock p. : 109.74 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -0.67 | -0.6%
+transactions: 1
+best settings{}
+calculating percent change:ADBE
+ ---------SUMMARY--------------- 
+STOCKS: ADBE
+Stocks in buy: 0 | Last price: 514.1 | Last buyed price: 502.44
+First stock p.: 510.77 | Last stock p. : 514.1 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 3.33 | 0.65%
+transactions: 1
+best settings{}
+calculating percent change:ADI
+ ---------SUMMARY--------------- 
+STOCKS: ADI
+Stocks in buy: 0 | Last price: 117.24 | Last buyed price: 502.44
+First stock p.: 119.35 | Last stock p. : 117.24 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -2.11 | -1.77%
+transactions: 1
+best settings{}
+calculating percent change:ADP
+ ---------SUMMARY--------------- 
+STOCKS: ADP
+Stocks in buy: 0 | Last price: 139.18 | Last buyed price: 502.44
+First stock p.: 141.85 | Last stock p. : 139.18 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -2.67 | -1.88%
+transactions: 1
+best settings{}
+calculating percent change:ADSK
+ ---------SUMMARY--------------- 
+STOCKS: ADSK
+Stocks in buy: 0 | Last price: 247.04 | Last buyed price: 502.44
+First stock p.: 246.69 | Last stock p. : 247.04 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 0.35 | 0.14%
+transactions: 1
+best settings{}
+calculating percent change:AEP
+ ---------SUMMARY--------------- 
+STOCKS: AEP
+Stocks in buy: 0 | Last price: 78.81 | Last buyed price: 502.44
+First stock p.: 78.27 | Last stock p. : 78.81 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 0.54 | 0.69%
+transactions: 1
+best settings{}
+calculating percent change:AFL
+ ---------SUMMARY--------------- 
+STOCKS: AFL
+Stocks in buy: 0 | Last price: 36.44 | Last buyed price: 502.44
+First stock p.: 36.97 | Last stock p. : 36.44 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -0.53 | -1.43%
+transactions: 1
+best settings{}
+calculating percent change:AIG
+ ---------SUMMARY--------------- 
+STOCKS: AIG
+Stocks in buy: 0 | Last price: 29.26 | Last buyed price: 502.44
+First stock p.: 29.72 | Last stock p. : 29.26 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -0.46 | -1.55%
+transactions: 1
+best settings{}
+calculating percent change:AKAM
+ ---------SUMMARY--------------- 
+STOCKS: AKAM
+Stocks in buy: 0 | Last price: 116.57 | Last buyed price: 502.44
+First stock p.: 113.8 | Last stock p. : 116.57 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 2.77 | 2.43%
+transactions: 1
+best settings{}
+calculating percent change:ALGN
+ ---------SUMMARY--------------- 
+STOCKS: ALGN
+Stocks in buy: 0 | Last price: 299.51 | Last buyed price: 502.44
+First stock p.: 309.6 | Last stock p. : 299.51 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -10.09 | -3.26%
+transactions: 1
+best settings{}
+calculating percent change:ALL
+ ---------SUMMARY--------------- 
+STOCKS: ALL
+Stocks in buy: 0 | Last price: 93.22 | Last buyed price: 502.44
+First stock p.: 93.66 | Last stock p. : 93.22 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -0.44 | -0.47%
+transactions: 1
+best settings{}
+calculating percent change:ALXN
+ ---------SUMMARY--------------- 
+STOCKS: ALXN
+Stocks in buy: 0 | Last price: 114.22 | Last buyed price: 502.44
+First stock p.: 105.835 | Last stock p. : 114.22 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 8.39 | 7.92%
+transactions: 1
+best settings{}
+calculating percent change:AMAT
+ ---------SUMMARY--------------- 
+STOCKS: AMAT
+Stocks in buy: 0 | Last price: 61.815 | Last buyed price: 502.44
+First stock p.: 61.88 | Last stock p. : 61.815 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -0.07 | -0.11%
+transactions: 1
+best settings{}
+calculating percent change:AMC
+ ---------SUMMARY--------------- 
+STOCKS: AMC
+Stocks in buy: 0 | Last price: 5.92 | Last buyed price: 502.44
+First stock p.: 6.48 | Last stock p. : 5.92 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: -0.56 | -8.64%
+transactions: 1
+best settings{}
+calculating percent change:AMD
+ ---------SUMMARY--------------- 
+STOCKS: AMD
+Stocks in buy: 0 | Last price: 91.15 | Last buyed price: 502.44
+First stock p.: 84.975 | Last stock p. : 91.15 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 6.18 | 7.27%
+transactions: 1
+best settings{}
+calculating percent change:AME
+ ---------SUMMARY--------------- 
+STOCKS: AME
+Stocks in buy: 0 | Last price: 100.915 | Last buyed price: 502.44
+First stock p.: 100.675 | Last stock p. : 100.915 | Last buyed stock p. : 502.44
+Profit from trading: -74.94%
+Profit without trading: 0.24 | 0.24%
+transactions: 1
+best settings{}
+calculating percent change:AMGN
+go up 2020-08-28 19:45:00+00:00 - boll:242.78999999999968 -prev: 251.23 - curr:253.16
+buying:  AMGN 2020-08-28 19:45:00+00:00 -- 253.16
+ ---------SUMMARY--------------- 
+STOCKS: AMGN
+Stocks in buy: 1 | Last price: 253.84 | Last buyed price: 253.16
+selling: AMGN 2020-08-31 19:45:00+00:00 -- 253.84
+First stock p.: 256.24 | Last stock p. : 253.84 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: -2.4 | -0.94%
+transactions: 2
+best settings{}
+calculating percent change:AMT
+ ---------SUMMARY--------------- 
+STOCKS: AMT
+Stocks in buy: 0 | Last price: 249.56 | Last buyed price: 253.16
+First stock p.: 247.99 | Last stock p. : 249.56 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 1.57 | 0.63%
+transactions: 2
+best settings{}
+calculating percent change:AMTD
+ ---------SUMMARY--------------- 
+STOCKS: AMTD
+Stocks in buy: 0 | Last price: 38.49 | Last buyed price: 253.16
+First stock p.: 38.9 | Last stock p. : 38.49 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: -0.41 | -1.05%
+transactions: 2
+best settings{}
+calculating percent change:AMZN
+ ---------SUMMARY--------------- 
+STOCKS: AMZN
+Stocks in buy: 0 | Last price: 3472.94 | Last buyed price: 253.16
+First stock p.: 3439.61 | Last stock p. : 3472.94 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 33.33 | 0.97%
+transactions: 2
+best settings{}
+calculating percent change:ANET
+ ---------SUMMARY--------------- 
+STOCKS: ANET
+Stocks in buy: 0 | Last price: 223.26 | Last buyed price: 253.16
+First stock p.: 221.21 | Last stock p. : 223.26 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 2.05 | 0.93%
+transactions: 2
+best settings{}
+calculating percent change:ANF
+ ---------SUMMARY--------------- 
+STOCKS: ANF
+Stocks in buy: 0 | Last price: 13.05 | Last buyed price: 253.16
+First stock p.: 12.95 | Last stock p. : 13.05 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 0.1 | 0.77%
+transactions: 2
+best settings{}
+calculating percent change:ANGI
+ ---------SUMMARY--------------- 
+STOCKS: ANGI
+Stocks in buy: 0 | Last price: 13.915 | Last buyed price: 253.16
+First stock p.: 13.64 | Last stock p. : 13.915 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 0.27 | 2.02%
+transactions: 2
+best settings{}
+calculating percent change:ANTM
+ ---------SUMMARY--------------- 
+STOCKS: ANTM
+Stocks in buy: 0 | Last price: 281.98 | Last buyed price: 253.16
+First stock p.: 275.165 | Last stock p. : 281.98 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 6.81 | 2.48%
+transactions: 2
+best settings{}
+calculating percent change:APA
+ ---------SUMMARY--------------- 
+STOCKS: APA
+Stocks in buy: 0 | Last price: 14.87 | Last buyed price: 253.16
+First stock p.: 14.41 | Last stock p. : 14.87 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 0.46 | 3.19%
+transactions: 2
+best settings{}
+calculating percent change:APD
+ ---------SUMMARY--------------- 
+STOCKS: APD
+Stocks in buy: 0 | Last price: 292.91 | Last buyed price: 253.16
+First stock p.: 293.61 | Last stock p. : 292.91 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: -0.7 | -0.24%
+transactions: 2
+best settings{}
+calculating percent change:APH
+ ---------SUMMARY--------------- 
+STOCKS: APH
+Stocks in buy: 0 | Last price: 110.055 | Last buyed price: 253.16
+First stock p.: 108.665 | Last stock p. : 110.055 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 1.39 | 1.28%
+transactions: 2
+best settings{}
+calculating percent change:APPS
+ ---------SUMMARY--------------- 
+STOCKS: APPS
+Stocks in buy: 0 | Last price: 24.28 | Last buyed price: 253.16
+First stock p.: 23.42 | Last stock p. : 24.28 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 0.86 | 3.67%
+transactions: 2
+best settings{}
+calculating percent change:ARCC
+ ---------SUMMARY--------------- 
+STOCKS: ARCC
+Stocks in buy: 0 | Last price: 14.71 | Last buyed price: 253.16
+First stock p.: 14.43 | Last stock p. : 14.71 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 0.28 | 1.94%
+transactions: 2
+best settings{}
+calculating percent change:ASML
+ ---------SUMMARY--------------- 
+STOCKS: ASML
+Stocks in buy: 0 | Last price: 375.85 | Last buyed price: 253.16
+First stock p.: 377.41 | Last stock p. : 375.85 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: -1.56 | -0.41%
+transactions: 2
+best settings{}
+calculating percent change:ATR
+ ---------SUMMARY--------------- 
+STOCKS: ATR
+Stocks in buy: 0 | Last price: 118.34 | Last buyed price: 253.16
+First stock p.: 119.78 | Last stock p. : 118.34 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: -1.44 | -1.2%
+transactions: 2
+best settings{}
+calculating percent change:ATUS
+ ---------SUMMARY--------------- 
+STOCKS: ATUS
+Stocks in buy: 0 | Last price: 27.705 | Last buyed price: 253.16
+First stock p.: 27.295 | Last stock p. : 27.705 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: 0.41 | 1.5%
+transactions: 2
+best settings{}
+calculating percent change:ATVI
+ ---------SUMMARY--------------- 
+STOCKS: ATVI
+Stocks in buy: 0 | Last price: 83.63 | Last buyed price: 253.16
+First stock p.: 84.24 | Last stock p. : 83.63 | Last buyed stock p. : 253.16
+Profit from trading: -74.67%
+Profit without trading: -0.61 | -0.72%
+transactions: 2
+best settings{}
+calculating percent change:AVB
+go up 2020-08-27 17:15:00+00:00 - boll:146.6157499999999 -prev: 157.73 - curr:158.0
+buying:  AVB 2020-08-27 17:15:00+00:00 -- 158.0
+ ---------SUMMARY--------------- 
+STOCKS: AVB
+Stocks in buy: 1 | Last price: 158.26 | Last buyed price: 158.0
+selling: AVB 2020-08-31 19:45:00+00:00 -- 158.26
+First stock p.: 157.12 | Last stock p. : 158.26 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 1.14 | 0.73%
+transactions: 3
+best settings{}
+calculating percent change:AVGO
+ ---------SUMMARY--------------- 
+STOCKS: AVGO
+Stocks in buy: 0 | Last price: 348.665 | Last buyed price: 158.0
+First stock p.: 339.86 | Last stock p. : 348.665 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 8.81 | 2.59%
+transactions: 3
+best settings{}
+calculating percent change:AXP
+ ---------SUMMARY--------------- 
+STOCKS: AXP
+Stocks in buy: 0 | Last price: 101.785 | Last buyed price: 158.0
+First stock p.: 101.42 | Last stock p. : 101.785 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 0.36 | 0.36%
+transactions: 3
+best settings{}
+calculating percent change:AZO
+ ---------SUMMARY--------------- 
+STOCKS: AZO
+Stocks in buy: 0 | Last price: 1199.665 | Last buyed price: 158.0
+First stock p.: 1198.86 | Last stock p. : 1199.665 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 0.81 | 0.07%
+transactions: 3
+best settings{}
+calculating percent change:BA
+ ---------SUMMARY--------------- 
+STOCKS: BA
+Stocks in buy: 0 | Last price: 172.44 | Last buyed price: 158.0
+First stock p.: 176.315 | Last stock p. : 172.44 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -3.88 | -2.2%
+transactions: 3
+best settings{}
+calculating percent change:BABA
+ ---------SUMMARY--------------- 
+STOCKS: BABA
+Stocks in buy: 0 | Last price: 287.47 | Last buyed price: 158.0
+First stock p.: 284.73 | Last stock p. : 287.47 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 2.74 | 0.96%
+transactions: 3
+best settings{}
+calculating percent change:BAC
+ ---------SUMMARY--------------- 
+STOCKS: BAC
+Stocks in buy: 0 | Last price: 25.85 | Last buyed price: 158.0
+First stock p.: 26.065 | Last stock p. : 25.85 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -0.21 | -0.82%
+transactions: 3
+best settings{}
+calculating percent change:BAH
+ ---------SUMMARY--------------- 
+STOCKS: BAH
+Stocks in buy: 0 | Last price: 88.38 | Last buyed price: 158.0
+First stock p.: 88.63 | Last stock p. : 88.38 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -0.25 | -0.28%
+transactions: 3
+best settings{}
+calculating percent change:BAP
+ ---------SUMMARY--------------- 
+STOCKS: BAP
+Stocks in buy: 0 | Last price: 130.48 | Last buyed price: 158.0
+First stock p.: 130.49 | Last stock p. : 130.48 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -0.01 | -0.01%
+transactions: 3
+best settings{}
+calculating percent change:BAX
+ ---------SUMMARY--------------- 
+STOCKS: BAX
+Stocks in buy: 0 | Last price: 87.02 | Last buyed price: 158.0
+First stock p.: 85.51 | Last stock p. : 87.02 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 1.51 | 1.77%
+transactions: 3
+best settings{}
+calculating percent change:BB
+ ---------SUMMARY--------------- 
+STOCKS: BB
+Stocks in buy: 0 | Last price: 5.24 | Last buyed price: 158.0
+First stock p.: 5.05 | Last stock p. : 5.24 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 0.19 | 3.76%
+transactions: 3
+best settings{}
+calculating percent change:BDX
+ ---------SUMMARY--------------- 
+STOCKS: BDX
+Stocks in buy: 0 | Last price: 242.98 | Last buyed price: 158.0
+First stock p.: 244.51 | Last stock p. : 242.98 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -1.53 | -0.63%
+transactions: 3
+best settings{}
+calculating percent change:BEN
+ ---------SUMMARY--------------- 
+STOCKS: BEN
+Stocks in buy: 0 | Last price: 21.16 | Last buyed price: 158.0
+First stock p.: 21.1 | Last stock p. : 21.16 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 0.06 | 0.28%
+transactions: 3
+best settings{}
+calculating percent change:BEP
+ ---------SUMMARY--------------- 
+STOCKS: BEP
+Stocks in buy: 0 | Last price: 45.53 | Last buyed price: 158.0
+First stock p.: 47.76 | Last stock p. : 45.53 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -2.23 | -4.67%
+transactions: 3
+best settings{}
+calculating percent change:BF.B
+ ---------SUMMARY--------------- 
+STOCKS: BF.B
+Stocks in buy: 0 | Last price: 73.32 | Last buyed price: 158.0
+First stock p.: 72.925 | Last stock p. : 73.32 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 0.39 | 0.54%
+transactions: 3
+best settings{}
+calculating percent change:BG
+ ---------SUMMARY--------------- 
+STOCKS: BG
+Stocks in buy: 0 | Last price: 45.865 | Last buyed price: 158.0
+First stock p.: 46.325 | Last stock p. : 45.865 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: -0.46 | -0.99%
+transactions: 3
+best settings{}
+calculating percent change:BHP
+ ---------SUMMARY--------------- 
+STOCKS: BHP
+Stocks in buy: 0 | Last price: 55.17 | Last buyed price: 158.0
+First stock p.: 54.89 | Last stock p. : 55.17 | Last buyed stock p. : 158.0
+Profit from trading: -74.51%
+Profit without trading: 0.28 | 0.51%
+transactions: 3
+best settings{}
+calculating percent change:BIDU
+go up 2020-08-31 13:30:00+00:00 - boll:275.3447499999995 -prev: 125.81 - curr:126.8
+buying:  BIDU 2020-08-31 13:30:00+00:00 -- 126.8
+ ---------SUMMARY--------------- 
+STOCKS: BIDU
+Stocks in buy: 1 | Last price: 124.94 | Last buyed price: 126.8
+selling: BIDU 2020-08-31 19:45:00+00:00 -- 124.94
+First stock p.: 127.53 | Last stock p. : 124.94 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -2.59 | -2.03%
+transactions: 4
+best settings{}
+calculating percent change:BIIB
+ ---------SUMMARY--------------- 
+STOCKS: BIIB
+Stocks in buy: 0 | Last price: 287.26 | Last buyed price: 126.8
+First stock p.: 281.42 | Last stock p. : 287.26 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 5.84 | 2.08%
+transactions: 4
+best settings{}
+calculating percent change:BIO
+ ---------SUMMARY--------------- 
+STOCKS: BIO
+Stocks in buy: 0 | Last price: 508.84 | Last buyed price: 126.8
+First stock p.: 495.25 | Last stock p. : 508.84 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 13.59 | 2.74%
+transactions: 4
+best settings{}
+calculating percent change:BK
+ ---------SUMMARY--------------- 
+STOCKS: BK
+Stocks in buy: 0 | Last price: 37.06 | Last buyed price: 126.8
+First stock p.: 37.55 | Last stock p. : 37.06 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.49 | -1.3%
+transactions: 4
+best settings{}
+calculating percent change:BKNG
+ ---------SUMMARY--------------- 
+STOCKS: BKNG
+Stocks in buy: 0 | Last price: 1920.065 | Last buyed price: 126.8
+First stock p.: 1918.14 | Last stock p. : 1920.065 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.92 | 0.1%
+transactions: 4
+best settings{}
+calculating percent change:BLK
+ ---------SUMMARY--------------- 
+STOCKS: BLK
+Stocks in buy: 0 | Last price: 595.775 | Last buyed price: 126.8
+First stock p.: 596.04 | Last stock p. : 595.775 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.26 | -0.04%
+transactions: 4
+best settings{}
+calculating percent change:BLL
+ ---------SUMMARY--------------- 
+STOCKS: BLL
+Stocks in buy: 0 | Last price: 80.645 | Last buyed price: 126.8
+First stock p.: 79.43 | Last stock p. : 80.645 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.21 | 1.53%
+transactions: 4
+best settings{}
+calculating percent change:BMRN
+ ---------SUMMARY--------------- 
+STOCKS: BMRN
+Stocks in buy: 0 | Last price: 78.17 | Last buyed price: 126.8
+First stock p.: 76.67 | Last stock p. : 78.17 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.5 | 1.96%
+transactions: 4
+best settings{}
+calculating percent change:BMY
+ ---------SUMMARY--------------- 
+STOCKS: BMY
+Stocks in buy: 0 | Last price: 62.44 | Last buyed price: 126.8
+First stock p.: 62.91 | Last stock p. : 62.44 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.47 | -0.75%
+transactions: 4
+best settings{}
+calculating percent change:BRK.B
+ ---------SUMMARY--------------- 
+STOCKS: BRK.B
+Stocks in buy: 0 | Last price: 218.81 | Last buyed price: 126.8
+First stock p.: 217.15 | Last stock p. : 218.81 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.66 | 0.76%
+transactions: 4
+best settings{}
+calculating percent change:BSX
+ ---------SUMMARY--------------- 
+STOCKS: BSX
+Stocks in buy: 0 | Last price: 41.18 | Last buyed price: 126.8
+First stock p.: 40.245 | Last stock p. : 41.18 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.94 | 2.32%
+transactions: 4
+best settings{}
+calculating percent change:BX
+ ---------SUMMARY--------------- 
+STOCKS: BX
+Stocks in buy: 0 | Last price: 53.13 | Last buyed price: 126.8
+First stock p.: 53.71 | Last stock p. : 53.13 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.58 | -1.08%
+transactions: 4
+best settings{}
+calculating percent change:BYND
+ ---------SUMMARY--------------- 
+STOCKS: BYND
+Stocks in buy: 0 | Last price: 136.27 | Last buyed price: 126.8
+First stock p.: 137.9 | Last stock p. : 136.27 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -1.63 | -1.18%
+transactions: 4
+best settings{}
+calculating percent change:C
+ ---------SUMMARY--------------- 
+STOCKS: C
+Stocks in buy: 0 | Last price: 51.26 | Last buyed price: 126.8
+First stock p.: 51.535 | Last stock p. : 51.26 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.27 | -0.53%
+transactions: 4
+best settings{}
+calculating percent change:CAJ
+ ---------SUMMARY--------------- 
+STOCKS: CAJ
+Stocks in buy: 0 | Last price: 17.145 | Last buyed price: 126.8
+First stock p.: 17.305 | Last stock p. : 17.145 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.16 | -0.92%
+transactions: 4
+best settings{}
+calculating percent change:CAT
+ ---------SUMMARY--------------- 
+STOCKS: CAT
+Stocks in buy: 0 | Last price: 142.755 | Last buyed price: 126.8
+First stock p.: 141.655 | Last stock p. : 142.755 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.1 | 0.78%
+transactions: 4
+best settings{}
+calculating percent change:CBRE
+ ---------SUMMARY--------------- 
+STOCKS: CBRE
+Stocks in buy: 0 | Last price: 47.18 | Last buyed price: 126.8
+First stock p.: 47.09 | Last stock p. : 47.18 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.09 | 0.19%
+transactions: 4
+best settings{}
+calculating percent change:CCI
+ ---------SUMMARY--------------- 
+STOCKS: CCI
+Stocks in buy: 0 | Last price: 163.72 | Last buyed price: 126.8
+First stock p.: 162.32 | Last stock p. : 163.72 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.4 | 0.86%
+transactions: 4
+best settings{}
+calculating percent change:CDNS
+ ---------SUMMARY--------------- 
+STOCKS: CDNS
+Stocks in buy: 0 | Last price: 111.26 | Last buyed price: 126.8
+First stock p.: 111.25 | Last stock p. : 111.26 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.01 | 0.01%
+transactions: 4
+best settings{}
+calculating percent change:CERN
+ ---------SUMMARY--------------- 
+STOCKS: CERN
+Stocks in buy: 0 | Last price: 73.58 | Last buyed price: 126.8
+First stock p.: 73.11 | Last stock p. : 73.58 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.47 | 0.64%
+transactions: 4
+best settings{}
+calculating percent change:CG
+ ---------SUMMARY--------------- 
+STOCKS: CG
+Stocks in buy: 0 | Last price: 25.9 | Last buyed price: 126.8
+First stock p.: 26.7 | Last stock p. : 25.9 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.8 | -3.0%
+transactions: 4
+best settings{}
+calculating percent change:CGNX
+ ---------SUMMARY--------------- 
+STOCKS: CGNX
+Stocks in buy: 0 | Last price: 69.02 | Last buyed price: 126.8
+First stock p.: 66.7 | Last stock p. : 69.02 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 2.32 | 3.48%
+transactions: 4
+best settings{}
+calculating percent change:CHKP
+ ---------SUMMARY--------------- 
+STOCKS: CHKP
+Stocks in buy: 0 | Last price: 126.16 | Last buyed price: 126.8
+First stock p.: 127.91 | Last stock p. : 126.16 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -1.75 | -1.37%
+transactions: 4
+best settings{}
+calculating percent change:CHTR
+ ---------SUMMARY--------------- 
+STOCKS: CHTR
+Stocks in buy: 0 | Last price: 617.29 | Last buyed price: 126.8
+First stock p.: 617.61 | Last stock p. : 617.29 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.32 | -0.05%
+transactions: 4
+best settings{}
+calculating percent change:CHWY
+ ---------SUMMARY--------------- 
+STOCKS: CHWY
+Stocks in buy: 0 | Last price: 61.295 | Last buyed price: 126.8
+First stock p.: 57.195 | Last stock p. : 61.295 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 4.1 | 7.17%
+transactions: 4
+best settings{}
+calculating percent change:CI
+ ---------SUMMARY--------------- 
+STOCKS: CI
+Stocks in buy: 0 | Last price: 178.01 | Last buyed price: 126.8
+First stock p.: 177.92 | Last stock p. : 178.01 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.09 | 0.05%
+transactions: 4
+best settings{}
+calculating percent change:CL
+ ---------SUMMARY--------------- 
+STOCKS: CL
+Stocks in buy: 0 | Last price: 79.305 | Last buyed price: 126.8
+First stock p.: 79.18 | Last stock p. : 79.305 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.12 | 0.16%
+transactions: 4
+best settings{}
+calculating percent change:CLDR
+ ---------SUMMARY--------------- 
+STOCKS: CLDR
+Stocks in buy: 0 | Last price: 13.265 | Last buyed price: 126.8
+First stock p.: 12.35 | Last stock p. : 13.265 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.92 | 7.41%
+transactions: 4
+best settings{}
+calculating percent change:CLNY
+ ---------SUMMARY--------------- 
+STOCKS: CLNY
+Stocks in buy: 0 | Last price: 2.73 | Last buyed price: 126.8
+First stock p.: 2.78 | Last stock p. : 2.73 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.05 | -1.8%
+transactions: 4
+best settings{}
+calculating percent change:CMCSA
+ ---------SUMMARY--------------- 
+STOCKS: CMCSA
+Stocks in buy: 0 | Last price: 44.86 | Last buyed price: 126.8
+First stock p.: 44.66 | Last stock p. : 44.86 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.2 | 0.45%
+transactions: 4
+best settings{}
+calculating percent change:CME
+ ---------SUMMARY--------------- 
+STOCKS: CME
+Stocks in buy: 0 | Last price: 176.11 | Last buyed price: 126.8
+First stock p.: 177.47 | Last stock p. : 176.11 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -1.36 | -0.77%
+transactions: 4
+best settings{}
+calculating percent change:CMG
+ ---------SUMMARY--------------- 
+STOCKS: CMG
+Stocks in buy: 0 | Last price: 1316.14 | Last buyed price: 126.8
+First stock p.: 1290.23 | Last stock p. : 1316.14 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 25.91 | 2.01%
+transactions: 4
+best settings{}
+calculating percent change:COF
+ ---------SUMMARY--------------- 
+STOCKS: COF
+Stocks in buy: 0 | Last price: 69.135 | Last buyed price: 126.8
+First stock p.: 68.235 | Last stock p. : 69.135 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.9 | 1.32%
+transactions: 4
+best settings{}
+calculating percent change:COP
+ ---------SUMMARY--------------- 
+STOCKS: COP
+Stocks in buy: 0 | Last price: 37.975 | Last buyed price: 126.8
+First stock p.: 37.67 | Last stock p. : 37.975 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.3 | 0.81%
+transactions: 4
+best settings{}
+calculating percent change:COST
+ ---------SUMMARY--------------- 
+STOCKS: COST
+Stocks in buy: 0 | Last price: 347.95 | Last buyed price: 126.8
+First stock p.: 345.82 | Last stock p. : 347.95 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 2.13 | 0.62%
+transactions: 4
+best settings{}
+calculating percent change:COTY
+ ---------SUMMARY--------------- 
+STOCKS: COTY
+Stocks in buy: 0 | Last price: 3.585 | Last buyed price: 126.8
+First stock p.: 3.615 | Last stock p. : 3.585 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.03 | -0.83%
+transactions: 4
+best settings{}
+calculating percent change:CRM
+ ---------SUMMARY--------------- 
+STOCKS: CRM
+Stocks in buy: 0 | Last price: 273.795 | Last buyed price: 126.8
+First stock p.: 268.14 | Last stock p. : 273.795 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 5.66 | 2.11%
+transactions: 4
+best settings{}
+calculating percent change:CRWD
+ ---------SUMMARY--------------- 
+STOCKS: CRWD
+Stocks in buy: 0 | Last price: 125.12 | Last buyed price: 126.8
+First stock p.: 117.34 | Last stock p. : 125.12 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 7.78 | 6.63%
+transactions: 4
+best settings{}
+calculating percent change:CSCO
+ ---------SUMMARY--------------- 
+STOCKS: CSCO
+Stocks in buy: 0 | Last price: 42.18 | Last buyed price: 126.8
+First stock p.: 42.28 | Last stock p. : 42.18 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.1 | -0.24%
+transactions: 4
+best settings{}
+calculating percent change:CSX
+ ---------SUMMARY--------------- 
+STOCKS: CSX
+Stocks in buy: 0 | Last price: 76.64 | Last buyed price: 126.8
+First stock p.: 75.62 | Last stock p. : 76.64 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 1.02 | 1.35%
+transactions: 4
+best settings{}
+calculating percent change:CTAS
+ ---------SUMMARY--------------- 
+STOCKS: CTAS
+Stocks in buy: 0 | Last price: 334.06 | Last buyed price: 126.8
+First stock p.: 329.715 | Last stock p. : 334.06 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 4.35 | 1.32%
+transactions: 4
+best settings{}
+calculating percent change:CTL
+ ---------SUMMARY--------------- 
+STOCKS: CTL
+Stocks in buy: 0 | Last price: 10.79 | Last buyed price: 126.8
+First stock p.: 11.29 | Last stock p. : 10.79 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.5 | -4.43%
+transactions: 4
+best settings{}
+calculating percent change:CTSH
+ ---------SUMMARY--------------- 
+STOCKS: CTSH
+Stocks in buy: 0 | Last price: 66.915 | Last buyed price: 126.8
+First stock p.: 67.47 | Last stock p. : 66.915 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.55 | -0.82%
+transactions: 4
+best settings{}
+calculating percent change:CTVA
+ ---------SUMMARY--------------- 
+STOCKS: CTVA
+Stocks in buy: 0 | Last price: 28.65 | Last buyed price: 126.8
+First stock p.: 29.1 | Last stock p. : 28.65 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.45 | -1.55%
+transactions: 4
+best settings{}
+calculating percent change:CTXS
+ ---------SUMMARY--------------- 
+STOCKS: CTXS
+Stocks in buy: 0 | Last price: 144.93 | Last buyed price: 126.8
+First stock p.: 142.705 | Last stock p. : 144.93 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 2.22 | 1.56%
+transactions: 4
+best settings{}
+calculating percent change:CVS
+ ---------SUMMARY--------------- 
+STOCKS: CVS
+Stocks in buy: 0 | Last price: 62.34 | Last buyed price: 126.8
+First stock p.: 63.36 | Last stock p. : 62.34 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -1.02 | -1.61%
+transactions: 4
+best settings{}
+calculating percent change:CVX
+ ---------SUMMARY--------------- 
+STOCKS: CVX
+Stocks in buy: 0 | Last price: 84.16 | Last buyed price: 126.8
+First stock p.: 84.56 | Last stock p. : 84.16 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.4 | -0.47%
+transactions: 4
+best settings{}
+calculating percent change:CWEN
+ ---------SUMMARY--------------- 
+STOCKS: CWEN
+Stocks in buy: 0 | Last price: 25.6 | Last buyed price: 126.8
+First stock p.: 25.88 | Last stock p. : 25.6 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.28 | -1.08%
+transactions: 4
+best settings{}
+calculating percent change:CZR
+ ---------SUMMARY--------------- 
+STOCKS: CZR
+Stocks in buy: 0 | Last price: 46.21 | Last buyed price: 126.8
+First stock p.: 47.15 | Last stock p. : 46.21 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.94 | -1.99%
+transactions: 4
+best settings{}
+calculating percent change:D
+ ---------SUMMARY--------------- 
+STOCKS: D
+Stocks in buy: 0 | Last price: 78.565 | Last buyed price: 126.8
+First stock p.: 78.08 | Last stock p. : 78.565 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.48 | 0.62%
+transactions: 4
+best settings{}
+calculating percent change:DAL
+ ---------SUMMARY--------------- 
+STOCKS: DAL
+Stocks in buy: 0 | Last price: 31.03 | Last buyed price: 126.8
+First stock p.: 31.1 | Last stock p. : 31.03 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.07 | -0.23%
+transactions: 4
+best settings{}
+calculating percent change:DBX
+ ---------SUMMARY--------------- 
+STOCKS: DBX
+Stocks in buy: 0 | Last price: 21.195 | Last buyed price: 126.8
+First stock p.: 20.45 | Last stock p. : 21.195 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.75 | 3.64%
+transactions: 4
+best settings{}
+calculating percent change:DD
+ ---------SUMMARY--------------- 
+STOCKS: DD
+Stocks in buy: 0 | Last price: 55.875 | Last buyed price: 126.8
+First stock p.: 56.295 | Last stock p. : 55.875 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.42 | -0.75%
+transactions: 4
+best settings{}
+calculating percent change:DE
+ ---------SUMMARY--------------- 
+STOCKS: DE
+Stocks in buy: 0 | Last price: 210.46 | Last buyed price: 126.8
+First stock p.: 210.9 | Last stock p. : 210.46 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -0.44 | -0.21%
+transactions: 4
+best settings{}
+calculating percent change:DFS
+ ---------SUMMARY--------------- 
+STOCKS: DFS
+Stocks in buy: 0 | Last price: 53.18 | Last buyed price: 126.8
+First stock p.: 52.76 | Last stock p. : 53.18 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 0.42 | 0.8%
+transactions: 4
+best settings{}
+calculating percent change:DG
+ ---------SUMMARY--------------- 
+STOCKS: DG
+Stocks in buy: 0 | Last price: 201.8 | Last buyed price: 126.8
+First stock p.: 203.665 | Last stock p. : 201.8 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: -1.86 | -0.92%
+transactions: 4
+best settings{}
+calculating percent change:DHR
+ ---------SUMMARY--------------- 
+STOCKS: DHR
+Stocks in buy: 0 | Last price: 206.82 | Last buyed price: 126.8
+First stock p.: 203.345 | Last stock p. : 206.82 | Last buyed stock p. : 126.8
+Profit from trading: -75.98%
+Profit without trading: 3.47 | 1.71%
+transactions: 4
+best settings{}
+calculating percent change:DIS
+go up 2020-08-28 13:45:00+00:00 - boll:142.55624999999833 -prev: 133.945 - curr:134.365
+buying:  DIS 2020-08-28 13:45:00+00:00 -- 134.365
+go down 2020-08-28 17:15:00+00:00 - boll:135.6489999999996 -prev: 136.42 - curr:136.1
+selling: DIS 2020-08-28 17:15:00+00:00 -- 136.1
+ ---------SUMMARY--------------- 
+STOCKS: DIS
+Stocks in buy: 0 | Last price: 132.66 | Last buyed price: 134.365
+First stock p.: 134.62 | Last stock p. : 132.66 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.96 | -1.46%
+transactions: 5
+best settings{}
+calculating percent change:DISCA
+ ---------SUMMARY--------------- 
+STOCKS: DISCA
+Stocks in buy: 0 | Last price: 22.19 | Last buyed price: 134.365
+First stock p.: 22.91 | Last stock p. : 22.19 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.72 | -3.14%
+transactions: 5
+best settings{}
+calculating percent change:DISH
+ ---------SUMMARY--------------- 
+STOCKS: DISH
+Stocks in buy: 0 | Last price: 35.565 | Last buyed price: 134.365
+First stock p.: 34.69 | Last stock p. : 35.565 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.88 | 2.52%
+transactions: 5
+best settings{}
+calculating percent change:DLR
+ ---------SUMMARY--------------- 
+STOCKS: DLR
+Stocks in buy: 0 | Last price: 155.88 | Last buyed price: 134.365
+First stock p.: 154.9 | Last stock p. : 155.88 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.98 | 0.63%
+transactions: 5
+best settings{}
+calculating percent change:DLTR
+ ---------SUMMARY--------------- 
+STOCKS: DLTR
+Stocks in buy: 0 | Last price: 96.43 | Last buyed price: 134.365
+First stock p.: 99.215 | Last stock p. : 96.43 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.78 | -2.81%
+transactions: 5
+best settings{}
+calculating percent change:DNKN
+ ---------SUMMARY--------------- 
+STOCKS: DNKN
+Stocks in buy: 0 | Last price: 76.415 | Last buyed price: 134.365
+First stock p.: 75.64 | Last stock p. : 76.415 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.78 | 1.02%
+transactions: 5
+best settings{}
+calculating percent change:DOCU
+ ---------SUMMARY--------------- 
+STOCKS: DOCU
+Stocks in buy: 0 | Last price: 222.675 | Last buyed price: 134.365
+First stock p.: 215.18 | Last stock p. : 222.675 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 7.5 | 3.48%
+transactions: 5
+best settings{}
+calculating percent change:DPZ
+ ---------SUMMARY--------------- 
+STOCKS: DPZ
+Stocks in buy: 0 | Last price: 408.62 | Last buyed price: 134.365
+First stock p.: 422.125 | Last stock p. : 408.62 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -13.5 | -3.2%
+transactions: 5
+best settings{}
+calculating percent change:DUK
+ ---------SUMMARY--------------- 
+STOCKS: DUK
+Stocks in buy: 0 | Last price: 80.405 | Last buyed price: 134.365
+First stock p.: 79.315 | Last stock p. : 80.405 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.09 | 1.37%
+transactions: 5
+best settings{}
+calculating percent change:DVN
+ ---------SUMMARY--------------- 
+STOCKS: DVN
+Stocks in buy: 0 | Last price: 10.895 | Last buyed price: 134.365
+First stock p.: 10.63 | Last stock p. : 10.895 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.26 | 2.49%
+transactions: 5
+best settings{}
+calculating percent change:DXC
+ ---------SUMMARY--------------- 
+STOCKS: DXC
+Stocks in buy: 0 | Last price: 20.12 | Last buyed price: 134.365
+First stock p.: 19.64 | Last stock p. : 20.12 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.48 | 2.44%
+transactions: 5
+best settings{}
+calculating percent change:EA
+ ---------SUMMARY--------------- 
+STOCKS: EA
+Stocks in buy: 0 | Last price: 139.175 | Last buyed price: 134.365
+First stock p.: 141.96 | Last stock p. : 139.175 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.78 | -1.96%
+transactions: 5
+best settings{}
+calculating percent change:EB
+ ---------SUMMARY--------------- 
+STOCKS: EB
+Stocks in buy: 0 | Last price: 10.735 | Last buyed price: 134.365
+First stock p.: 10.389 | Last stock p. : 10.735 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.35 | 3.33%
+transactions: 5
+best settings{}
+calculating percent change:EBAY
+ ---------SUMMARY--------------- 
+STOCKS: EBAY
+Stocks in buy: 0 | Last price: 54.615 | Last buyed price: 134.365
+First stock p.: 57.13 | Last stock p. : 54.615 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.52 | -4.4%
+transactions: 5
+best settings{}
+calculating percent change:ECL
+ ---------SUMMARY--------------- 
+STOCKS: ECL
+Stocks in buy: 0 | Last price: 197.755 | Last buyed price: 134.365
+First stock p.: 198.55 | Last stock p. : 197.755 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.8 | -0.4%
+transactions: 5
+best settings{}
+calculating percent change:ED
+ ---------SUMMARY--------------- 
+STOCKS: ED
+Stocks in buy: 0 | Last price: 71.25 | Last buyed price: 134.365
+First stock p.: 70.63 | Last stock p. : 71.25 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.62 | 0.88%
+transactions: 5
+best settings{}
+calculating percent change:EFX
+ ---------SUMMARY--------------- 
+STOCKS: EFX
+Stocks in buy: 0 | Last price: 168.45 | Last buyed price: 134.365
+First stock p.: 164.96 | Last stock p. : 168.45 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 3.49 | 2.12%
+transactions: 5
+best settings{}
+calculating percent change:EIX
+ ---------SUMMARY--------------- 
+STOCKS: EIX
+Stocks in buy: 0 | Last price: 52.52 | Last buyed price: 134.365
+First stock p.: 51.25 | Last stock p. : 52.52 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.27 | 2.48%
+transactions: 5
+best settings{}
+calculating percent change:EL
+ ---------SUMMARY--------------- 
+STOCKS: EL
+Stocks in buy: 0 | Last price: 222.2 | Last buyed price: 134.365
+First stock p.: 216.62 | Last stock p. : 222.2 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 5.58 | 2.58%
+transactions: 5
+best settings{}
+calculating percent change:ELAN
+ ---------SUMMARY--------------- 
+STOCKS: ELAN
+Stocks in buy: 0 | Last price: 29.215 | Last buyed price: 134.365
+First stock p.: 28.17 | Last stock p. : 29.215 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.04 | 3.71%
+transactions: 5
+best settings{}
+calculating percent change:EMR
+ ---------SUMMARY--------------- 
+STOCKS: EMR
+Stocks in buy: 0 | Last price: 69.585 | Last buyed price: 134.365
+First stock p.: 69.19 | Last stock p. : 69.585 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.39 | 0.57%
+transactions: 5
+best settings{}
+calculating percent change:EOG
+ ---------SUMMARY--------------- 
+STOCKS: EOG
+Stocks in buy: 0 | Last price: 45.355 | Last buyed price: 134.365
+First stock p.: 44.015 | Last stock p. : 45.355 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.34 | 3.04%
+transactions: 5
+best settings{}
+calculating percent change:EQIX
+ ---------SUMMARY--------------- 
+STOCKS: EQIX
+Stocks in buy: 0 | Last price: 790.0 | Last buyed price: 134.365
+First stock p.: 792.565 | Last stock p. : 790.0 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.57 | -0.32%
+transactions: 5
+best settings{}
+calculating percent change:EQR
+ ---------SUMMARY--------------- 
+STOCKS: EQR
+Stocks in buy: 0 | Last price: 56.305 | Last buyed price: 134.365
+First stock p.: 56.25 | Last stock p. : 56.305 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.05 | 0.1%
+transactions: 5
+best settings{}
+calculating percent change:ERJ
+ ---------SUMMARY--------------- 
+STOCKS: ERJ
+Stocks in buy: 0 | Last price: 5.295 | Last buyed price: 134.365
+First stock p.: 5.17 | Last stock p. : 5.295 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.12 | 2.42%
+transactions: 5
+best settings{}
+calculating percent change:ETFC
+ ---------SUMMARY--------------- 
+STOCKS: ETFC
+Stocks in buy: 0 | Last price: 54.24 | Last buyed price: 134.365
+First stock p.: 54.29 | Last stock p. : 54.24 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.05 | -0.09%
+transactions: 5
+best settings{}
+calculating percent change:EVR
+ ---------SUMMARY--------------- 
+STOCKS: EVR
+Stocks in buy: 0 | Last price: 62.14 | Last buyed price: 134.365
+First stock p.: 63.195 | Last stock p. : 62.14 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.05 | -1.67%
+transactions: 5
+best settings{}
+calculating percent change:EW
+ ---------SUMMARY--------------- 
+STOCKS: EW
+Stocks in buy: 0 | Last price: 86.21 | Last buyed price: 134.365
+First stock p.: 82.52 | Last stock p. : 86.21 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 3.69 | 4.47%
+transactions: 5
+best settings{}
+calculating percent change:EXC
+ ---------SUMMARY--------------- 
+STOCKS: EXC
+Stocks in buy: 0 | Last price: 36.97 | Last buyed price: 134.365
+First stock p.: 36.71 | Last stock p. : 36.97 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.26 | 0.71%
+transactions: 5
+best settings{}
+calculating percent change:EXPE
+ ---------SUMMARY--------------- 
+STOCKS: EXPE
+Stocks in buy: 0 | Last price: 98.94 | Last buyed price: 134.365
+First stock p.: 97.62 | Last stock p. : 98.94 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.32 | 1.35%
+transactions: 5
+best settings{}
+calculating percent change:F
+ ---------SUMMARY--------------- 
+STOCKS: F
+Stocks in buy: 0 | Last price: 6.805 | Last buyed price: 134.365
+First stock p.: 6.905 | Last stock p. : 6.805 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.1 | -1.45%
+transactions: 5
+best settings{}
+calculating percent change:FB
+ ---------SUMMARY--------------- 
+STOCKS: FB
+Stocks in buy: 0 | Last price: 295.66 | Last buyed price: 134.365
+First stock p.: 297.55 | Last stock p. : 295.66 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.89 | -0.64%
+transactions: 5
+best settings{}
+calculating percent change:FCAU
+ ---------SUMMARY--------------- 
+STOCKS: FCAU
+Stocks in buy: 0 | Last price: 11.07 | Last buyed price: 134.365
+First stock p.: 11.18 | Last stock p. : 11.07 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.11 | -0.98%
+transactions: 5
+best settings{}
+calculating percent change:FCX
+ ---------SUMMARY--------------- 
+STOCKS: FCX
+Stocks in buy: 0 | Last price: 15.735 | Last buyed price: 134.365
+First stock p.: 14.94 | Last stock p. : 15.735 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.8 | 5.32%
+transactions: 5
+best settings{}
+calculating percent change:FDS
+ ---------SUMMARY--------------- 
+STOCKS: FDS
+Stocks in buy: 0 | Last price: 351.76 | Last buyed price: 134.365
+First stock p.: 357.435 | Last stock p. : 351.76 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -5.68 | -1.59%
+transactions: 5
+best settings{}
+calculating percent change:FDX
+ ---------SUMMARY--------------- 
+STOCKS: FDX
+Stocks in buy: 0 | Last price: 220.56 | Last buyed price: 134.365
+First stock p.: 216.24 | Last stock p. : 220.56 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 4.32 | 2.0%
+transactions: 5
+best settings{}
+calculating percent change:FEYE
+ ---------SUMMARY--------------- 
+STOCKS: FEYE
+Stocks in buy: 0 | Last price: 14.65 | Last buyed price: 134.365
+First stock p.: 14.705 | Last stock p. : 14.65 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.05 | -0.37%
+transactions: 5
+best settings{}
+calculating percent change:FFIV
+ ---------SUMMARY--------------- 
+STOCKS: FFIV
+Stocks in buy: 0 | Last price: 132.75 | Last buyed price: 134.365
+First stock p.: 130.62 | Last stock p. : 132.75 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 2.13 | 1.63%
+transactions: 5
+best settings{}
+calculating percent change:FIS
+ ---------SUMMARY--------------- 
+STOCKS: FIS
+Stocks in buy: 0 | Last price: 151.13 | Last buyed price: 134.365
+First stock p.: 150.09 | Last stock p. : 151.13 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.04 | 0.69%
+transactions: 5
+best settings{}
+calculating percent change:FISV
+ ---------SUMMARY--------------- 
+STOCKS: FISV
+Stocks in buy: 0 | Last price: 99.64 | Last buyed price: 134.365
+First stock p.: 98.44 | Last stock p. : 99.64 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.2 | 1.22%
+transactions: 5
+best settings{}
+calculating percent change:FIT
+ ---------SUMMARY--------------- 
+STOCKS: FIT
+Stocks in buy: 0 | Last price: 6.39 | Last buyed price: 134.365
+First stock p.: 6.46 | Last stock p. : 6.39 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.07 | -1.08%
+transactions: 5
+best settings{}
+calculating percent change:FL
+ ---------SUMMARY--------------- 
+STOCKS: FL
+Stocks in buy: 0 | Last price: 30.535 | Last buyed price: 134.365
+First stock p.: 29.485 | Last stock p. : 30.535 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.05 | 3.56%
+transactions: 5
+best settings{}
+calculating percent change:FLT
+ ---------SUMMARY--------------- 
+STOCKS: FLT
+Stocks in buy: 0 | Last price: 252.485 | Last buyed price: 134.365
+First stock p.: 244.93 | Last stock p. : 252.485 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 7.56 | 3.08%
+transactions: 5
+best settings{}
+calculating percent change:FOXA
+ ---------SUMMARY--------------- 
+STOCKS: FOXA
+Stocks in buy: 0 | Last price: 27.92 | Last buyed price: 134.365
+First stock p.: 27.705 | Last stock p. : 27.92 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.22 | 0.78%
+transactions: 5
+best settings{}
+calculating percent change:FSLR
+ ---------SUMMARY--------------- 
+STOCKS: FSLR
+Stocks in buy: 0 | Last price: 76.93 | Last buyed price: 134.365
+First stock p.: 78.62 | Last stock p. : 76.93 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.69 | -2.15%
+transactions: 5
+best settings{}
+calculating percent change:FTNT
+ ---------SUMMARY--------------- 
+STOCKS: FTNT
+Stocks in buy: 0 | Last price: 130.16 | Last buyed price: 134.365
+First stock p.: 131.83 | Last stock p. : 130.16 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.67 | -1.27%
+transactions: 5
+best settings{}
+calculating percent change:FTV
+ ---------SUMMARY--------------- 
+STOCKS: FTV
+Stocks in buy: 0 | Last price: 72.12 | Last buyed price: 134.365
+First stock p.: 70.96 | Last stock p. : 72.12 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.16 | 1.63%
+transactions: 5
+best settings{}
+calculating percent change:FVRR
+ ---------SUMMARY--------------- 
+STOCKS: FVRR
+Stocks in buy: 0 | Last price: 120.72 | Last buyed price: 134.365
+First stock p.: 113.79 | Last stock p. : 120.72 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 6.93 | 6.09%
+transactions: 5
+best settings{}
+calculating percent change:FWONK
+ ---------SUMMARY--------------- 
+STOCKS: FWONK
+Stocks in buy: 0 | Last price: 39.365 | Last buyed price: 134.365
+First stock p.: 40.13 | Last stock p. : 39.365 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.77 | -1.91%
+transactions: 5
+best settings{}
+calculating percent change:GD
+ ---------SUMMARY--------------- 
+STOCKS: GD
+Stocks in buy: 0 | Last price: 149.95 | Last buyed price: 134.365
+First stock p.: 151.86 | Last stock p. : 149.95 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.91 | -1.26%
+transactions: 5
+best settings{}
+calculating percent change:GDDY
+ ---------SUMMARY--------------- 
+STOCKS: GDDY
+Stocks in buy: 0 | Last price: 84.075 | Last buyed price: 134.365
+First stock p.: 83.7 | Last stock p. : 84.075 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.38 | 0.45%
+transactions: 5
+best settings{}
+calculating percent change:GE
+ ---------SUMMARY--------------- 
+STOCKS: GE
+Stocks in buy: 0 | Last price: 6.33 | Last buyed price: 134.365
+First stock p.: 6.51 | Last stock p. : 6.33 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.18 | -2.76%
+transactions: 5
+best settings{}
+calculating percent change:GES
+ ---------SUMMARY--------------- 
+STOCKS: GES
+Stocks in buy: 0 | Last price: 11.63 | Last buyed price: 134.365
+First stock p.: 11.895 | Last stock p. : 11.63 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.26 | -2.23%
+transactions: 5
+best settings{}
+calculating percent change:GILD
+ ---------SUMMARY--------------- 
+STOCKS: GILD
+Stocks in buy: 0 | Last price: 66.47 | Last buyed price: 134.365
+First stock p.: 65.39 | Last stock p. : 66.47 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.08 | 1.65%
+transactions: 5
+best settings{}
+calculating percent change:GIS
+ ---------SUMMARY--------------- 
+STOCKS: GIS
+Stocks in buy: 0 | Last price: 64.01 | Last buyed price: 134.365
+First stock p.: 64.895 | Last stock p. : 64.01 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.88 | -1.36%
+transactions: 5
+best settings{}
+calculating percent change:GLW
+ ---------SUMMARY--------------- 
+STOCKS: GLW
+Stocks in buy: 0 | Last price: 32.43 | Last buyed price: 134.365
+First stock p.: 32.205 | Last stock p. : 32.43 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.23 | 0.7%
+transactions: 5
+best settings{}
+calculating percent change:GM
+ ---------SUMMARY--------------- 
+STOCKS: GM
+Stocks in buy: 0 | Last price: 29.68 | Last buyed price: 134.365
+First stock p.: 29.94 | Last stock p. : 29.68 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.26 | -0.87%
+transactions: 5
+best settings{}
+calculating percent change:GOOG
+ ---------SUMMARY--------------- 
+STOCKS: GOOG
+Stocks in buy: 0 | Last price: 1639.3 | Last buyed price: 134.365
+First stock p.: 1646.685 | Last stock p. : 1639.3 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -7.38 | -0.45%
+transactions: 5
+best settings{}
+calculating percent change:GOOGL
+ ---------SUMMARY--------------- 
+STOCKS: GOOGL
+Stocks in buy: 0 | Last price: 1634.69 | Last buyed price: 134.365
+First stock p.: 1639.86 | Last stock p. : 1634.69 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -5.17 | -0.32%
+transactions: 5
+best settings{}
+calculating percent change:GPRO
+ ---------SUMMARY--------------- 
+STOCKS: GPRO
+Stocks in buy: 0 | Last price: 4.57 | Last buyed price: 134.365
+First stock p.: 4.64 | Last stock p. : 4.57 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.07 | -1.51%
+transactions: 5
+best settings{}
+calculating percent change:GPS
+ ---------SUMMARY--------------- 
+STOCKS: GPS
+Stocks in buy: 0 | Last price: 17.53 | Last buyed price: 134.365
+First stock p.: 17.4 | Last stock p. : 17.53 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.13 | 0.75%
+transactions: 5
+best settings{}
+calculating percent change:GRPN
+ ---------SUMMARY--------------- 
+STOCKS: GRPN
+Stocks in buy: 0 | Last price: 32.23 | Last buyed price: 134.365
+First stock p.: 31.59 | Last stock p. : 32.23 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.64 | 2.03%
+transactions: 5
+best settings{}
+calculating percent change:GRUB
+ ---------SUMMARY--------------- 
+STOCKS: GRUB
+Stocks in buy: 0 | Last price: 72.41 | Last buyed price: 134.365
+First stock p.: 74.11 | Last stock p. : 72.41 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.7 | -2.29%
+transactions: 5
+best settings{}
+calculating percent change:GS
+ ---------SUMMARY--------------- 
+STOCKS: GS
+Stocks in buy: 0 | Last price: 205.445 | Last buyed price: 134.365
+First stock p.: 211.42 | Last stock p. : 205.445 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -5.97 | -2.83%
+transactions: 5
+best settings{}
+calculating percent change:GT
+ ---------SUMMARY--------------- 
+STOCKS: GT
+Stocks in buy: 0 | Last price: 9.665 | Last buyed price: 134.365
+First stock p.: 9.72 | Last stock p. : 9.665 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.06 | -0.57%
+transactions: 5
+best settings{}
+calculating percent change:H
+ ---------SUMMARY--------------- 
+STOCKS: H
+Stocks in buy: 0 | Last price: 56.76 | Last buyed price: 134.365
+First stock p.: 56.71 | Last stock p. : 56.76 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.05 | 0.09%
+transactions: 5
+best settings{}
+calculating percent change:HAL
+ ---------SUMMARY--------------- 
+STOCKS: HAL
+Stocks in buy: 0 | Last price: 16.17 | Last buyed price: 134.365
+First stock p.: 15.71 | Last stock p. : 16.17 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.46 | 2.93%
+transactions: 5
+best settings{}
+calculating percent change:HAS
+ ---------SUMMARY--------------- 
+STOCKS: HAS
+Stocks in buy: 0 | Last price: 78.98 | Last buyed price: 134.365
+First stock p.: 81.13 | Last stock p. : 78.98 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.15 | -2.65%
+transactions: 5
+best settings{}
+calculating percent change:HBI
+ ---------SUMMARY--------------- 
+STOCKS: HBI
+Stocks in buy: 0 | Last price: 15.41 | Last buyed price: 134.365
+First stock p.: 15.77 | Last stock p. : 15.41 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.36 | -2.28%
+transactions: 5
+best settings{}
+calculating percent change:HCA
+ ---------SUMMARY--------------- 
+STOCKS: HCA
+Stocks in buy: 0 | Last price: 136.465 | Last buyed price: 134.365
+First stock p.: 135.88 | Last stock p. : 136.465 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.59 | 0.43%
+transactions: 5
+best settings{}
+calculating percent change:HCM
+ ---------SUMMARY--------------- 
+STOCKS: HCM
+Stocks in buy: 0 | Last price: 33.25 | Last buyed price: 134.365
+First stock p.: 33.58 | Last stock p. : 33.25 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.33 | -0.98%
+transactions: 5
+best settings{}
+calculating percent change:HD
+ ---------SUMMARY--------------- 
+STOCKS: HD
+Stocks in buy: 0 | Last price: 286.13 | Last buyed price: 134.365
+First stock p.: 288.71 | Last stock p. : 286.13 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.58 | -0.89%
+transactions: 5
+best settings{}
+calculating percent change:HEI
+ ---------SUMMARY--------------- 
+STOCKS: HEI
+Stocks in buy: 0 | Last price: 110.07 | Last buyed price: 134.365
+First stock p.: 107.83 | Last stock p. : 110.07 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 2.24 | 2.08%
+transactions: 5
+best settings{}
+calculating percent change:HIMX
+ ---------SUMMARY--------------- 
+STOCKS: HIMX
+Stocks in buy: 0 | Last price: 3.77 | Last buyed price: 134.365
+First stock p.: 3.77 | Last stock p. : 3.77 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.0 | 0.0%
+transactions: 5
+best settings{}
+calculating percent change:HLF
+ ---------SUMMARY--------------- 
+STOCKS: HLF
+Stocks in buy: 0 | Last price: 49.27 | Last buyed price: 134.365
+First stock p.: 49.575 | Last stock p. : 49.27 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.3 | -0.62%
+transactions: 5
+best settings{}
+calculating percent change:HLT
+ ---------SUMMARY--------------- 
+STOCKS: HLT
+Stocks in buy: 0 | Last price: 90.81 | Last buyed price: 134.365
+First stock p.: 88.87 | Last stock p. : 90.81 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.94 | 2.18%
+transactions: 5
+best settings{}
+calculating percent change:HMC
+ ---------SUMMARY--------------- 
+STOCKS: HMC
+Stocks in buy: 0 | Last price: 25.515 | Last buyed price: 134.365
+First stock p.: 25.42 | Last stock p. : 25.515 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.09 | 0.37%
+transactions: 5
+best settings{}
+calculating percent change:HON
+ ---------SUMMARY--------------- 
+STOCKS: HON
+Stocks in buy: 0 | Last price: 165.975 | Last buyed price: 134.365
+First stock p.: 165.77 | Last stock p. : 165.975 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.2 | 0.12%
+transactions: 5
+best settings{}
+calculating percent change:HPE
+ ---------SUMMARY--------------- 
+STOCKS: HPE
+Stocks in buy: 0 | Last price: 9.68 | Last buyed price: 134.365
+First stock p.: 9.505 | Last stock p. : 9.68 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.17 | 1.84%
+transactions: 5
+best settings{}
+calculating percent change:HPQ
+ ---------SUMMARY--------------- 
+STOCKS: HPQ
+Stocks in buy: 0 | Last price: 19.69 | Last buyed price: 134.365
+First stock p.: 18.45 | Last stock p. : 19.69 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.24 | 6.72%
+transactions: 5
+best settings{}
+calculating percent change:HSIC
+ ---------SUMMARY--------------- 
+STOCKS: HSIC
+Stocks in buy: 0 | Last price: 66.845 | Last buyed price: 134.365
+First stock p.: 65.94 | Last stock p. : 66.845 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.91 | 1.37%
+transactions: 5
+best settings{}
+calculating percent change:HTZ
+ ---------SUMMARY--------------- 
+STOCKS: HTZ
+Stocks in buy: 0 | Last price: 1.47 | Last buyed price: 134.365
+First stock p.: 1.44 | Last stock p. : 1.47 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.03 | 2.08%
+transactions: 5
+best settings{}
+calculating percent change:HUBS
+ ---------SUMMARY--------------- 
+STOCKS: HUBS
+Stocks in buy: 0 | Last price: 300.57 | Last buyed price: 134.365
+First stock p.: 297.76 | Last stock p. : 300.57 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 2.81 | 0.94%
+transactions: 5
+best settings{}
+calculating percent change:HUM
+ ---------SUMMARY--------------- 
+STOCKS: HUM
+Stocks in buy: 0 | Last price: 414.515 | Last buyed price: 134.365
+First stock p.: 408.23 | Last stock p. : 414.515 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 6.28 | 1.54%
+transactions: 5
+best settings{}
+calculating percent change:IBM
+ ---------SUMMARY--------------- 
+STOCKS: IBM
+Stocks in buy: 0 | Last price: 123.62 | Last buyed price: 134.365
+First stock p.: 124.18 | Last stock p. : 123.62 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.56 | -0.45%
+transactions: 5
+best settings{}
+calculating percent change:ICE
+ ---------SUMMARY--------------- 
+STOCKS: ICE
+Stocks in buy: 0 | Last price: 106.41 | Last buyed price: 134.365
+First stock p.: 104.75 | Last stock p. : 106.41 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.66 | 1.58%
+transactions: 5
+best settings{}
+calculating percent change:IDXX
+ ---------SUMMARY--------------- 
+STOCKS: IDXX
+Stocks in buy: 0 | Last price: 392.49 | Last buyed price: 134.365
+First stock p.: 387.86 | Last stock p. : 392.49 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 4.63 | 1.19%
+transactions: 5
+best settings{}
+calculating percent change:ILMN
+ ---------SUMMARY--------------- 
+STOCKS: ILMN
+Stocks in buy: 0 | Last price: 356.88 | Last buyed price: 134.365
+First stock p.: 351.33 | Last stock p. : 356.88 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 5.55 | 1.58%
+transactions: 5
+best settings{}
+calculating percent change:IMGN
+ ---------SUMMARY--------------- 
+STOCKS: IMGN
+Stocks in buy: 0 | Last price: 3.7 | Last buyed price: 134.365
+First stock p.: 3.745 | Last stock p. : 3.7 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.04 | -1.2%
+transactions: 5
+best settings{}
+calculating percent change:INCY
+ ---------SUMMARY--------------- 
+STOCKS: INCY
+Stocks in buy: 0 | Last price: 96.425 | Last buyed price: 134.365
+First stock p.: 95.27 | Last stock p. : 96.425 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.16 | 1.21%
+transactions: 5
+best settings{}
+calculating percent change:INFY
+ ---------SUMMARY--------------- 
+STOCKS: INFY
+Stocks in buy: 0 | Last price: 12.645 | Last buyed price: 134.365
+First stock p.: 12.825 | Last stock p. : 12.645 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.18 | -1.4%
+transactions: 5
+best settings{}
+calculating percent change:INTC
+ ---------SUMMARY--------------- 
+STOCKS: INTC
+Stocks in buy: 0 | Last price: 51.165 | Last buyed price: 134.365
+First stock p.: 49.575 | Last stock p. : 51.165 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.59 | 3.21%
+transactions: 5
+best settings{}
+calculating percent change:INTU
+ ---------SUMMARY--------------- 
+STOCKS: INTU
+Stocks in buy: 0 | Last price: 345.04 | Last buyed price: 134.365
+First stock p.: 347.12 | Last stock p. : 345.04 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.08 | -0.6%
+transactions: 5
+best settings{}
+calculating percent change:IQ
+ ---------SUMMARY--------------- 
+STOCKS: IQ
+Stocks in buy: 0 | Last price: 21.81 | Last buyed price: 134.365
+First stock p.: 19.405 | Last stock p. : 21.81 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 2.4 | 12.39%
+transactions: 5
+best settings{}
+calculating percent change:IRBT
+ ---------SUMMARY--------------- 
+STOCKS: IRBT
+Stocks in buy: 0 | Last price: 74.605 | Last buyed price: 134.365
+First stock p.: 75.78 | Last stock p. : 74.605 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.17 | -1.55%
+transactions: 5
+best settings{}
+calculating percent change:ISRG
+ ---------SUMMARY--------------- 
+STOCKS: ISRG
+Stocks in buy: 0 | Last price: 733.35 | Last buyed price: 134.365
+First stock p.: 707.545 | Last stock p. : 733.35 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 25.81 | 3.65%
+transactions: 5
+best settings{}
+calculating percent change:IT
+ ---------SUMMARY--------------- 
+STOCKS: IT
+Stocks in buy: 0 | Last price: 129.83 | Last buyed price: 134.365
+First stock p.: 131.83 | Last stock p. : 129.83 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.0 | -1.52%
+transactions: 5
+best settings{}
+calculating percent change:ITW
+ ---------SUMMARY--------------- 
+STOCKS: ITW
+Stocks in buy: 0 | Last price: 197.605 | Last buyed price: 134.365
+First stock p.: 199.03 | Last stock p. : 197.605 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -1.43 | -0.72%
+transactions: 5
+best settings{}
+calculating percent change:IVZ
+ ---------SUMMARY--------------- 
+STOCKS: IVZ
+Stocks in buy: 0 | Last price: 10.3 | Last buyed price: 134.365
+First stock p.: 10.61 | Last stock p. : 10.3 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.31 | -2.92%
+transactions: 5
+best settings{}
+calculating percent change:JBHT
+ ---------SUMMARY--------------- 
+STOCKS: JBHT
+Stocks in buy: 0 | Last price: 140.69 | Last buyed price: 134.365
+First stock p.: 143.31 | Last stock p. : 140.69 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -2.62 | -1.83%
+transactions: 5
+best settings{}
+calculating percent change:JBLU
+ ---------SUMMARY--------------- 
+STOCKS: JBLU
+Stocks in buy: 0 | Last price: 11.58 | Last buyed price: 134.365
+First stock p.: 11.79 | Last stock p. : 11.58 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.21 | -1.78%
+transactions: 5
+best settings{}
+calculating percent change:JD
+ ---------SUMMARY--------------- 
+STOCKS: JD
+Stocks in buy: 0 | Last price: 79.14 | Last buyed price: 134.365
+First stock p.: 79.565 | Last stock p. : 79.14 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.42 | -0.53%
+transactions: 5
+best settings{}
+calculating percent change:JEF
+ ---------SUMMARY--------------- 
+STOCKS: JEF
+Stocks in buy: 0 | Last price: 17.535 | Last buyed price: 134.365
+First stock p.: 17.665 | Last stock p. : 17.535 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.13 | -0.74%
+transactions: 5
+best settings{}
+calculating percent change:JKHY
+go down 2020-08-27 18:45:00+00:00 - boll:87.65524999999899 -prev: 166.765 - curr:166.195
+ ---------SUMMARY--------------- 
+STOCKS: JKHY
+Stocks in buy: 0 | Last price: 165.205 | Last buyed price: 134.365
+First stock p.: 166.15 | Last stock p. : 165.205 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: -0.94 | -0.57%
+transactions: 5
+best settings{}
+calculating percent change:JMIA
+ ---------SUMMARY--------------- 
+STOCKS: JMIA
+Stocks in buy: 0 | Last price: 9.275 | Last buyed price: 134.365
+First stock p.: 9.16 | Last stock p. : 9.275 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 0.12 | 1.26%
+transactions: 5
+best settings{}
+calculating percent change:JNJ
+ ---------SUMMARY--------------- 
+STOCKS: JNJ
+Stocks in buy: 0 | Last price: 153.65 | Last buyed price: 134.365
+First stock p.: 152.13 | Last stock p. : 153.65 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.52 | 1.0%
+transactions: 5
+best settings{}
+calculating percent change:JNPR
+ ---------SUMMARY--------------- 
+STOCKS: JNPR
+Stocks in buy: 0 | Last price: 24.91 | Last buyed price: 134.365
+First stock p.: 23.9 | Last stock p. : 24.91 | Last buyed stock p. : 134.365
+Profit from trading: -74.69%
+Profit without trading: 1.01 | 4.23%
+transactions: 5
+best settings{}
+calculating percent change:JPM
+go up 2020-08-27 15:15:00+00:00 - boll:101.785 -prev: 101.785 - curr:101.785
+buying:  JPM 2020-08-27 15:15:00+00:00 -- 101.785
+ ---------SUMMARY--------------- 
+STOCKS: JPM
+Stocks in buy: 1 | Last price: 100.54 | Last buyed price: 101.785
+selling: JPM 2020-08-31 19:45:00+00:00 -- 100.54
+First stock p.: 101.785 | Last stock p. : 100.54 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -1.24 | -1.22%
+transactions: 6
+best settings{}
+calculating percent change:K
+ ---------SUMMARY--------------- 
+STOCKS: K
+Stocks in buy: 0 | Last price: 70.95 | Last buyed price: 101.785
+First stock p.: 70.86 | Last stock p. : 70.95 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.09 | 0.13%
+transactions: 6
+best settings{}
+calculating percent change:KEYS
+ ---------SUMMARY--------------- 
+STOCKS: KEYS
+Stocks in buy: 0 | Last price: 98.49 | Last buyed price: 101.785
+First stock p.: 96.84 | Last stock p. : 98.49 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 1.65 | 1.7%
+transactions: 6
+best settings{}
+calculating percent change:KHC
+ ---------SUMMARY--------------- 
+STOCKS: KHC
+Stocks in buy: 0 | Last price: 35.06 | Last buyed price: 101.785
+First stock p.: 34.985 | Last stock p. : 35.06 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.08 | 0.21%
+transactions: 6
+best settings{}
+calculating percent change:KKR
+ ---------SUMMARY--------------- 
+STOCKS: KKR
+Stocks in buy: 0 | Last price: 35.9 | Last buyed price: 101.785
+First stock p.: 34.92 | Last stock p. : 35.9 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.98 | 2.81%
+transactions: 6
+best settings{}
+calculating percent change:KMB
+ ---------SUMMARY--------------- 
+STOCKS: KMB
+Stocks in buy: 0 | Last price: 157.47 | Last buyed price: 101.785
+First stock p.: 157.07 | Last stock p. : 157.47 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.4 | 0.25%
+transactions: 6
+best settings{}
+calculating percent change:KMI
+ ---------SUMMARY--------------- 
+STOCKS: KMI
+Stocks in buy: 0 | Last price: 13.845 | Last buyed price: 101.785
+First stock p.: 13.82 | Last stock p. : 13.845 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.03 | 0.18%
+transactions: 6
+best settings{}
+calculating percent change:KO
+ ---------SUMMARY--------------- 
+STOCKS: KO
+Stocks in buy: 0 | Last price: 49.555 | Last buyed price: 101.785
+First stock p.: 48.38 | Last stock p. : 49.555 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 1.17 | 2.43%
+transactions: 6
+best settings{}
+calculating percent change:LB
+ ---------SUMMARY--------------- 
+STOCKS: LB
+Stocks in buy: 0 | Last price: 29.55 | Last buyed price: 101.785
+First stock p.: 30.51 | Last stock p. : 29.55 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -0.96 | -3.15%
+transactions: 6
+best settings{}
+calculating percent change:LDOS
+ ---------SUMMARY--------------- 
+STOCKS: LDOS
+Stocks in buy: 0 | Last price: 90.42 | Last buyed price: 101.785
+First stock p.: 90.615 | Last stock p. : 90.42 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -0.19 | -0.22%
+transactions: 6
+best settings{}
+calculating percent change:LEVI
+ ---------SUMMARY--------------- 
+STOCKS: LEVI
+Stocks in buy: 0 | Last price: 12.365 | Last buyed price: 101.785
+First stock p.: 12.61 | Last stock p. : 12.365 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -0.24 | -1.94%
+transactions: 6
+best settings{}
+calculating percent change:LLY
+ ---------SUMMARY--------------- 
+STOCKS: LLY
+Stocks in buy: 0 | Last price: 148.38 | Last buyed price: 101.785
+First stock p.: 149.985 | Last stock p. : 148.38 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -1.61 | -1.07%
+transactions: 6
+best settings{}
+calculating percent change:LMT
+ ---------SUMMARY--------------- 
+STOCKS: LMT
+Stocks in buy: 0 | Last price: 390.42 | Last buyed price: 101.785
+First stock p.: 396.3 | Last stock p. : 390.42 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -5.88 | -1.48%
+transactions: 6
+best settings{}
+calculating percent change:LOW
+ ---------SUMMARY--------------- 
+STOCKS: LOW
+Stocks in buy: 0 | Last price: 164.88 | Last buyed price: 101.785
+First stock p.: 166.76 | Last stock p. : 164.88 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -1.88 | -1.13%
+transactions: 6
+best settings{}
+calculating percent change:LPL
+ ---------SUMMARY--------------- 
+STOCKS: LPL
+Stocks in buy: 0 | Last price: 6.19 | Last buyed price: 101.785
+First stock p.: 6.3 | Last stock p. : 6.19 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -0.11 | -1.75%
+transactions: 6
+best settings{}
+calculating percent change:LRCX
+ ---------SUMMARY--------------- 
+STOCKS: LRCX
+Stocks in buy: 0 | Last price: 337.27 | Last buyed price: 101.785
+First stock p.: 342.78 | Last stock p. : 337.27 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -5.51 | -1.61%
+transactions: 6
+best settings{}
+calculating percent change:LULU
+ ---------SUMMARY--------------- 
+STOCKS: LULU
+Stocks in buy: 0 | Last price: 378.46 | Last buyed price: 101.785
+First stock p.: 382.635 | Last stock p. : 378.46 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -4.18 | -1.09%
+transactions: 6
+best settings{}
+calculating percent change:LUV
+ ---------SUMMARY--------------- 
+STOCKS: LUV
+Stocks in buy: 0 | Last price: 37.81 | Last buyed price: 101.785
+First stock p.: 37.845 | Last stock p. : 37.81 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -0.03 | -0.09%
+transactions: 6
+best settings{}
+calculating percent change:LVS
+ ---------SUMMARY--------------- 
+STOCKS: LVS
+Stocks in buy: 0 | Last price: 51.14 | Last buyed price: 101.785
+First stock p.: 50.78 | Last stock p. : 51.14 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.36 | 0.71%
+transactions: 6
+best settings{}
+calculating percent change:LYFT
+ ---------SUMMARY--------------- 
+STOCKS: LYFT
+Stocks in buy: 0 | Last price: 29.84 | Last buyed price: 101.785
+First stock p.: 29.355 | Last stock p. : 29.84 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.48 | 1.65%
+transactions: 6
+best settings{}
+calculating percent change:LYV
+ ---------SUMMARY--------------- 
+STOCKS: LYV
+Stocks in buy: 0 | Last price: 57.185 | Last buyed price: 101.785
+First stock p.: 57.235 | Last stock p. : 57.185 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: -0.05 | -0.09%
+transactions: 6
+best settings{}
+calculating percent change:M
+ ---------SUMMARY--------------- 
+STOCKS: M
+Stocks in buy: 0 | Last price: 6.97 | Last buyed price: 101.785
+First stock p.: 6.59 | Last stock p. : 6.97 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 0.38 | 5.77%
+transactions: 6
+best settings{}
+calculating percent change:MA
+ ---------SUMMARY--------------- 
+STOCKS: MA
+Stocks in buy: 0 | Last price: 360.43 | Last buyed price: 101.785
+First stock p.: 356.53 | Last stock p. : 360.43 | Last buyed stock p. : 101.785
+Profit from trading: -75.91%
+Profit without trading: 3.9 | 1.09%
+transactions: 6
+best settings{}
+calculating percent change:MAR
+go up 2020-08-28 15:45:00+00:00 - boll:104.33874999999891 -prev: 104.15 - curr:104.92
+buying:  MAR 2020-08-28 15:45:00+00:00 -- 104.92
+go down 2020-08-28 16:30:00+00:00 - boll:104.59749999999902 -prev: 104.78 - curr:104.52
+selling: MAR 2020-08-28 16:30:00+00:00 -- 104.52
+ ---------SUMMARY--------------- 
+STOCKS: MAR
+Stocks in buy: 0 | Last price: 103.53 | Last buyed price: 104.92
+First stock p.: 102.83 | Last stock p. : 103.53 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.7 | 0.68%
+transactions: 7
+best settings{}
+calculating percent change:MCD
+ ---------SUMMARY--------------- 
+STOCKS: MCD
+Stocks in buy: 0 | Last price: 214.78 | Last buyed price: 104.92
+First stock p.: 214.13 | Last stock p. : 214.78 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.65 | 0.3%
+transactions: 7
+best settings{}
+calculating percent change:MCHP
+ ---------SUMMARY--------------- 
+STOCKS: MCHP
+Stocks in buy: 0 | Last price: 109.88 | Last buyed price: 104.92
+First stock p.: 107.78 | Last stock p. : 109.88 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 2.1 | 1.95%
+transactions: 7
+best settings{}
+calculating percent change:MCO
+ ---------SUMMARY--------------- 
+STOCKS: MCO
+Stocks in buy: 0 | Last price: 295.5 | Last buyed price: 104.92
+First stock p.: 293.99 | Last stock p. : 295.5 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 1.51 | 0.51%
+transactions: 7
+best settings{}
+calculating percent change:MDLZ
+ ---------SUMMARY--------------- 
+STOCKS: MDLZ
+Stocks in buy: 0 | Last price: 58.61 | Last buyed price: 104.92
+First stock p.: 58.5 | Last stock p. : 58.61 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.11 | 0.19%
+transactions: 7
+best settings{}
+calculating percent change:MDT
+ ---------SUMMARY--------------- 
+STOCKS: MDT
+Stocks in buy: 0 | Last price: 108.01 | Last buyed price: 104.92
+First stock p.: 106.455 | Last stock p. : 108.01 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 1.56 | 1.46%
+transactions: 7
+best settings{}
+calculating percent change:MELI
+ ---------SUMMARY--------------- 
+STOCKS: MELI
+Stocks in buy: 0 | Last price: 1167.5 | Last buyed price: 104.92
+First stock p.: 1216.13 | Last stock p. : 1167.5 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -48.63 | -4.0%
+transactions: 7
+best settings{}
+calculating percent change:MET
+ ---------SUMMARY--------------- 
+STOCKS: MET
+Stocks in buy: 0 | Last price: 38.65 | Last buyed price: 104.92
+First stock p.: 39.0 | Last stock p. : 38.65 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -0.35 | -0.9%
+transactions: 7
+best settings{}
+calculating percent change:MFG
+ ---------SUMMARY--------------- 
+STOCKS: MFG
+Stocks in buy: 0 | Last price: 2.74 | Last buyed price: 104.92
+First stock p.: 2.7 | Last stock p. : 2.74 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.04 | 1.48%
+transactions: 7
+best settings{}
+calculating percent change:MGM
+ ---------SUMMARY--------------- 
+STOCKS: MGM
+Stocks in buy: 0 | Last price: 22.77 | Last buyed price: 104.92
+First stock p.: 23.08 | Last stock p. : 22.77 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -0.31 | -1.34%
+transactions: 7
+best settings{}
+calculating percent change:MMC
+ ---------SUMMARY--------------- 
+STOCKS: MMC
+Stocks in buy: 0 | Last price: 115.2 | Last buyed price: 104.92
+First stock p.: 115.04 | Last stock p. : 115.2 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.16 | 0.14%
+transactions: 7
+best settings{}
+calculating percent change:MMM
+ ---------SUMMARY--------------- 
+STOCKS: MMM
+Stocks in buy: 0 | Last price: 163.18 | Last buyed price: 104.92
+First stock p.: 164.03 | Last stock p. : 163.18 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -0.85 | -0.52%
+transactions: 7
+best settings{}
+calculating percent change:MNST
+ ---------SUMMARY--------------- 
+STOCKS: MNST
+Stocks in buy: 0 | Last price: 84.12 | Last buyed price: 104.92
+First stock p.: 83.47 | Last stock p. : 84.12 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.65 | 0.78%
+transactions: 7
+best settings{}
+calculating percent change:MO
+ ---------SUMMARY--------------- 
+STOCKS: MO
+Stocks in buy: 0 | Last price: 43.89 | Last buyed price: 104.92
+First stock p.: 43.89 | Last stock p. : 43.89 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.0 | 0.0%
+transactions: 7
+best settings{}
+calculating percent change:MORN
+ ---------SUMMARY--------------- 
+STOCKS: MORN
+Stocks in buy: 0 | Last price: 160.11 | Last buyed price: 104.92
+First stock p.: 162.57 | Last stock p. : 160.11 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -2.46 | -1.51%
+transactions: 7
+best settings{}
+calculating percent change:MPC
+ ---------SUMMARY--------------- 
+STOCKS: MPC
+Stocks in buy: 0 | Last price: 35.6 | Last buyed price: 104.92
+First stock p.: 34.805 | Last stock p. : 35.6 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.8 | 2.28%
+transactions: 7
+best settings{}
+calculating percent change:MRK
+ ---------SUMMARY--------------- 
+STOCKS: MRK
+Stocks in buy: 0 | Last price: 85.51 | Last buyed price: 104.92
+First stock p.: 85.545 | Last stock p. : 85.51 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -0.03 | -0.04%
+transactions: 7
+best settings{}
+calculating percent change:MS
+ ---------SUMMARY--------------- 
+STOCKS: MS
+Stocks in buy: 0 | Last price: 52.52 | Last buyed price: 104.92
+First stock p.: 52.35 | Last stock p. : 52.52 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 0.17 | 0.32%
+transactions: 7
+best settings{}
+calculating percent change:MSFT
+ ---------SUMMARY--------------- 
+STOCKS: MSFT
+Stocks in buy: 0 | Last price: 226.58 | Last buyed price: 104.92
+First stock p.: 228.575 | Last stock p. : 226.58 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: -1.99 | -0.87%
+transactions: 7
+best settings{}
+calculating percent change:MSI
+ ---------SUMMARY--------------- 
+STOCKS: MSI
+Stocks in buy: 0 | Last price: 154.63 | Last buyed price: 104.92
+First stock p.: 153.3 | Last stock p. : 154.63 | Last buyed stock p. : 104.92
+Profit from trading: -76.28999999999999%
+Profit without trading: 1.33 | 0.87%
+transactions: 7
+best settings{}
+calculating percent change:MTCH
+go up 2020-08-28 19:15:00+00:00 - boll:126.66699999999953 -prev: 111.225 - curr:111.83
+buying:  MTCH 2020-08-28 19:15:00+00:00 -- 111.83
+ ---------SUMMARY--------------- 
+STOCKS: MTCH
+Stocks in buy: 1 | Last price: 112.19 | Last buyed price: 111.83
+selling: MTCH 2020-08-31 19:45:00+00:00 -- 112.19
+First stock p.: 112.91 | Last stock p. : 112.19 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.72 | -0.64%
+transactions: 8
+best settings{}
+calculating percent change:MU
+ ---------SUMMARY--------------- 
+STOCKS: MU
+Stocks in buy: 0 | Last price: 45.67 | Last buyed price: 111.83
+First stock p.: 44.5 | Last stock p. : 45.67 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 1.17 | 2.63%
+transactions: 8
+best settings{}
+calculating percent change:MUFG
+ ---------SUMMARY--------------- 
+STOCKS: MUFG
+Stocks in buy: 0 | Last price: 4.18 | Last buyed price: 111.83
+First stock p.: 4.08 | Last stock p. : 4.18 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.1 | 2.45%
+transactions: 8
+best settings{}
+calculating percent change:MXIM
+ ---------SUMMARY--------------- 
+STOCKS: MXIM
+Stocks in buy: 0 | Last price: 68.41 | Last buyed price: 111.83
+First stock p.: 70.085 | Last stock p. : 68.41 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -1.67 | -2.39%
+transactions: 8
+best settings{}
+calculating percent change:MYL
+ ---------SUMMARY--------------- 
+STOCKS: MYL
+Stocks in buy: 0 | Last price: 16.45 | Last buyed price: 111.83
+First stock p.: 16.345 | Last stock p. : 16.45 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.11 | 0.64%
+transactions: 8
+best settings{}
+calculating percent change:NBIX
+ ---------SUMMARY--------------- 
+STOCKS: NBIX
+Stocks in buy: 0 | Last price: 116.74 | Last buyed price: 111.83
+First stock p.: 112.385 | Last stock p. : 116.74 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 4.35 | 3.88%
+transactions: 8
+best settings{}
+calculating percent change:NDAQ
+ ---------SUMMARY--------------- 
+STOCKS: NDAQ
+Stocks in buy: 0 | Last price: 134.685 | Last buyed price: 111.83
+First stock p.: 132.91 | Last stock p. : 134.685 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 1.78 | 1.34%
+transactions: 8
+best settings{}
+calculating percent change:NEE
+ ---------SUMMARY--------------- 
+STOCKS: NEE
+Stocks in buy: 0 | Last price: 280.36 | Last buyed price: 111.83
+First stock p.: 277.68 | Last stock p. : 280.36 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 2.68 | 0.97%
+transactions: 8
+best settings{}
+calculating percent change:NEM
+ ---------SUMMARY--------------- 
+STOCKS: NEM
+Stocks in buy: 0 | Last price: 67.38 | Last buyed price: 111.83
+First stock p.: 64.2 | Last stock p. : 67.38 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 3.18 | 4.95%
+transactions: 8
+best settings{}
+calculating percent change:NFLX
+ ---------SUMMARY--------------- 
+STOCKS: NFLX
+Stocks in buy: 0 | Last price: 531.19 | Last buyed price: 111.83
+First stock p.: 534.01 | Last stock p. : 531.19 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -2.82 | -0.53%
+transactions: 8
+best settings{}
+calculating percent change:NIO
+ ---------SUMMARY--------------- 
+STOCKS: NIO
+Stocks in buy: 0 | Last price: 19.33 | Last buyed price: 111.83
+First stock p.: 19.58 | Last stock p. : 19.33 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.25 | -1.28%
+transactions: 8
+best settings{}
+calculating percent change:NKE
+ ---------SUMMARY--------------- 
+STOCKS: NKE
+Stocks in buy: 0 | Last price: 112.46 | Last buyed price: 111.83
+First stock p.: 111.99 | Last stock p. : 112.46 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.47 | 0.42%
+transactions: 8
+best settings{}
+calculating percent change:NMR
+ ---------SUMMARY--------------- 
+STOCKS: NMR
+Stocks in buy: 0 | Last price: 5.15 | Last buyed price: 111.83
+First stock p.: 5.135 | Last stock p. : 5.15 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.02 | 0.29%
+transactions: 8
+best settings{}
+calculating percent change:NOC
+ ---------SUMMARY--------------- 
+STOCKS: NOC
+Stocks in buy: 0 | Last price: 343.87 | Last buyed price: 111.83
+First stock p.: 347.29 | Last stock p. : 343.87 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -3.42 | -0.98%
+transactions: 8
+best settings{}
+calculating percent change:NOV
+ ---------SUMMARY--------------- 
+STOCKS: NOV
+Stocks in buy: 0 | Last price: 12.01 | Last buyed price: 111.83
+First stock p.: 11.86 | Last stock p. : 12.01 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.15 | 1.26%
+transactions: 8
+best settings{}
+calculating percent change:NTAP
+ ---------SUMMARY--------------- 
+STOCKS: NTAP
+Stocks in buy: 0 | Last price: 47.39 | Last buyed price: 111.83
+First stock p.: 44.055 | Last stock p. : 47.39 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 3.34 | 7.57%
+transactions: 8
+best settings{}
+calculating percent change:NTES
+ ---------SUMMARY--------------- 
+STOCKS: NTES
+Stocks in buy: 0 | Last price: 488.52 | Last buyed price: 111.83
+First stock p.: 509.47 | Last stock p. : 488.52 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -20.95 | -4.11%
+transactions: 8
+best settings{}
+calculating percent change:NTNX
+ ---------SUMMARY--------------- 
+STOCKS: NTNX
+Stocks in buy: 0 | Last price: 28.79 | Last buyed price: 111.83
+First stock p.: 21.67 | Last stock p. : 28.79 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 7.12 | 32.86%
+transactions: 8
+best settings{}
+calculating percent change:NTRS
+ ---------SUMMARY--------------- 
+STOCKS: NTRS
+Stocks in buy: 0 | Last price: 81.785 | Last buyed price: 111.83
+First stock p.: 84.01 | Last stock p. : 81.785 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -2.23 | -2.65%
+transactions: 8
+best settings{}
+calculating percent change:NVCR
+ ---------SUMMARY--------------- 
+STOCKS: NVCR
+Stocks in buy: 0 | Last price: 82.99 | Last buyed price: 111.83
+First stock p.: 82.27 | Last stock p. : 82.99 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.72 | 0.88%
+transactions: 8
+best settings{}
+calculating percent change:NVDA
+ ---------SUMMARY--------------- 
+STOCKS: NVDA
+Stocks in buy: 0 | Last price: 537.98 | Last buyed price: 111.83
+First stock p.: 511.46 | Last stock p. : 537.98 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 26.52 | 5.19%
+transactions: 8
+best settings{}
+calculating percent change:NYT
+ ---------SUMMARY--------------- 
+STOCKS: NYT
+Stocks in buy: 0 | Last price: 43.485 | Last buyed price: 111.83
+First stock p.: 43.68 | Last stock p. : 43.485 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.2 | -0.45%
+transactions: 8
+best settings{}
+calculating percent change:OAS
+ ---------SUMMARY--------------- 
+STOCKS: OAS
+Stocks in buy: 0 | Last price: 0.559 | Last buyed price: 111.83
+First stock p.: 0.6004 | Last stock p. : 0.559 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.04 | -6.9%
+transactions: 8
+best settings{}
+calculating percent change:ODP
+ ---------SUMMARY--------------- 
+STOCKS: ODP
+Stocks in buy: 0 | Last price: 23.17 | Last buyed price: 111.83
+First stock p.: 23.55 | Last stock p. : 23.17 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.38 | -1.61%
+transactions: 8
+best settings{}
+calculating percent change:OKE
+ ---------SUMMARY--------------- 
+STOCKS: OKE
+Stocks in buy: 0 | Last price: 27.535 | Last buyed price: 111.83
+First stock p.: 26.68 | Last stock p. : 27.535 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.86 | 3.2%
+transactions: 8
+best settings{}
+calculating percent change:OKTA
+ ---------SUMMARY--------------- 
+STOCKS: OKTA
+Stocks in buy: 0 | Last price: 215.125 | Last buyed price: 111.83
+First stock p.: 224.31 | Last stock p. : 215.125 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -9.19 | -4.09%
+transactions: 8
+best settings{}
+calculating percent change:OMC
+ ---------SUMMARY--------------- 
+STOCKS: OMC
+Stocks in buy: 0 | Last price: 54.21 | Last buyed price: 111.83
+First stock p.: 55.54 | Last stock p. : 54.21 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -1.33 | -2.39%
+transactions: 8
+best settings{}
+calculating percent change:ON
+ ---------SUMMARY--------------- 
+STOCKS: ON
+Stocks in buy: 0 | Last price: 21.43 | Last buyed price: 111.83
+First stock p.: 21.48 | Last stock p. : 21.43 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.05 | -0.23%
+transactions: 8
+best settings{}
+calculating percent change:OPK
+ ---------SUMMARY--------------- 
+STOCKS: OPK
+Stocks in buy: 0 | Last price: 3.25 | Last buyed price: 111.83
+First stock p.: 3.26 | Last stock p. : 3.25 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.01 | -0.31%
+transactions: 8
+best settings{}
+calculating percent change:ORCL
+ ---------SUMMARY--------------- 
+STOCKS: ORCL
+Stocks in buy: 0 | Last price: 57.355 | Last buyed price: 111.83
+First stock p.: 57.02 | Last stock p. : 57.355 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.33 | 0.59%
+transactions: 8
+best settings{}
+calculating percent change:ORLY
+ ---------SUMMARY--------------- 
+STOCKS: ORLY
+Stocks in buy: 0 | Last price: 467.38 | Last buyed price: 111.83
+First stock p.: 465.49 | Last stock p. : 467.38 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 1.89 | 0.41%
+transactions: 8
+best settings{}
+calculating percent change:OSTK
+go down 2020-08-31 14:15:00+00:00 - boll:123.87774999999927 -prev: 90.0 - curr:89.015
+ ---------SUMMARY--------------- 
+STOCKS: OSTK
+Stocks in buy: 0 | Last price: 88.785 | Last buyed price: 111.83
+First stock p.: 98.785 | Last stock p. : 88.785 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -10.0 | -10.12%
+transactions: 8
+best settings{}
+calculating percent change:OXY
+ ---------SUMMARY--------------- 
+STOCKS: OXY
+Stocks in buy: 0 | Last price: 12.8 | Last buyed price: 111.83
+First stock p.: 12.735 | Last stock p. : 12.8 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.07 | 0.51%
+transactions: 8
+best settings{}
+calculating percent change:PANW
+ ---------SUMMARY--------------- 
+STOCKS: PANW
+Stocks in buy: 0 | Last price: 257.24 | Last buyed price: 111.83
+First stock p.: 255.57 | Last stock p. : 257.24 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 1.67 | 0.65%
+transactions: 8
+best settings{}
+calculating percent change:PAYX
+ ---------SUMMARY--------------- 
+STOCKS: PAYX
+Stocks in buy: 0 | Last price: 76.66 | Last buyed price: 111.83
+First stock p.: 76.66 | Last stock p. : 76.66 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.0 | 0.0%
+transactions: 8
+best settings{}
+calculating percent change:PCAR
+ ---------SUMMARY--------------- 
+STOCKS: PCAR
+Stocks in buy: 0 | Last price: 86.0 | Last buyed price: 111.83
+First stock p.: 86.24 | Last stock p. : 86.0 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.24 | -0.28%
+transactions: 8
+best settings{}
+calculating percent change:PCG
+ ---------SUMMARY--------------- 
+STOCKS: PCG
+Stocks in buy: 0 | Last price: 9.29 | Last buyed price: 111.83
+First stock p.: 9.07 | Last stock p. : 9.29 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.22 | 2.43%
+transactions: 8
+best settings{}
+calculating percent change:PEG
+ ---------SUMMARY--------------- 
+STOCKS: PEG
+Stocks in buy: 0 | Last price: 52.25 | Last buyed price: 111.83
+First stock p.: 52.18 | Last stock p. : 52.25 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.07 | 0.13%
+transactions: 8
+best settings{}
+calculating percent change:PEP
+ ---------SUMMARY--------------- 
+STOCKS: PEP
+Stocks in buy: 0 | Last price: 140.335 | Last buyed price: 111.83
+First stock p.: 138.54 | Last stock p. : 140.335 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 1.8 | 1.3%
+transactions: 8
+best settings{}
+calculating percent change:PFE
+ ---------SUMMARY--------------- 
+STOCKS: PFE
+Stocks in buy: 0 | Last price: 37.82 | Last buyed price: 111.83
+First stock p.: 37.875 | Last stock p. : 37.82 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.05 | -0.15%
+transactions: 8
+best settings{}
+calculating percent change:PFPT
+ ---------SUMMARY--------------- 
+STOCKS: PFPT
+Stocks in buy: 0 | Last price: 109.8 | Last buyed price: 111.83
+First stock p.: 111.94 | Last stock p. : 109.8 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -2.14 | -1.91%
+transactions: 8
+best settings{}
+calculating percent change:PG
+ ---------SUMMARY--------------- 
+STOCKS: PG
+Stocks in buy: 0 | Last price: 138.5 | Last buyed price: 111.83
+First stock p.: 138.87 | Last stock p. : 138.5 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.37 | -0.27%
+transactions: 8
+best settings{}
+calculating percent change:PH
+ ---------SUMMARY--------------- 
+STOCKS: PH
+Stocks in buy: 0 | Last price: 207.38 | Last buyed price: 111.83
+First stock p.: 208.89 | Last stock p. : 207.38 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -1.51 | -0.72%
+transactions: 8
+best settings{}
+calculating percent change:PINS
+ ---------SUMMARY--------------- 
+STOCKS: PINS
+Stocks in buy: 0 | Last price: 37.025 | Last buyed price: 111.83
+First stock p.: 34.51 | Last stock p. : 37.025 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 2.52 | 7.29%
+transactions: 8
+best settings{}
+calculating percent change:PLAN
+ ---------SUMMARY--------------- 
+STOCKS: PLAN
+Stocks in buy: 0 | Last price: 61.495 | Last buyed price: 111.83
+First stock p.: 61.59 | Last stock p. : 61.495 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.1 | -0.15%
+transactions: 8
+best settings{}
+calculating percent change:PM
+ ---------SUMMARY--------------- 
+STOCKS: PM
+Stocks in buy: 0 | Last price: 80.08 | Last buyed price: 111.83
+First stock p.: 79.775 | Last stock p. : 80.08 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.3 | 0.38%
+transactions: 8
+best settings{}
+calculating percent change:PNC
+ ---------SUMMARY--------------- 
+STOCKS: PNC
+Stocks in buy: 0 | Last price: 111.365 | Last buyed price: 111.83
+First stock p.: 111.69 | Last stock p. : 111.365 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.33 | -0.29%
+transactions: 8
+best settings{}
+calculating percent change:PPG
+go down 2020-08-31 13:30:00+00:00 - boll:160.56949999999958 -prev: 122.13 - curr:121.4
+ ---------SUMMARY--------------- 
+STOCKS: PPG
+Stocks in buy: 0 | Last price: 120.75 | Last buyed price: 111.83
+First stock p.: 120.21 | Last stock p. : 120.75 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.54 | 0.45%
+transactions: 8
+best settings{}
+calculating percent change:PRU
+ ---------SUMMARY--------------- 
+STOCKS: PRU
+Stocks in buy: 0 | Last price: 68.05 | Last buyed price: 111.83
+First stock p.: 69.27 | Last stock p. : 68.05 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -1.22 | -1.76%
+transactions: 8
+best settings{}
+calculating percent change:PSA
+ ---------SUMMARY--------------- 
+STOCKS: PSA
+Stocks in buy: 0 | Last price: 212.67 | Last buyed price: 111.83
+First stock p.: 211.905 | Last stock p. : 212.67 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.76 | 0.36%
+transactions: 8
+best settings{}
+calculating percent change:PSTG
+ ---------SUMMARY--------------- 
+STOCKS: PSTG
+Stocks in buy: 0 | Last price: 15.34 | Last buyed price: 111.83
+First stock p.: 14.955 | Last stock p. : 15.34 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: 0.38 | 2.57%
+transactions: 8
+best settings{}
+calculating percent change:PSX
+ ---------SUMMARY--------------- 
+STOCKS: PSX
+Stocks in buy: 0 | Last price: 58.82 | Last buyed price: 111.83
+First stock p.: 59.96 | Last stock p. : 58.82 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -1.14 | -1.9%
+transactions: 8
+best settings{}
+calculating percent change:PWR
+ ---------SUMMARY--------------- 
+STOCKS: PWR
+Stocks in buy: 0 | Last price: 51.4 | Last buyed price: 111.83
+First stock p.: 51.45 | Last stock p. : 51.4 | Last buyed stock p. : 111.83
+Profit from trading: -75.97%
+Profit without trading: -0.05 | -0.1%
+transactions: 8
+best settings{}
+calculating percent change:PXD
+go up 2020-08-31 18:30:00+00:00 - boll:112.33324999999925 -prev: 104.11 - curr:104.23
+buying:  PXD 2020-08-31 18:30:00+00:00 -- 104.23
+ ---------SUMMARY--------------- 
+STOCKS: PXD
+Stocks in buy: 1 | Last price: 104.3 | Last buyed price: 104.23
+selling: PXD 2020-08-31 19:45:00+00:00 -- 104.3
+First stock p.: 105.27 | Last stock p. : 104.3 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.97 | -0.92%
+transactions: 9
+best settings{}
+calculating percent change:PYPL
+ ---------SUMMARY--------------- 
+STOCKS: PYPL
+Stocks in buy: 0 | Last price: 204.955 | Last buyed price: 104.23
+First stock p.: 204.47 | Last stock p. : 204.955 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.49 | 0.24%
+transactions: 9
+best settings{}
+calculating percent change:QCOM
+ ---------SUMMARY--------------- 
+STOCKS: QCOM
+Stocks in buy: 0 | Last price: 119.9 | Last buyed price: 104.23
+First stock p.: 117.19 | Last stock p. : 119.9 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 2.71 | 2.31%
+transactions: 9
+best settings{}
+calculating percent change:QLYS
+go down 2020-08-28 17:15:00+00:00 - boll:106.38199999999941 -prev: 107.1 - curr:106.775
+ ---------SUMMARY--------------- 
+STOCKS: QLYS
+Stocks in buy: 0 | Last price: 106.49 | Last buyed price: 104.23
+First stock p.: 107.87 | Last stock p. : 106.49 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -1.38 | -1.28%
+transactions: 9
+best settings{}
+calculating percent change:QRTEA
+ ---------SUMMARY--------------- 
+STOCKS: QRTEA
+Stocks in buy: 0 | Last price: 11.05 | Last buyed price: 104.23
+First stock p.: 10.81 | Last stock p. : 11.05 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.24 | 2.22%
+transactions: 9
+best settings{}
+calculating percent change:QSR
+ ---------SUMMARY--------------- 
+STOCKS: QSR
+Stocks in buy: 0 | Last price: 54.38 | Last buyed price: 104.23
+First stock p.: 55.43 | Last stock p. : 54.38 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -1.05 | -1.89%
+transactions: 9
+best settings{}
+calculating percent change:RACE
+ ---------SUMMARY--------------- 
+STOCKS: RACE
+Stocks in buy: 0 | Last price: 195.01 | Last buyed price: 104.23
+First stock p.: 196.29 | Last stock p. : 195.01 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -1.28 | -0.65%
+transactions: 9
+best settings{}
+calculating percent change:REAL
+ ---------SUMMARY--------------- 
+STOCKS: REAL
+Stocks in buy: 0 | Last price: 16.08 | Last buyed price: 104.23
+First stock p.: 16.975 | Last stock p. : 16.08 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.9 | -5.27%
+transactions: 9
+best settings{}
+calculating percent change:REGI
+ ---------SUMMARY--------------- 
+STOCKS: REGI
+Stocks in buy: 0 | Last price: 34.185 | Last buyed price: 104.23
+First stock p.: 35.58 | Last stock p. : 34.185 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -1.39 | -3.92%
+transactions: 9
+best settings{}
+calculating percent change:REGN
+ ---------SUMMARY--------------- 
+STOCKS: REGN
+Stocks in buy: 0 | Last price: 618.69 | Last buyed price: 104.23
+First stock p.: 617.31 | Last stock p. : 618.69 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 1.38 | 0.22%
+transactions: 9
+best settings{}
+calculating percent change:RL
+ ---------SUMMARY--------------- 
+STOCKS: RL
+Stocks in buy: 0 | Last price: 69.15 | Last buyed price: 104.23
+First stock p.: 68.99 | Last stock p. : 69.15 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.16 | 0.23%
+transactions: 9
+best settings{}
+calculating percent change:RMD
+ ---------SUMMARY--------------- 
+STOCKS: RMD
+Stocks in buy: 0 | Last price: 181.11 | Last buyed price: 104.23
+First stock p.: 180.35 | Last stock p. : 181.11 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.76 | 0.42%
+transactions: 9
+best settings{}
+calculating percent change:RNG
+go down 2020-08-27 16:45:00+00:00 - boll:289.8494999999997 -prev: 290.65 - curr:286.93
+ ---------SUMMARY--------------- 
+STOCKS: RNG
+Stocks in buy: 0 | Last price: 291.33 | Last buyed price: 104.23
+First stock p.: 291.25 | Last stock p. : 291.33 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.08 | 0.03%
+transactions: 9
+best settings{}
+calculating percent change:ROK
+ ---------SUMMARY--------------- 
+STOCKS: ROK
+Stocks in buy: 0 | Last price: 231.13 | Last buyed price: 104.23
+First stock p.: 231.33 | Last stock p. : 231.13 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.2 | -0.09%
+transactions: 9
+best settings{}
+calculating percent change:ROKU
+go down 2020-08-28 17:45:00+00:00 - boll:134.15199999999905 -prev: 173.38 - curr:172.135
+ ---------SUMMARY--------------- 
+STOCKS: ROKU
+Stocks in buy: 0 | Last price: 174.01 | Last buyed price: 104.23
+First stock p.: 161.311 | Last stock p. : 174.01 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 12.7 | 7.87%
+transactions: 9
+best settings{}
+calculating percent change:ROST
+ ---------SUMMARY--------------- 
+STOCKS: ROST
+Stocks in buy: 0 | Last price: 91.49 | Last buyed price: 104.23
+First stock p.: 91.11 | Last stock p. : 91.49 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.38 | 0.42%
+transactions: 9
+best settings{}
+calculating percent change:RUN
+ ---------SUMMARY--------------- 
+STOCKS: RUN
+Stocks in buy: 0 | Last price: 56.69 | Last buyed price: 104.23
+First stock p.: 52.32 | Last stock p. : 56.69 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 4.37 | 8.35%
+transactions: 9
+best settings{}
+calculating percent change:RY
+ ---------SUMMARY--------------- 
+STOCKS: RY
+Stocks in buy: 0 | Last price: 76.52 | Last buyed price: 104.23
+First stock p.: 77.48 | Last stock p. : 76.52 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.96 | -1.24%
+transactions: 9
+best settings{}
+calculating percent change:SBUX
+ ---------SUMMARY--------------- 
+STOCKS: SBUX
+Stocks in buy: 0 | Last price: 84.77 | Last buyed price: 104.23
+First stock p.: 83.1 | Last stock p. : 84.77 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 1.67 | 2.01%
+transactions: 9
+best settings{}
+calculating percent change:SCCO
+ ---------SUMMARY--------------- 
+STOCKS: SCCO
+Stocks in buy: 0 | Last price: 48.2 | Last buyed price: 104.23
+First stock p.: 46.42 | Last stock p. : 48.2 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 1.78 | 3.83%
+transactions: 9
+best settings{}
+calculating percent change:SCHW
+ ---------SUMMARY--------------- 
+STOCKS: SCHW
+Stocks in buy: 0 | Last price: 35.63 | Last buyed price: 104.23
+First stock p.: 35.985 | Last stock p. : 35.63 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.35 | -0.99%
+transactions: 9
+best settings{}
+calculating percent change:SHOP
+ ---------SUMMARY--------------- 
+STOCKS: SHOP
+Stocks in buy: 0 | Last price: 1070.635 | Last buyed price: 104.23
+First stock p.: 1074.16 | Last stock p. : 1070.635 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -3.53 | -0.33%
+transactions: 9
+best settings{}
+calculating percent change:SHW
+ ---------SUMMARY--------------- 
+STOCKS: SHW
+Stocks in buy: 0 | Last price: 673.29 | Last buyed price: 104.23
+First stock p.: 673.03 | Last stock p. : 673.29 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.26 | 0.04%
+transactions: 9
+best settings{}
+calculating percent change:SIRI
+ ---------SUMMARY--------------- 
+STOCKS: SIRI
+Stocks in buy: 0 | Last price: 5.88 | Last buyed price: 104.23
+First stock p.: 5.935 | Last stock p. : 5.88 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.05 | -0.93%
+transactions: 9
+best settings{}
+calculating percent change:SKX
+ ---------SUMMARY--------------- 
+STOCKS: SKX
+Stocks in buy: 0 | Last price: 30.11 | Last buyed price: 104.23
+First stock p.: 30.65 | Last stock p. : 30.11 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.54 | -1.76%
+transactions: 9
+best settings{}
+calculating percent change:SLB
+ ---------SUMMARY--------------- 
+STOCKS: SLB
+Stocks in buy: 0 | Last price: 18.96 | Last buyed price: 104.23
+First stock p.: 18.53 | Last stock p. : 18.96 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.43 | 2.32%
+transactions: 9
+best settings{}
+calculating percent change:SMFG
+ ---------SUMMARY--------------- 
+STOCKS: SMFG
+Stocks in buy: 0 | Last price: 5.89 | Last buyed price: 104.23
+First stock p.: 5.74 | Last stock p. : 5.89 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.15 | 2.61%
+transactions: 9
+best settings{}
+calculating percent change:SNAP
+ ---------SUMMARY--------------- 
+STOCKS: SNAP
+Stocks in buy: 0 | Last price: 22.73 | Last buyed price: 104.23
+First stock p.: 21.24 | Last stock p. : 22.73 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 1.49 | 7.02%
+transactions: 9
+best settings{}
+calculating percent change:SNE
+ ---------SUMMARY--------------- 
+STOCKS: SNE
+Stocks in buy: 0 | Last price: 78.83 | Last buyed price: 104.23
+First stock p.: 80.425 | Last stock p. : 78.83 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -1.59 | -1.98%
+transactions: 9
+best settings{}
+calculating percent change:SNPS
+ ---------SUMMARY--------------- 
+STOCKS: SNPS
+Stocks in buy: 0 | Last price: 221.59 | Last buyed price: 104.23
+First stock p.: 218.43 | Last stock p. : 221.59 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 3.16 | 1.45%
+transactions: 9
+best settings{}
+calculating percent change:SO
+ ---------SUMMARY--------------- 
+STOCKS: SO
+Stocks in buy: 0 | Last price: 52.29 | Last buyed price: 104.23
+First stock p.: 51.8 | Last stock p. : 52.29 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.49 | 0.95%
+transactions: 9
+best settings{}
+calculating percent change:SPG
+ ---------SUMMARY--------------- 
+STOCKS: SPG
+Stocks in buy: 0 | Last price: 68.06 | Last buyed price: 104.23
+First stock p.: 67.3 | Last stock p. : 68.06 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.76 | 1.13%
+transactions: 9
+best settings{}
+calculating percent change:SPGI
+ ---------SUMMARY--------------- 
+STOCKS: SPGI
+Stocks in buy: 0 | Last price: 366.62 | Last buyed price: 104.23
+First stock p.: 366.78 | Last stock p. : 366.62 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.16 | -0.04%
+transactions: 9
+best settings{}
+calculating percent change:SPLK
+ ---------SUMMARY--------------- 
+STOCKS: SPLK
+Stocks in buy: 0 | Last price: 220.0 | Last buyed price: 104.23
+First stock p.: 214.74 | Last stock p. : 220.0 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 5.26 | 2.45%
+transactions: 9
+best settings{}
+calculating percent change:SPOT
+ ---------SUMMARY--------------- 
+STOCKS: SPOT
+Stocks in buy: 0 | Last price: 283.6 | Last buyed price: 104.23
+First stock p.: 274.36 | Last stock p. : 283.6 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 9.24 | 3.37%
+transactions: 9
+best settings{}
+calculating percent change:SPWR
+ ---------SUMMARY--------------- 
+STOCKS: SPWR
+Stocks in buy: 0 | Last price: 11.315 | Last buyed price: 104.23
+First stock p.: 11.165 | Last stock p. : 11.315 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.15 | 1.34%
+transactions: 9
+best settings{}
+calculating percent change:SPY
+ ---------SUMMARY--------------- 
+STOCKS: SPY
+Stocks in buy: 0 | Last price: 349.8 | Last buyed price: 104.23
+First stock p.: 348.945 | Last stock p. : 349.8 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.86 | 0.25%
+transactions: 9
+best settings{}
+calculating percent change:SQ
+go down 2020-08-28 13:30:00+00:00 - boll:180.02919999999818 -prev: 158.98 - curr:157.49
+ ---------SUMMARY--------------- 
+STOCKS: SQ
+Stocks in buy: 0 | Last price: 159.47 | Last buyed price: 104.23
+First stock p.: 159.13 | Last stock p. : 159.47 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.34 | 0.21%
+transactions: 9
+best settings{}
+calculating percent change:SRE
+ ---------SUMMARY--------------- 
+STOCKS: SRE
+Stocks in buy: 0 | Last price: 123.6 | Last buyed price: 104.23
+First stock p.: 123.14 | Last stock p. : 123.6 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 0.46 | 0.37%
+transactions: 9
+best settings{}
+calculating percent change:SSNC
+ ---------SUMMARY--------------- 
+STOCKS: SSNC
+Stocks in buy: 0 | Last price: 63.675 | Last buyed price: 104.23
+First stock p.: 63.68 | Last stock p. : 63.675 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.01 | -0.01%
+transactions: 9
+best settings{}
+calculating percent change:SSSS
+ ---------SUMMARY--------------- 
+STOCKS: SSSS
+Stocks in buy: 0 | Last price: 13.27 | Last buyed price: 104.23
+First stock p.: 14.13 | Last stock p. : 13.27 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.86 | -6.09%
+transactions: 9
+best settings{}
+calculating percent change:STNE
+ ---------SUMMARY--------------- 
+STOCKS: STNE
+Stocks in buy: 0 | Last price: 51.225 | Last buyed price: 104.23
+First stock p.: 49.68 | Last stock p. : 51.225 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 1.55 | 3.11%
+transactions: 9
+best settings{}
+calculating percent change:STT
+ ---------SUMMARY--------------- 
+STOCKS: STT
+Stocks in buy: 0 | Last price: 68.455 | Last buyed price: 104.23
+First stock p.: 69.16 | Last stock p. : 68.455 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: -0.7 | -1.02%
+transactions: 9
+best settings{}
+calculating percent change:STX
+ ---------SUMMARY--------------- 
+STOCKS: STX
+Stocks in buy: 0 | Last price: 47.995 | Last buyed price: 104.23
+First stock p.: 45.58 | Last stock p. : 47.995 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 2.41 | 5.3%
+transactions: 9
+best settings{}
+calculating percent change:STZ
+ ---------SUMMARY--------------- 
+STOCKS: STZ
+Stocks in buy: 0 | Last price: 184.96 | Last buyed price: 104.23
+First stock p.: 182.72 | Last stock p. : 184.96 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 2.24 | 1.23%
+transactions: 9
+best settings{}
+calculating percent change:SWK
+ ---------SUMMARY--------------- 
+STOCKS: SWK
+Stocks in buy: 0 | Last price: 161.85 | Last buyed price: 104.23
+First stock p.: 159.75 | Last stock p. : 161.85 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 2.1 | 1.31%
+transactions: 9
+best settings{}
+calculating percent change:SWKS
+ ---------SUMMARY--------------- 
+STOCKS: SWKS
+Stocks in buy: 0 | Last price: 144.82 | Last buyed price: 104.23
+First stock p.: 141.01 | Last stock p. : 144.82 | Last buyed stock p. : 104.23
+Profit from trading: -75.9%
+Profit without trading: 3.81 | 2.7%
+transactions: 9
+best settings{}
+calculating percent change:SYK
+go up 2020-08-28 16:45:00+00:00 - boll:203.40649999999897 -prev: 195.22 - curr:195.75
+buying:  SYK 2020-08-28 16:45:00+00:00 -- 195.75
+ ---------SUMMARY--------------- 
+STOCKS: SYK
+Stocks in buy: 1 | Last price: 198.95 | Last buyed price: 195.75
+selling: SYK 2020-08-31 19:45:00+00:00 -- 198.95
+First stock p.: 193.68 | Last stock p. : 198.95 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 5.27 | 2.72%
+transactions: 10
+best settings{}
+calculating percent change:SYY
+ ---------SUMMARY--------------- 
+STOCKS: SYY
+Stocks in buy: 0 | Last price: 60.56 | Last buyed price: 195.75
+First stock p.: 59.98 | Last stock p. : 60.56 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.58 | 0.97%
+transactions: 10
+best settings{}
+calculating percent change:T
+ ---------SUMMARY--------------- 
+STOCKS: T
+Stocks in buy: 0 | Last price: 29.895 | Last buyed price: 195.75
+First stock p.: 29.83 | Last stock p. : 29.895 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.07 | 0.22%
+transactions: 10
+best settings{}
+calculating percent change:TCOM
+ ---------SUMMARY--------------- 
+STOCKS: TCOM
+Stocks in buy: 0 | Last price: 30.43 | Last buyed price: 195.75
+First stock p.: 28.695 | Last stock p. : 30.43 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 1.73 | 6.05%
+transactions: 10
+best settings{}
+calculating percent change:TD
+ ---------SUMMARY--------------- 
+STOCKS: TD
+Stocks in buy: 0 | Last price: 50.07 | Last buyed price: 195.75
+First stock p.: 50.66 | Last stock p. : 50.07 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.59 | -1.16%
+transactions: 10
+best settings{}
+calculating percent change:TFX
+ ---------SUMMARY--------------- 
+STOCKS: TFX
+Stocks in buy: 0 | Last price: 394.165 | Last buyed price: 195.75
+First stock p.: 379.99 | Last stock p. : 394.165 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 14.18 | 3.73%
+transactions: 10
+best settings{}
+calculating percent change:TGT
+ ---------SUMMARY--------------- 
+STOCKS: TGT
+Stocks in buy: 0 | Last price: 151.73 | Last buyed price: 195.75
+First stock p.: 151.24 | Last stock p. : 151.73 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.49 | 0.32%
+transactions: 10
+best settings{}
+calculating percent change:TJX
+ ---------SUMMARY--------------- 
+STOCKS: TJX
+Stocks in buy: 0 | Last price: 55.11 | Last buyed price: 195.75
+First stock p.: 53.8 | Last stock p. : 55.11 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 1.31 | 2.43%
+transactions: 10
+best settings{}
+calculating percent change:TM
+ ---------SUMMARY--------------- 
+STOCKS: TM
+Stocks in buy: 0 | Last price: 132.51 | Last buyed price: 195.75
+First stock p.: 133.4 | Last stock p. : 132.51 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.89 | -0.67%
+transactions: 10
+best settings{}
+calculating percent change:TME
+ ---------SUMMARY--------------- 
+STOCKS: TME
+Stocks in buy: 0 | Last price: 15.695 | Last buyed price: 195.75
+First stock p.: 15.855 | Last stock p. : 15.695 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.16 | -1.01%
+transactions: 10
+best settings{}
+calculating percent change:TMO
+ ---------SUMMARY--------------- 
+STOCKS: TMO
+Stocks in buy: 0 | Last price: 428.835 | Last buyed price: 195.75
+First stock p.: 417.01 | Last stock p. : 428.835 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 11.82 | 2.84%
+transactions: 10
+best settings{}
+calculating percent change:TMUS
+ ---------SUMMARY--------------- 
+STOCKS: TMUS
+Stocks in buy: 0 | Last price: 116.595 | Last buyed price: 195.75
+First stock p.: 115.87 | Last stock p. : 116.595 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.72 | 0.63%
+transactions: 10
+best settings{}
+calculating percent change:TRIP
+ ---------SUMMARY--------------- 
+STOCKS: TRIP
+Stocks in buy: 0 | Last price: 23.55 | Last buyed price: 195.75
+First stock p.: 23.715 | Last stock p. : 23.55 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.16 | -0.7%
+transactions: 10
+best settings{}
+calculating percent change:TROW
+ ---------SUMMARY--------------- 
+STOCKS: TROW
+Stocks in buy: 0 | Last price: 138.985 | Last buyed price: 195.75
+First stock p.: 137.73 | Last stock p. : 138.985 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 1.26 | 0.91%
+transactions: 10
+best settings{}
+calculating percent change:TRV
+ ---------SUMMARY--------------- 
+STOCKS: TRV
+Stocks in buy: 0 | Last price: 116.09 | Last buyed price: 195.75
+First stock p.: 117.97 | Last stock p. : 116.09 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -1.88 | -1.59%
+transactions: 10
+best settings{}
+calculating percent change:TSLA
+ ---------SUMMARY--------------- 
+STOCKS: TSLA
+Stocks in buy: 0 | Last price: 498.66 | Last buyed price: 195.75
+First stock p.: 2235.29 | Last stock p. : 498.66 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -1736.63 | -77.69%
+transactions: 10
+best settings{}
+calculating percent change:TSM
+ ---------SUMMARY--------------- 
+STOCKS: TSM
+Stocks in buy: 0 | Last price: 79.5 | Last buyed price: 195.75
+First stock p.: 81.265 | Last stock p. : 79.5 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -1.77 | -2.17%
+transactions: 10
+best settings{}
+calculating percent change:TTM
+ ---------SUMMARY--------------- 
+STOCKS: TTM
+Stocks in buy: 0 | Last price: 9.75 | Last buyed price: 195.75
+First stock p.: 9.59 | Last stock p. : 9.75 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.16 | 1.67%
+transactions: 10
+best settings{}
+calculating percent change:TTWO
+ ---------SUMMARY--------------- 
+STOCKS: TTWO
+Stocks in buy: 0 | Last price: 171.465 | Last buyed price: 195.75
+First stock p.: 174.845 | Last stock p. : 171.465 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -3.38 | -1.93%
+transactions: 10
+best settings{}
+calculating percent change:TW
+ ---------SUMMARY--------------- 
+STOCKS: TW
+Stocks in buy: 0 | Last price: 57.35 | Last buyed price: 195.75
+First stock p.: 57.48 | Last stock p. : 57.35 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.13 | -0.23%
+transactions: 10
+best settings{}
+calculating percent change:TWLO
+go down 2020-08-27 16:30:00+00:00 - boll:269.53974999999963 -prev: 264.72 - curr:264.18
+ ---------SUMMARY--------------- 
+STOCKS: TWLO
+Stocks in buy: 0 | Last price: 269.76 | Last buyed price: 195.75
+First stock p.: 265.54 | Last stock p. : 269.76 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 4.22 | 1.59%
+transactions: 10
+best settings{}
+calculating percent change:TWTR
+ ---------SUMMARY--------------- 
+STOCKS: TWTR
+Stocks in buy: 0 | Last price: 40.9 | Last buyed price: 195.75
+First stock p.: 40.565 | Last stock p. : 40.9 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.34 | 0.83%
+transactions: 10
+best settings{}
+calculating percent change:TXN
+ ---------SUMMARY--------------- 
+STOCKS: TXN
+Stocks in buy: 0 | Last price: 142.5 | Last buyed price: 195.75
+First stock p.: 141.74 | Last stock p. : 142.5 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.76 | 0.54%
+transactions: 10
+best settings{}
+calculating percent change:UA
+ ---------SUMMARY--------------- 
+STOCKS: UA
+Stocks in buy: 0 | Last price: 8.905 | Last buyed price: 195.75
+First stock p.: 9.005 | Last stock p. : 8.905 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.1 | -1.11%
+transactions: 10
+best settings{}
+calculating percent change:UAA
+ ---------SUMMARY--------------- 
+STOCKS: UAA
+Stocks in buy: 0 | Last price: 9.9 | Last buyed price: 195.75
+First stock p.: 10.02 | Last stock p. : 9.9 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.12 | -1.2%
+transactions: 10
+best settings{}
+calculating percent change:UAL
+ ---------SUMMARY--------------- 
+STOCKS: UAL
+Stocks in buy: 0 | Last price: 36.18 | Last buyed price: 195.75
+First stock p.: 36.25 | Last stock p. : 36.18 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: -0.07 | -0.19%
+transactions: 10
+best settings{}
+calculating percent change:UBER
+ ---------SUMMARY--------------- 
+STOCKS: UBER
+Stocks in buy: 0 | Last price: 33.73 | Last buyed price: 195.75
+First stock p.: 32.73 | Last stock p. : 33.73 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 1.0 | 3.06%
+transactions: 10
+best settings{}
+calculating percent change:UCTT
+ ---------SUMMARY--------------- 
+STOCKS: UCTT
+Stocks in buy: 0 | Last price: 24.665 | Last buyed price: 195.75
+First stock p.: 24.4 | Last stock p. : 24.665 | Last buyed stock p. : 195.75
+Profit from trading: -74.27000000000001%
+Profit without trading: 0.27 | 1.09%
+transactions: 10
+best settings{}
+calculating percent change:ULTA
+go up 2020-08-27 19:45:00+00:00 - boll:227.41149999999897 -prev: 223.14 - curr:224.18
+buying:  ULTA 2020-08-27 19:45:00+00:00 -- 224.18
+go up 2020-08-27 20:15:00+00:00 - boll:271.92049999999904 -prev: 260.9 - curr:262.02
+ ---------SUMMARY--------------- 
+STOCKS: ULTA
+Stocks in buy: 1 | Last price: 232.41 | Last buyed price: 224.18
+selling: ULTA 2020-08-31 19:45:00+00:00 -- 232.41
+First stock p.: 222.86 | Last stock p. : 232.41 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 9.55 | 4.29%
+transactions: 11
+best settings{}
+calculating percent change:UMC
+ ---------SUMMARY--------------- 
+STOCKS: UMC
+Stocks in buy: 0 | Last price: 3.54 | Last buyed price: 224.18
+First stock p.: 3.685 | Last stock p. : 3.54 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.15 | -3.93%
+transactions: 11
+best settings{}
+calculating percent change:UNH
+ ---------SUMMARY--------------- 
+STOCKS: UNH
+Stocks in buy: 0 | Last price: 315.44 | Last buyed price: 224.18
+First stock p.: 313.51 | Last stock p. : 315.44 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 1.93 | 0.62%
+transactions: 11
+best settings{}
+calculating percent change:UNP
+ ---------SUMMARY--------------- 
+STOCKS: UNP
+Stocks in buy: 0 | Last price: 193.1 | Last buyed price: 224.18
+First stock p.: 194.725 | Last stock p. : 193.1 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -1.62 | -0.83%
+transactions: 11
+best settings{}
+calculating percent change:UPS
+ ---------SUMMARY--------------- 
+STOCKS: UPS
+Stocks in buy: 0 | Last price: 164.12 | Last buyed price: 224.18
+First stock p.: 158.82 | Last stock p. : 164.12 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 5.3 | 3.34%
+transactions: 11
+best settings{}
+calculating percent change:USB
+ ---------SUMMARY--------------- 
+STOCKS: USB
+Stocks in buy: 0 | Last price: 36.46 | Last buyed price: 224.18
+First stock p.: 36.94 | Last stock p. : 36.46 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.48 | -1.3%
+transactions: 11
+best settings{}
+calculating percent change:V
+ ---------SUMMARY--------------- 
+STOCKS: V
+Stocks in buy: 0 | Last price: 213.15 | Last buyed price: 224.18
+First stock p.: 210.71 | Last stock p. : 213.15 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 2.44 | 1.16%
+transactions: 11
+best settings{}
+calculating percent change:VALE
+ ---------SUMMARY--------------- 
+STOCKS: VALE
+Stocks in buy: 0 | Last price: 11.05 | Last buyed price: 224.18
+First stock p.: 10.83 | Last stock p. : 11.05 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.22 | 2.03%
+transactions: 11
+best settings{}
+calculating percent change:VEEV
+ ---------SUMMARY--------------- 
+STOCKS: VEEV
+Stocks in buy: 0 | Last price: 284.53 | Last buyed price: 224.18
+First stock p.: 270.975 | Last stock p. : 284.53 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 13.55 | 5.0%
+transactions: 11
+best settings{}
+calculating percent change:VFC
+ ---------SUMMARY--------------- 
+STOCKS: VFC
+Stocks in buy: 0 | Last price: 65.955 | Last buyed price: 224.18
+First stock p.: 65.94 | Last stock p. : 65.955 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.02 | 0.02%
+transactions: 11
+best settings{}
+calculating percent change:VG
+ ---------SUMMARY--------------- 
+STOCKS: VG
+Stocks in buy: 0 | Last price: 11.495 | Last buyed price: 224.18
+First stock p.: 11.18 | Last stock p. : 11.495 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.31 | 2.82%
+transactions: 11
+best settings{}
+calculating percent change:VLO
+ ---------SUMMARY--------------- 
+STOCKS: VLO
+Stocks in buy: 0 | Last price: 52.79 | Last buyed price: 224.18
+First stock p.: 52.44 | Last stock p. : 52.79 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.35 | 0.67%
+transactions: 11
+best settings{}
+calculating percent change:VMW
+ ---------SUMMARY--------------- 
+STOCKS: VMW
+Stocks in buy: 0 | Last price: 144.4 | Last buyed price: 224.18
+First stock p.: 143.73 | Last stock p. : 144.4 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.67 | 0.47%
+transactions: 11
+best settings{}
+calculating percent change:VRSK
+ ---------SUMMARY--------------- 
+STOCKS: VRSK
+Stocks in buy: 0 | Last price: 186.77 | Last buyed price: 224.18
+First stock p.: 187.76 | Last stock p. : 186.77 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.99 | -0.53%
+transactions: 11
+best settings{}
+calculating percent change:VRSN
+ ---------SUMMARY--------------- 
+STOCKS: VRSN
+Stocks in buy: 0 | Last price: 215.11 | Last buyed price: 224.18
+First stock p.: 209.44 | Last stock p. : 215.11 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 5.67 | 2.71%
+transactions: 11
+best settings{}
+calculating percent change:VRTX
+ ---------SUMMARY--------------- 
+STOCKS: VRTX
+Stocks in buy: 0 | Last price: 279.41 | Last buyed price: 224.18
+First stock p.: 274.415 | Last stock p. : 279.41 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 5.0 | 1.82%
+transactions: 11
+best settings{}
+calculating percent change:VST
+ ---------SUMMARY--------------- 
+STOCKS: VST
+Stocks in buy: 0 | Last price: 19.33 | Last buyed price: 224.18
+First stock p.: 18.93 | Last stock p. : 19.33 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.4 | 2.11%
+transactions: 11
+best settings{}
+calculating percent change:VTR
+ ---------SUMMARY--------------- 
+STOCKS: VTR
+Stocks in buy: 0 | Last price: 41.44 | Last buyed price: 224.18
+First stock p.: 41.39 | Last stock p. : 41.44 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.05 | 0.12%
+transactions: 11
+best settings{}
+calculating percent change:VZ
+ ---------SUMMARY--------------- 
+STOCKS: VZ
+Stocks in buy: 0 | Last price: 59.305 | Last buyed price: 224.18
+First stock p.: 59.52 | Last stock p. : 59.305 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.22 | -0.36%
+transactions: 11
+best settings{}
+calculating percent change:W
+ ---------SUMMARY--------------- 
+STOCKS: W
+Stocks in buy: 0 | Last price: 299.83 | Last buyed price: 224.18
+First stock p.: 333.45 | Last stock p. : 299.83 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -33.62 | -10.08%
+transactions: 11
+best settings{}
+calculating percent change:WB
+ ---------SUMMARY--------------- 
+STOCKS: WB
+Stocks in buy: 0 | Last price: 37.455 | Last buyed price: 224.18
+First stock p.: 36.3 | Last stock p. : 37.455 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 1.16 | 3.18%
+transactions: 11
+best settings{}
+calculating percent change:WBA
+ ---------SUMMARY--------------- 
+STOCKS: WBA
+Stocks in buy: 0 | Last price: 38.13 | Last buyed price: 224.18
+First stock p.: 38.84 | Last stock p. : 38.13 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.71 | -1.83%
+transactions: 11
+best settings{}
+calculating percent change:WDAY
+ ---------SUMMARY--------------- 
+STOCKS: WDAY
+Stocks in buy: 0 | Last price: 241.33 | Last buyed price: 224.18
+First stock p.: 216.78 | Last stock p. : 241.33 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 24.55 | 11.32%
+transactions: 11
+best settings{}
+calculating percent change:WDC
+ ---------SUMMARY--------------- 
+STOCKS: WDC
+Stocks in buy: 0 | Last price: 38.395 | Last buyed price: 224.18
+First stock p.: 34.24 | Last stock p. : 38.395 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 4.16 | 12.13%
+transactions: 11
+best settings{}
+calculating percent change:WELL
+ ---------SUMMARY--------------- 
+STOCKS: WELL
+Stocks in buy: 0 | Last price: 57.835 | Last buyed price: 224.18
+First stock p.: 57.16 | Last stock p. : 57.835 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.68 | 1.18%
+transactions: 11
+best settings{}
+calculating percent change:WEX
+ ---------SUMMARY--------------- 
+STOCKS: WEX
+Stocks in buy: 0 | Last price: 160.8 | Last buyed price: 224.18
+First stock p.: 162.475 | Last stock p. : 160.8 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -1.67 | -1.03%
+transactions: 11
+best settings{}
+calculating percent change:WFC
+ ---------SUMMARY--------------- 
+STOCKS: WFC
+Stocks in buy: 0 | Last price: 24.26 | Last buyed price: 224.18
+First stock p.: 24.58 | Last stock p. : 24.26 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.32 | -1.3%
+transactions: 11
+best settings{}
+calculating percent change:WM
+ ---------SUMMARY--------------- 
+STOCKS: WM
+Stocks in buy: 0 | Last price: 114.08 | Last buyed price: 224.18
+First stock p.: 114.45 | Last stock p. : 114.08 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.37 | -0.32%
+transactions: 11
+best settings{}
+calculating percent change:WMB
+ ---------SUMMARY--------------- 
+STOCKS: WMB
+Stocks in buy: 0 | Last price: 20.805 | Last buyed price: 224.18
+First stock p.: 20.99 | Last stock p. : 20.805 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.18 | -0.88%
+transactions: 11
+best settings{}
+calculating percent change:WMT
+ ---------SUMMARY--------------- 
+STOCKS: WMT
+Stocks in buy: 0 | Last price: 138.625 | Last buyed price: 224.18
+First stock p.: 131.815 | Last stock p. : 138.625 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 6.81 | 5.17%
+transactions: 11
+best settings{}
+calculating percent change:WORK
+ ---------SUMMARY--------------- 
+STOCKS: WORK
+Stocks in buy: 0 | Last price: 32.825 | Last buyed price: 224.18
+First stock p.: 30.92 | Last stock p. : 32.825 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 1.91 | 6.16%
+transactions: 11
+best settings{}
+calculating percent change:WRK
+ ---------SUMMARY--------------- 
+STOCKS: WRK
+Stocks in buy: 0 | Last price: 30.51 | Last buyed price: 224.18
+First stock p.: 30.77 | Last stock p. : 30.51 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.26 | -0.84%
+transactions: 11
+best settings{}
+calculating percent change:WU
+ ---------SUMMARY--------------- 
+STOCKS: WU
+Stocks in buy: 0 | Last price: 23.68 | Last buyed price: 224.18
+First stock p.: 23.875 | Last stock p. : 23.68 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.2 | -0.82%
+transactions: 11
+best settings{}
+calculating percent change:WYNN
+ ---------SUMMARY--------------- 
+STOCKS: WYNN
+Stocks in buy: 0 | Last price: 88.2 | Last buyed price: 224.18
+First stock p.: 87.02 | Last stock p. : 88.2 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 1.18 | 1.36%
+transactions: 11
+best settings{}
+calculating percent change:XEC
+ ---------SUMMARY--------------- 
+STOCKS: XEC
+Stocks in buy: 0 | Last price: 27.89 | Last buyed price: 224.18
+First stock p.: 27.93 | Last stock p. : 27.89 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.04 | -0.14%
+transactions: 11
+best settings{}
+calculating percent change:XEL
+ ---------SUMMARY--------------- 
+STOCKS: XEL
+Stocks in buy: 0 | Last price: 69.59 | Last buyed price: 224.18
+First stock p.: 68.2 | Last stock p. : 69.59 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 1.39 | 2.04%
+transactions: 11
+best settings{}
+calculating percent change:XLNX
+ ---------SUMMARY--------------- 
+STOCKS: XLNX
+Stocks in buy: 0 | Last price: 104.27 | Last buyed price: 224.18
+First stock p.: 104.395 | Last stock p. : 104.27 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.12 | -0.12%
+transactions: 11
+best settings{}
+calculating percent change:XOM
+ ---------SUMMARY--------------- 
+STOCKS: XOM
+Stocks in buy: 0 | Last price: 39.975 | Last buyed price: 224.18
+First stock p.: 39.61 | Last stock p. : 39.975 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.37 | 0.92%
+transactions: 11
+best settings{}
+calculating percent change:XRX
+ ---------SUMMARY--------------- 
+STOCKS: XRX
+Stocks in buy: 0 | Last price: 18.985 | Last buyed price: 224.18
+First stock p.: 18.87 | Last stock p. : 18.985 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.11 | 0.61%
+transactions: 11
+best settings{}
+calculating percent change:YUM
+ ---------SUMMARY--------------- 
+STOCKS: YUM
+Stocks in buy: 0 | Last price: 96.23 | Last buyed price: 224.18
+First stock p.: 96.39 | Last stock p. : 96.23 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: -0.16 | -0.17%
+transactions: 11
+best settings{}
+calculating percent change:YUMC
+ ---------SUMMARY--------------- 
+STOCKS: YUMC
+Stocks in buy: 0 | Last price: 57.98 | Last buyed price: 224.18
+First stock p.: 55.31 | Last stock p. : 57.98 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 2.67 | 4.83%
+transactions: 11
+best settings{}
+calculating percent change:ZBH
+ ---------SUMMARY--------------- 
+STOCKS: ZBH
+Stocks in buy: 0 | Last price: 141.3 | Last buyed price: 224.18
+First stock p.: 138.98 | Last stock p. : 141.3 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 2.32 | 1.67%
+transactions: 11
+best settings{}
+calculating percent change:ZEN
+go down 2020-08-28 14:45:00+00:00 - boll:94.15624999999868 -prev: 94.24 - curr:93.59
+ ---------SUMMARY--------------- 
+STOCKS: ZEN
+Stocks in buy: 0 | Last price: 96.495 | Last buyed price: 224.18
+First stock p.: 92.79 | Last stock p. : 96.495 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 3.7 | 3.99%
+transactions: 11
+best settings{}
+calculating percent change:ZM
+ ---------SUMMARY--------------- 
+STOCKS: ZM
+Stocks in buy: 0 | Last price: 321.28 | Last buyed price: 224.18
+First stock p.: 298.63 | Last stock p. : 321.28 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 22.65 | 7.58%
+transactions: 11
+best settings{}
+calculating percent change:ZNGA
+ ---------SUMMARY--------------- 
+STOCKS: ZNGA
+Stocks in buy: 0 | Last price: 9.05 | Last buyed price: 224.18
+First stock p.: 9.005 | Last stock p. : 9.05 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.04 | 0.5%
+transactions: 11
+best settings{}
+calculating percent change:ZNH
+ ---------SUMMARY--------------- 
+STOCKS: ZNH
+Stocks in buy: 0 | Last price: 26.89 | Last buyed price: 224.18
+First stock p.: 25.91 | Last stock p. : 26.89 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.98 | 3.78%
+transactions: 11
+best settings{}
+calculating percent change:ZS
+ ---------SUMMARY--------------- 
+STOCKS: ZS
+Stocks in buy: 0 | Last price: 145.04 | Last buyed price: 224.18
+First stock p.: 140.02 | Last stock p. : 145.04 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 5.02 | 3.59%
+transactions: 11
+best settings{}
+calculating percent change:ZTS
+ ---------SUMMARY--------------- 
+STOCKS: ZTS
+Stocks in buy: 0 | Last price: 160.68 | Last buyed price: 224.18
+First stock p.: 160.24 | Last stock p. : 160.68 | Last buyed stock p. : 224.18
+Profit from trading: -70.60000000000001%
+Profit without trading: 0.44 | 0.27%
+transactions: 11
+best settings{}
