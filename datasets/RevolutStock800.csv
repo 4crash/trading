@@ -1,0 +1,788 @@
+,Tesla                                     ,TSLA  
+,Apple                                     ,AAPL  
+,American Airlines                         ,AAL   
+,Amazon                                    ,AMZN  
+,Microsoft                                 ,MSFT  
+,Alphabet (Class A)                        ,GOOGL 
+,Boeing                                    ,BA    
+,Walt Disney                               ,DIS   
+,Delta Air Lines                           ,DAL   
+,Coca-Cola                                 ,KO    
+,Advanced Micro Devic                      ,AMD   
+,Netflix                                   ,NFLX  
+,Alibaba                                   ,BABA  
+,Facebook                                  ,FB    
+,Carnival                                  ,CCL   
+,Exxon Mobil                               ,XOM   
+,Beyond Meat                               ,BYND  
+,Mastercard                                ,MA    
+,AT&T                                      ,T     
+,Virgin Galactic                           ,SPCE  
+,Norwegian Cruise Line...Holdings          ,NCLH  
+,Visa                                      ,V     
+,Gilead Sciences                           ,GILD  
+,Ford                                      ,F     
+,Uber                                      ,UBER  
+,Royal Caribbean Cruis                     ,RCL   
+,3M                                        ,MMM   
+,Nvidia                                    ,NVDA  
+,Booking                                   ,BKNG  
+,General Electric                          ,GE    
+,Bank of America                           ,BAC   
+,Activision Blizzard                       ,ATVI  
+,Marathon Qil Corporat                     ,MRO   
+,NIO                                       ,NIO   
+,Pfizer                                    ,PFE   
+,Alphabet (Class C)                        ,GOOG  
+,Groupon                                   ,GRPN  
+,Amneal Pharmaceutic                       ,AMRX  
+,Intel                                     ,INTC  
+,Starbucks                                 ,SBUX  
+,Ambev                                     ,ABEV  
+,Shopify                                   ,SHOP  
+,GoPro                                     ,GPRO  
+,Adobe                                     ,ADBE  
+,Slack                                     ,WORK  
+,Cisco                                     ,CSCO  
+,Nike                                      ,NKE   
+,American Express                          ,AXP   
+,Sony                                      ,SNE   
+,Apache                                    ,APA   
+,Southwest Airlines                        ,LUV   
+,Occidental                                ,OXY   
+,AbbVie                                    ,ABBV  
+,AMC                                       ,AMC   
+,Wells Fargo                               ,WFC   
+,Invesco Mortgage Caj                      ,IVR   
+,Twitter                                   ,TWTR  
+,Murphy Oil Corporatio                     ,MUR   
+,B2Gold Corporation                        ,BTG   
+,Antero Resources...Corporation            ,AR    
+,Abercrombie & Fitch                       ,ANF   
+,MFA Financial                             ,MFA   
+,Fitbit                                    ,FIT   
+,Under Armour                              ,UAA   
+,Abbott Labs                               ,ABT   
+,United Continental Ho                     ,UAL   
+,Macy's                                    ,M     
+,Chevron                                   ,CVX   
+,Digital Turbine                           ,APPS  
+,Snap                                      ,SNAP  
+,Qualcomm                                  ,QCOM  
+,General Motors                            ,GM    
+,At Home Group                             ,HOME  
+,PayPal                                    ,PYPL  
+,Walmart                                   ,WMT   
+,Zynga                                     ,ZNGA  
+,JetBlue Airways                           ,JBLU  
+,New York Mortgage T                       ,NYMT  
+,Pinterest                                 ,PINS  
+,SM Energy Company                         ,SM    
+,Alcoa                                     ,AA    
+,Eventbrite                                ,EB    
+,Embraer                                   ,ERJ   
+,Gol Intelligent Airlines                  ,GOL   
+,Citigroup                                 ,C     
+,Hilton                                    ,HLT   
+,Lexicon Pharmaceutic                      ,LXRX  
+,PepsiCo                                   ,PEP   
+,Spotify                                   ,SPOT  
+,Plug Power                                ,PLUG  
+,Square                                    ,SQ    
+,Arconic                                   ,ARNC  
+,Teva Pharmaceutical...Industries          ,TEVA  
+,Petroleo Brasileiro S./                   ,PBR   
+,Cenovus Energy Inc                        ,CVE   
+,Salesforce                                ,CRM   
+,Goodyear                                  ,GT    
+,TripAdvisor                               ,TRIP  
+,Barrick Gold                              ,GOLD  
+,Marathon Petroleum                        ,MPC   
+,MGM Resorts                               ,MGM   
+,Fiat Chrysler                             ,FCAU  
+,Guess                                     ,GES   
+,BlackBerry                                ,BB    
+,Marriott                                  ,MAR   
+,Electronic Arts                           ,EA    
+,eBay                                      ,EBAY  
+,Baidu                                     ,BIDU  
+,Realty Income                             ,O     
+,Air Lease Corporation                     ,AL    
+,DocuSign                                  ,DOCU  
+,China Southern Airline                    ,ZNH   
+,MoneyGram                                 ,MGI   
+,GAP                                       ,GPS   
+,2U                                        ,TWOU  
+,Altria                                    ,MO    
+,Expedia                                   ,EXPE  
+,Goldman Sachs                             ,GS    
+,LG Display                                ,LPL   
+,Chico's FAS                               ,CHS   
+,Halliburton                               ,HAL   
+,Energy Transfer Equit                     ,ET    
+,S&P                                       ,SPGI  
+,Roku                                      ,ROKU  
+,United Microelectroni                     ,UMC   
+,Kraft Heinz                               ,KHC   
+,TherapeuticsMD                            ,TXMD  
+,Lockheed Martin                           ,LMT   
+,Cloudflare                                ,NET   
+,HP                                        ,HPQ   
+,Lyft                                      ,LYFT  
+,ImmunoGen                                 ,IMGN  
+,Apollo Commercial Re...Estate Finance     ,ARI   
+,Triumph                                   ,TGI   
+,Jumia                                     ,JMIA  
+,Simon Property                            ,SPG   
+,Coty                                      ,COTY  
+,Colony Capital                            ,CLNY  
+,EnLink Midstream LLC                      ,ENLC  
+,Waste Management                          ,WM    
+,NextEra Energy                            ,NEE   
+,American Axle &...Manufacturing           ,AXL   
+,FedEx                                     ,FDX   
+,Verizon                                   ,VZ    
+,Dropbox                                   ,DBX   
+,Merck                                     ,MRK   
+,Matador Resources                         ,MTDR  
+,Banco Santander (Bra                      ,BSBR  
+,Schlumberger                              ,SLB   
+,Yamana Gold                               ,AUY   
+,Allscripts Healthcare...Solutions         ,MDRX  
+,Brookfield Renewable...Partners           ,BEP   
+,Opko Health                               ,OPK   
+,Caterpillar                               ,CAT   
+,AGNC Investment                           ,AGNC  
+,SunPower                                  ,SPWR  
+,Levi Strauss & Co                         ,LEVI  
+,Xerox                                     ,XRX   
+,Dell Technologies                         ,DELL  
+,Harley-Davidson                           ,HOG   
+,Cars.com                                  ,CARS  
+,Toyota                                    ,TM    
+,Harmony Gold Mining...Company Limited     ,HMY   
+,First Solar                               ,FSLR  
+,Taiwan Semiconducto                       ,TSM   
+,JD.com                                    ,JD    
+,BBVA Banco Francés                        ,BBAR  
+,Applied Materials                         ,AMAT  
+,Tata Motors                               ,TTM   
+,New Residential Inves                     ,NRZ   
+,CEMEX S.A.B. de C.V.                      ,CX    
+,Blackstone                                ,BX    
+,Foot Locker                               ,FL    
+,BlackRock                                 ,BLK   
+,Bristol-Myers Squibb                      ,BMY   
+,Banco Bradesco S.A. -...Preferred Shares  ,BBD   
+,Hewlett Packard                           ,HPE   
+,Alexion Pharmaceutic                      ,ALXN  
+,iRobot                                    ,IRBT  
+,Medtronic                                 ,MDT   
+,Datadog                                   ,DDOG  
+,CVS Health                                ,CVS   
+,AES Corporation The                       ,AES   
+,Philip Morris                             ,PM    
+,Fiverr                                    ,FVRR  
+,Brookfield Asset...Management Inc.        ,BAM   
+,Peloton Interactive                       ,PTON  
+,Domino's Pizza                            ,DPZ   
+,Boston Scientific                         ,BSX   
+,Oneok                                     ,OKE   
+,Invesco                                   ,IVZ   
+,Micron Technology                         ,MU    
+,ConocoPhillips                            ,COP   
+,Eldorado Gold Corpor:                     ,EGO   
+,Autodesk                                  ,ADSK  
+,Renewable Energy Grc                      ,REGI  
+,Cloudera                                  ,CLDR  
+,American Eagle Outfit                     ,AEO   
+,GameStop                                  ,GME   
+,DXC Technology                            ,DXC   
+,ARMOUR Residential                        ,ARR   
+,Walgreens Boots                           ,WBA   
+,Ally Financial                            ,ALLY  
+,Vertex Pharmaceutice                      ,VRTX  
+,Noble Energy                              ,NBL   
+,National Oilwell Varco                    ,NOV   
+,Costco Wholesale                          ,COST  
+,BRF                                       ,BRFS  
+,Himax Technologies                        ,HIMX  
+,Caesars Entertainmer                      ,CZR   
+,ANGI Homeservices                         ,ANGI  
+,Community Health Sy                       ,CYH   
+,Oracle                                    ,ORCL  
+,Lululemon                                 ,LULU  
+,Chimera Investment                        ,CIM   
+,Devon Energy                              ,DVN   
+,Comcast                                   ,CMCSA 
+,Western Digital                           ,WDC   
+,Two Harbors Investm                       ,TWO   
+,Canon                                     ,CAJ   
+,Kohl's                                    ,KSS   
+,Hasbro                                    ,HAS   
+,Diversified Healthcare                    ,DHC   
+,PBF Energy                                ,PBF   
+,Qudian                                    ,QD    
+,McEwen Mining Inc                         ,MUX   
+,Twilio                                    ,TWLO  
+,Colgate-Palmolive                         ,CL    
+,Biogen                                    ,BIIB  
+,Conduent                                  ,CNDT  
+,StoneCo                                   ,STNE  
+,Phillips 66                               ,PSX   
+,Enterprise Products...Partners            ,EPD   
+,Tencent Music...Entertainment Group       ,TME   
+,Kinross Gold Corporat                     ,KGC   
+,Honeywell                                 ,HON   
+,Hyatt Hotels                              ,H     
+,Western Union                             ,WU    
+,Newmont Mining                            ,NEM   
+,Okta                                      ,OKTA  
+,New Age Beverage                          ,NBEV  
+,AngloGold Ashanti                         ,AU    
+,Akamai Technologies                       ,AKAM  
+,Etsy                                      ,ETSY  
+,Nasdaq OMX Group                          ,NDAQ  
+,Gold Fields                               ,GFI   
+,Ralph Lauren                              ,RL    
+,Broadcom                                  ,AVGO  
+,Royal Bank of Canada                      ,RY    
+,Patterson-UTI Energy                      ,PTEN  
+,WPX Energy                                ,WPX   
+,Honda Motor                               ,HMC   
+,Amgen                                     ,AMGN  
+,China Mobile                              ,CHL   
+,Eli Lilly                                 ,LLY   
+,Shake Shack                               ,SHAK  
+,MercadoLibre                              ,MELI  
+,Invitae Corporation                       ,NVTA  
+,HubSpot                                   ,HUBS  
+,Estee Lauder                              ,EL    
+,Best Buy                                  ,BBY   
+,Altice USA                                ,ATUS  
+,LTC Properties                            ,LTC   
+,Nomura                                    ,NMR   
+,Workday                                   ,WDAY  
+,Restaurant Brands...International         ,QSR   
+,Amicus Therapeutics                       ,FOLD  
+,Cleveland-Cliffs Inc.                     ,CLF   
+,Brookfield Infrastructt...Partners        ,BIP   
+,Hecla Mining Co.                          ,HL    
+,Palo Alto Networks                        ,PANW  
+,Wayfair                                   ,W     
+,Under Armour (Class \,UA    
+,UnitedHealth                              ,UNH   
+,CenturyLink                               ,CTL   
+,Align Technology                          ,ALGN  
+,Carlyle Group                             ,CG    
+,CrowdStrike                               ,CRWD  
+,Welltower                                 ,WELL  
+,Valero                                    ,VLO   
+,Uxin                                      ,UXIN  
+,Liberty Media Group                       ,FWONK 
+,American Tower                            ,AMT   
+,Sysco                                     ,SYY   
+,Fortinet                                  ,FTNT  
+,Targa Resources                           ,TRGP  
+,Tyson Foods                               ,TSN   
+,Sunrun                                    ,RUN   
+,Emerson                                   ,EMR   
+,Cimarex Energy                            ,XEC   
+,Duke Energy                               ,DUK   
+,Franklin Resources                        ,BEN   
+,WestRock                                  ,WRK   
+,Infosys                                   ,INFY  
+,TechnipFMC plc                            ,FTI   
+,Las Vegas Sands                           ,LVS   
+,Moody's                                   ,MCO   
+,Plains All American Pi                    ,PAA   
+,Air Products and...Chemicals              ,APD   
+,FS KKR Capital                            ,FSK   
+,Zendesk                                   ,ZEN   
+,YPF                                       ,YPF   
+,Jinkosolar Holding                        ,JKS   
+,Fluor Corporation                         ,FLR   
+,Motorola Solutions                        ,MSI   
+,Seagate Technology                        ,STX   
+,Michaels Companies                        ,MIK   
+,Constellation Brands                      ,STZ   
+,Agilent Technologies                      ,A     
+,Match Group                               ,MTCH  
+,Overstock.com                             ,OSTK  
+,New York Times                            ,NYT   
+,Microchip Technology                      ,MCHP  
+,Wendy's Company                           ,WEN   
+,Prudential Financial                      ,PRU   
+,Equinix                                   ,EQIX  
+,CBRE Group                                ,CBRE  
+,Nutanix                                   ,NTNX  
+,Pan American Silver C                     ,PAAS  
+,Marvell Technology                        ,MRVL  
+,Lam Research                              ,LRCX  
+,Nordstrom                                 ,JWN   
+,Automatic Data...Processing               ,ADP   
+,Metlife                                   ,MET   
+,Synchrony Financial                       ,SYF   
+,Momo                                      ,MOMO  
+,Stitch Fix                                ,SFIX  
+,Mylan NV                                  ,MYL   
+,Kroger Co                                 ,KR    
+,Ecolab                                    ,ECL   
+,Cardinal Health                           ,CAH   
+,Pluralsight                               ,PS    
+,Mizuho Financial Grou                     ,MFG   
+,Bausch Health Compe                       ,BHC   
+,World Wrestling...Entertainment           ,WWE   
+,L Brands                                  ,LB    
+,Gerdau S.A.                               ,GGB   
+,Ansys                                     ,ANSS  
+,58.com                                    ,WUBA  
+,Vale                                      ,VALE  
+,The GEO Group                             ,GEO   
+,Herbalife                                 ,HLF   
+,Kimberly-Clark                            ,KMB   
+,Five Star Senior Living                   ,FVE   
+,HDFC Bank.                                ,HDB   
+,ON Semiconductor                          ,ON    
+,Intuit                                    ,INTU  
+,Monster                                   ,MNST  
+,Citizens Financial Gro                    ,CFG   
+,Xilinx                                    ,XLNX  
+,Parsley Energy                            ,PE    
+,Northrop Grumman                          ,NOC   
+,Dominion Energy                           ,D     
+,Freeport                                  ,FCX   
+,Digital Realty Trust                      ,DLR   
+,PPL Corporation                           ,PPL   
+,Stryker                                   ,SYK   
+,Mattel                                    ,MAT   
+,EOG Resources                             ,EOG   
+,Advance Auto Parts                        ,AAP   
+,Southern Company                          ,SO    
+,Chewy                                     ,CHWY  
+,BHP Billiton                              ,BHP   
+,Synopsys                                  ,SNPS  
+,HUYA                                      ,HUYA  
+,Danaher                                   ,DHR   
+,Banco Macro                               ,BMA   
+,Vipshop Holdings Lim                      ,VIPS  
+,Kinder Morgan                             ,KMI   
+,Hutchison China                           ,HCM   
+,Glu Mobile                                ,GLUU  
+,Vereit                                    ,VER   
+,Pitney Bowes                              ,PBI   
+,Skechers                                  ,SKX   
+,General Mills                             ,GIS   
+,Zscaler                                   ,ZS    
+,Box                                       ,BOX   
+,FireEye                                   ,FEYE  
+,Exelixis                                  ,EXEL  
+,Bunge                                     ,BG    
+,KKR & Co                                  ,KKR   
+,ZTO Express                               ,ZTO   
+,ICICI Bank                                ,IBN   
+,Grupo Supervielle                         ,SUPV  
+,Telefonica Brasil                         ,VIV   
+,Edwards Lifesciences                      ,EW    
+,Yum!                                      ,YUM   
+,Chemours Company;                         ,CC    
+,Wipro                                     ,WIT   
+,Sibanye-Stillwater                        ,SBSW  
+,Tiffany & Co                              ,TIF   
+,Trip.com                                  ,TCOM  
+,MPLX LP                                   ,MPLX  
+,GrubHub                                   ,GRUB  
+,Neurocrine Bioscience                     ,NBIX  
+,UP Fintech                                ,TIGR  
+,Tapestry                                  ,TPR   
+,Dollar Tree                               ,DLTR  
+,Charles Schwab                            ,SCHW  
+,Cheniere Energy                           ,LNG   
+,Pioneer Natural Resol                     ,PXD   
+,CNX Resources                             ,CNX   
+,Arista Networks                           ,ANET  
+,Baxter                                    ,BAX   
+,ResMed                                    ,RMD   
+,Veeva Systems                             ,VEEV  
+,Hormel Foods Corpor:                      ,HRL   
+,BJ's Wholesale Club...Holdings            ,BJ    
+,Vector Group                              ,VGR   
+,KAR Auction Services                      ,KAR   
+,Henry Schein                              ,HSIC  
+,Nektar Therapeutics                       ,NKTR  
+,Pampa Energia SA                          ,PAM   
+,Centene                                   ,CNC   
+,Navient Corporation                       ,NAVI  
+,Sherwin-Williams                          ,SHW   
+,GDS Holdings                              ,GDS   
+,Cognex Corporation                        ,CGNX  
+,Interpublic Group of...Companies          ,IPG   
+,Bitauto Holdings Limi                     ,BITA  
+,Rockwell Automation                       ,ROK   
+,Hologic                                   ,HOLX  
+,PulteGroup                                ,PHM   
+,AptarGroup                                ,ATR   
+,Element Solutions                         ,ESI   
+,Extended Stay Americ                      ,STAY  
+,Credicorp                                 ,BAP   
+,Huazhu Group                              ,HTHT  
+,Teleflex                                  ,TFX   
+,Maxim Integrated                          ,MXIM  
+,Huntington Bancshare...Incorporated       ,HBAN  
+,CommScope Holding...Company               ,COMM  
+,Morningstar                               ,MORN  
+,Hartford Financial Ser...Group            ,HIG   
+,Concho Resources                          ,CXO   
+,Jefferies Financial Gre                   ,JEF   
+,Investors Bancorp                         ,ISBC  
+,SS&C Technologies...Holdings              ,SSNC  
+,Melco Crown Entertail...Limited           ,MLCO  
+,Duke Realty                               ,DRE   
+,LKQ                                       ,LKQ   
+,TIM Participacoes                         ,TSU   
+,Fortive                                   ,FTV   
+,Tradeweb Markets                          ,TW    
+,Keurig Dr Pepper                          ,KDP   
+,Qualys                                    ,QLYS  
+,Lennar                                    ,LEN   
+,News Corporation                          ,NWSA  
+,Marsh & McLennan                          ,MMC   
+,Masco Corporation                         ,MAS   
+,KT                                        ,KT    
+,CSX                                       ,CSX   
+,Grocery Outlet Holding                    ,GO    
+,Otis Worldwide Corp                       ,OTIS  
+,Quanta Services                           ,PWR   
+,Fifth Third Bancorp                       ,FITB  
+,Northern Trust Corpor                     ,NTRS  
+,Verisk Analytics                          ,VRSK  
+,CBOE Holdings                             ,CBOE  
+,SLM Corporation                           ,SLM   
+,Invitation Homes                          ,INVH  
+,FactSet Research Sys                      ,FDS   
+,Ciena Corporation                         ,CIEN  
+,O'Reilly Auto Parts                       ,ORLY  
+,Graphic Packaging Hc                      ,GPK   
+,Wingstop                                  ,WING  
+,Progressive                               ,PGR   
+,Proofpoint                                ,PFPT  
+,Zions Bancorporation                      ,ZION  
+,Paccar                                    ,PCAR  
+,Norfolk Southern...Corporation            ,NSC   
+,Q2 Holdings                               ,QTWO  
+,Public Service Enterpr...Group            ,PEG   
+,NuVasive                                  ,NUVA  
+,Huntsman Corporatiol                      ,HUN   
+,New York Community...Bancorp              ,NYCB  
+,J.B. Hunt                                 ,JBHT  
+,Knight-Swift Transpor...Holdings          ,KNX   
+,Prestige Brands                           ,PBH   
+,Primerica                                 ,PRI   
+,Noah Holdings Limite                      ,NOAH  
+,Companhia de Saneat...Basico              ,SBS   
+,Booz Allen Hamilton                       ,BAH   
+,Ultrapar Participagoes                    ,UGP   
+,Discover Financial Sel                    ,DFS   
+,Livongo Health                            ,LVGO  
+,Nikola Corporation                        ,NKLA  
+,Novavax                                   ,NVAX  
+,Teladoc                                   ,TDOC  
+,First Majestic Silver C                   ,AG    
+,Williams Companies                        ,WMB   
+,Seaboard Corp.                            ,SEB   
+,Fastenal Company                          ,FAST  
+,Belden                                    ,BDC   
+,FleetCor Technologie:                     ,FLT   
+,Ares Capital                              ,ARCC  
+,NovoCure                                  ,NVCR  
+,Becton Dickinson                          ,BDX   
+,United States Steel                       ,X     
+,Sprouts Farmers Marl                      ,SFM   
+,Zillow Group                              ,Z     
+,Interactive Brokers                       ,IBKR  
+,CF Industries Holding:                    ,CF    
+,Avalara                                   ,AVLR  
+,Live Nation Entertainn                    ,LYV   
+,Autohome                                  ,ATHM  
+,Livent                                    ,LTHM  
+,Cypress Semiconduct                       ,CY    
+,H&R Block                                 ,HRB   
+,Splunk                                    ,SPLK  
+,Cintas                                    ,CTAS  
+,DuPont                                    ,DD    
+,Dollar General                            ,DG    
+,NetApp                                    ,NTAP  
+,Consolidated Edison                       ,ED    
+,Host Hotels & Resorts                     ,HST   
+,Intuitive Surgical                        ,ISRG  
+,FirstEnergy                               ,FE    
+,Unum Group                                ,UNM   
+,Natura Holding S.A.                       ,NTCO  
+,Union Pacific                             ,UNP   
+,General Dynamics                          ,GD    
+,Humana                                    ,HUM   
+,Bio-Rad Laboratories                      ,BIO   
+,Grupo Financiero Gali                     ,GGAL  
+,Tanger Factory Outlet...Centers           ,SKT   
+,Home Depot                                ,HD    
+,Axalta Coating Syster                     ,AXTA  
+,White Mountains Insu...Group              ,WTM   
+,NetEase                                   ,NTES  
+,Howmet Aerospace                          ,HWM   
+,International Paper...Company             ,IP    
+,Baker Hughes                              ,BKR   
+,Gartner                                   ,IT    
+,Cable One                                 ,CABO  
+,IDEXX Laboratories                        ,IDXX  
+,Ross Stores                               ,ROST  
+,Ball Corporation                          ,BLL   
+,Mobile TeleSystems F                      ,MBT   
+,Uniti Group                               ,UNIT  
+,Ultra Clean Holdings                      ,UCTT  
+,Carvana Co.                               ,CVNA  
+,Darden Restaurants                        ,DRI   
+,RealReal                                  ,REAL  
+,Mondelez                                  ,MDLZ  
+,MongoDB                                   ,MDB   
+,LexinFintech Holdings                     ,LX    
+,Aramark                                   ,ARMK  
+,Morgan Stanley                            ,MS    
+,Sempra Energy                             ,SRE   
+,E*Trade                                   ,ETFC  
+,DaVita HealthCare Pa                      ,DVA   
+,Pagerduty                                 ,PD    
+,EPAM Systems                              ,EPAM  
+,Parker-Hannifin                           ,PH    
+,Cerner                                    ,CERN  
+,Brixmor Property Grot                     ,BRX   
+,F5 Networks                               ,FFIV  
+,Olin                                      ,OLN   
+,State Street                              ,STT   
+,Zimmer Biomet                             ,ZBH   
+,Omnicom Group                             ,OMC   
+,Juniper Networks                          ,JNPR  
+,VICI Properties                           ,VICI  
+,Regions Financial                         ,RF    
+,Atlassian Corporation                     ,TEAM  
+,Sea Limited                               ,SE    
+,Suncor Energy                             ,SU    
+,Stanley Black & Decke                     ,SWK   
+,Southwestern Energy                       ,SWN   
+,Intercontinental Exchze                   ,ICE   
+,Markel Corp.                              ,MKL   
+,Teck Resources                            ,TECK  
+,Grupo Televisa S.A.B                      ,TV    
+,Crocs                                     ,CROX  
+,BorgWarner                                ,BWA   
+,Cognizant Technolog...Solutions           ,CTSH  
+,Skyworks Solutions                        ,SWKS  
+,Kimco Realty Corpora                      ,KIM   
+,Vonage Holdings                           ,VG    
+,T-Mobile                                  ,TMUS  
+,Corteva                                   ,CTVA  
+,Weibo                                     ,WB    
+,Weyerhaeuser Co.                          ,WY    
+,Allot Communications                      ,ALLT  
+,Mosaic Company The                        ,MOS   
+,Elanco Animal Health                      ,ELAN  
+,International Game...Technology           ,IGT   
+,Fastly                                    ,FSLY  
+,Xcel Energy                               ,XEL   
+,Carrier Global Corp                       ,CARR  
+,Medical Properties Tr                     ,MPW   
+,CRISPR Therapeutics                       ,CRSP  
+,YY                                        ,YY    
+,IGM Biosciences                           ,IGMS  
+,Ulta Beauty                               ,ULTA  
+,Citrix Systems                            ,CTXS  
+,Exagen                                    ,XGN   
+,Zebra Technologies                        ,ZBRA  
+,Innovative Industrial...Properties        ,IIPR  
+,Equitrans Midstream                       ,ETRN  
+,Anaplan                                   ,PLAN  
+,Anthem                                    ,ANTM  
+,Takeda Pharmaceutic                       ,TAK   
+,MGIC Investment                           ,MTG   
+,Tal Education Group                       ,TAL   
+,New Oriental Educatic...Tech Group        ,EDU   
+,ConAgra Foods                             ,CAG   
+,Equifax                                   ,EFX   
+,Biomarin Pharmaceut                       ,BMRN  
+,NeoPhotonics                              ,NPTN  
+,Crown Castle                              ,CCI   
+,Smartsheet                                ,SMAR  
+,Rite Aid                                  ,RAD   
+,NortonLifeLock                            ,NLOK  
+,Teradyne                                  ,TER   
+,Coeur Mining                              ,CDE   
+,Clearway Energy                           ,CWEN  
+,Corning                                   ,GLW   
+,Truist Financial Corp                     ,TFC   
+,ViacomCBS                                 ,VIACA 
+,Chegg                                     ,CHGG  
+,Bilibili                                  ,BILI  
+,Sogou                                     ,SOGO  
+,Edison International                      ,EIX   
+,Incyte                                    ,INCY  
+,Target                                    ,TGT   
+,Iron Mountain                             ,IRM   
+,Global Net Lease                          ,GNL   
+,Lattice Semiconducto                      ,LSCC  
+,Wynn Resorts                              ,WYNN  
+,Genworth Financial                        ,GNW   
+,Zoetis                                    ,ZTS   
+,Brookfield Infrastructt...Corp            ,BIPC  
+,Sumitomo Mitsui Fina...Group              ,SMFG  
+,VMware                                    ,VMW   
+,RPC                                       ,RES   
+,Check Point Software...Technologies       ,CHKP  
+,Planet Fitness                            ,PLNT  
+,Paychex                                   ,PAYX  
+,American Electric Pov                     ,AEP   
+,Aflac                                     ,AFL   
+,Realogy Holdings                          ,RLGY  
+,Infinera Corporation                      ,INFN  
+,Pinduoduo Inc                             ,PDD   
+,Kratos                                    ,KTOS  
+,Thermo Fisher Scienti                     ,TMO   
+,Clovis Oncology                           ,CLVS  
+,T. Rowe Price                             ,TROW  
+,Continental Resource:                     ,CLR   
+,The Clorox Company                        ,CLX   
+,Comerica                                  ,CMA   
+,CME Group (Class A)                       ,CME   
+,Chipotle Mexican Grill                    ,CMG   
+,Equity Residential                        ,EQR   
+,EQT Corporation                           ,EQT   
+,PDC Energy Inc                            ,PDCE  
+,Vistra Energy                             ,VST   
+,Leidos Holdings                           ,LDOS  
+,CenterPoint Energy                        ,CNP   
+,CoStar Group                              ,CSGP  
+,ASML Holding                              ,ASML  
+,Ventas                                    ,VTR   
+,Capital One                               ,COF   
+,Tempur Sealy                              ,TPX   
+,Cabot Oil & Gas Corpc                     ,COG   
+,Brookfield Renewable...Corporation        ,BEPC  
+,DISH Network                              ,DISH  
+,Allstate                                  ,ALL   
+,RingCentral                               ,RNG   
+,Travelers                                 ,TRV   
+,Ametek                                    ,AME   
+,American Homes 4 Re                       ,AMH   
+,Stars Group                               ,TSG   
+,Charter Communicatic                      ,CHTR  
+,Evercore                                  ,EVR   
+,Trade Desk                                ,TTD   
+,Prologis                                  ,PLD   
+,Gentex                                    ,GNTX  
+,Exelon                                    ,EXC   
+,Moderna                                   ,MRNA  
+,Jack Henry & Associa                      ,JKHY  
+,Amphenol                                  ,APH   
+,Cadence Design Syste                      ,CDNS  
+,Verisign                                  ,VRSN  
+,Range Resources...Corporation             ,RRC   
+,PNC Financial                             ,PNC   
+,People's United Finan                     ,PBCT  
+,Keysight Technologie:                     ,KEYS  
+,SolarEdge Technologi                      ,SEDG  
+,Loma Negra Compani...Industrial Argentina ,LOMA  
+,PPG Industries                            ,PPG   
+,Texas Instruments                         ,TXN   
+,GoDaddy                                   ,GDDY  
+,Raytheon Technologie...Corporation        ,RTX   
+,Annaly Capital Manag                      ,NLY   
+,Discovery Communicz                       ,DISCA 
+,Discovery Communicz                       ,DISCK 
+,Fiserv                                    ,FISV  
+,Hanesbrands                               ,HBI   
+,Frequency Therapeuti                      ,FREQ  
+,Public Storage                            ,PSA   
+,HCA Healthcare                            ,HCA   
+,AvalonBay Communiti                       ,AVB   
+,ServiceNow                                ,NOW   
+,Southern Copper                           ,SCCO  
+,Heico                                     ,HEI   
+,Sirius XM                                 ,SIRI  
+,Hess Corporation                          ,HES   
+,Americold Realty Trus                     ,COLD  
+,NRG Energy                                ,NRG   
+,HollyFrontier                             ,HFC   
+,GW Pharmaceuticals \,GWPH  
+,Sangamo Therapeutic                       ,SGMO  
+,Lemonade                                  ,LMND  
+,Alteryx                                   ,AYX   
+,AutoZone                                  ,AZO   
+,Hilton Grand Vacation                     ,HGV   
+,NICE Systems                              ,NICE  
+,WEX                                       ,WEX   
+,Nucor                                     ,NUE   
+,Dana Holding                              ,DAN   
+,Steel Dynamics                            ,STLD  
+,TD Ameritrade                             ,AMTD  
+,NVR                                       ,NVR   
+,Dunkin' Brands Group                      ,DNKN  
+,Equinor                                   ,EQNR  
+,Newell Rubbermaid                         ,NWL   
+,First Horizon National...Corporation      ,FHN   
+,Urban Outfitters                          ,URBN  
+,Pure Storage                              ,PSTG  
+,BioNTech SE                               ,BNTX  
+,Sally Beauty                              ,SBH   
+,Berkshire Hathaway                        ,BRK.B 
+,Zoom                                      ,ZM    
+,McDonald’s                                ,MCD   
+,JPMorgan                                  ,JPM   
+,21st Century Fox                          ,FOXA  
+,J&J                                       ,JNJ   
+,IBM                                       ,IBM   
+,AIG                                       ,AIG   
+,P&G                                       ,PG    
+,Antero Midstream Par                      ,AM    
+,Ferrari                                   ,RACE  
+,AXA Equitable Holdin                      ,EQH   
+,UPS                                       ,UPS   
+,US Silica Holdings                        ,SLCA  
+,Regeneron...Pharmaceuticals               ,REGN  
+,Encana Corporation                        ,OVV   
+,Grupo Financiero Sant...Mexico            ,BSMX  
+,John Deere                                ,DE    
+,lllumina                                  ,ILMN  
+,Companbhia Siderurgic...Nacional          ,SID   
+,Itad Unibanco                             ,ITUB  
+,The Dow Chemical...Company                ,DOW   
+,Kellogg's                                 ,K     
+,T2 Interactive                            ,TTWO  
+,US Bancorp                                ,USB   
+,Toronto-Dominion Bar                      ,TD    
+,PG&E Corporation                          ,PCG   
+,Archer-Daniels-Midlar                     ,ADM   
+,Lowe’s                                    ,LOW   
+,TJX Companies Inc                         ,TJX   
+,Flextronics Internatior                   ,FLEX  
+,Brown Forman                              ,BF.B  
+,iQlyl                                     ,IQ    
+,Analog Devices                            ,ADI   
+,Qurate Retail                             ,QRTEA 
+,DR Horton                                 ,DHI   
+,Enersis Americas S.A....American          ,ENIA  
+,AO Smith                                  ,AOS   
+,lllinois Tool Works                       ,ITW   
+,Yum!                                      ,YUMC  
+,WABTEC Corporation                        ,WAB   
+,FIS                                       ,FIS   
+,BNY Mellon                                ,BK    
+,Cigna                                     ,CI    
+,MUFJ Financial Group                      ,MUFG  
+,Office Depot                              ,ODP   
+,Chemical & Mining Co...Chile              ,SQM   
+,lamgold Corp                              ,IAG   
+,Restoration Hardware...Holdings           ,RH    
+,KeyCorp.                                  ,KEY   
+,Compaiiia de Minas...Buenaventura         ,BVN   
+,Mettler-Toledo...International            ,MTD   
+,VF Corporation                            ,VFC   
+,Companhia Energétic:...Minas Gerais       ,CIG   
+,Sutter Rock Capital ,SSSS  

@@ -1,0 +1,852 @@
+|	Agilent Technologies	|	A
+|	Alcoa	|	AA
+|	American Airlines	|	AAL
+|	Advance Auto Parts	|	AAP
+|	Apple	|	AAPL
+|	AbbVie	|	ABBV
+|	Ambev	|	ABEV
+|	Airbnb Inc	|	ABNB
+|	Abbott Labs	|	ABT
+|	Accenture PLC	|	ACN
+|	Adobe	|	ADBE
+|	Analog Devices	|	ADI
+|	Archer-Daniels-Midland	|	ADM
+|	Automatic Data Processing	|	ADP
+|	Autodesk	|	ADSK
+|	American Eagle Outfitters	|	AEO
+|	American Electric Power	|	AEP
+|	The AES Corporation	|	AES
+|	Aflac	|	AFL
+|	Affirm Holdings	|	AFRM
+|	First Majestic Silver Corp	|	AG
+|	AGNC Investment	|	AGNC
+|	C3.ai Inc	|	AI
+|	AIG	|	AIG
+|	Akamai Technologies	|	AKAM
+|	Air Lease Corporation	|	AL
+|	Albemarle Corporation	|	ALB
+|	Align Technology	|	ALGN
+|	Allstate	|	ALL
+|	Allot Communications	|	ALLT
+|	Ally Financial	|	ALLY
+|	Alexion Pharmaceuticals	|	ALXN
+|	Antero Midstream Partners LP	|	AM
+|	Applied Materials	|	AMAT
+|	AMC	|	AMC
+|	Advanced Micro Devices	|	AMD
+|	Ametek	|	AME
+|	Amgen	|	AMGN
+|	American Homes 4 Rent	|	AMH
+|	Ameresco	|	AMRC
+|	Amneal Pharmaceuticals	|	AMRX
+|	American Tower	|	AMT
+|	Amazon	|	AMZN
+|	Arista Networks	|	ANET
+|	Abercrombie & Fitch	|	ANF
+|	ANGI Homeservices	|	ANGI
+|	Ansys	|	ANSS
+|	Anthem	|	ANTM
+|	AO Smith	|	AOS
+|	Apache	|	APA
+|	Air Products and Chemicals	|	APD
+|	Amphenol	|	APH
+|	Appian Corporation	|	APPN
+|	Digital Turbine	|	APPS
+|	Antero Resources Corporation	|	AR
+|	Ares Capital	|	ARCC
+|	Arcturus Therapeutics Holdings Inc	|	ARCT
+|	Apollo Commercial Real Estate Finance	|	ARI
+|	Aramark	|	ARMK
+|	Arconic	|	ARNC
+|	ARMOUR Residential	|	ARR
+|	Asana Inc	|	ASAN
+|	ASML Holding	|	ASML
+|	Autohome	|	ATHM
+|	AptarGroup	|	ATR
+|	Altice USA	|	ATUS
+|	Activision Blizzard	|	ATVI
+|	AngloGold Ashanti	|	AU
+|	Yamana Gold	|	AUY
+|	AvalonBay Communities	|	AVB
+|	Broadcom	|	AVGO
+|	Avalara	|	AVLR
+|	American Axle & Manufacturing	|	AXL
+|	Axon Enterprise Inc	|	AXON
+|	American Express	|	AXP
+|	Axalta Coating Systems	|	AXTA
+|	Atlantica Sustainable Infrastructure	|	AY
+|	Alteryx	|	AYX
+|	AstraZeneca PLC	|	AZN
+|	AutoZone	|	AZO
+|	Boeing	|	BA
+|	Alibaba	|	BABA
+|	Bank of America	|	BAC
+|	Booz Allen Hamilton	|	BAH
+|	Brookfield Asset Management Inc.	|	BAM
+|	Credicorp	|	BAP
+|	Baxter	|	BAX
+|	BlackBerry	|	BB
+|	BBVA Banco Francés	|	BBAR
+|	Banco Bradesco S.A. – Preferred Shares	|	BBD
+|	Best Buy	|	BBY
+|	Belden	|	BDC
+|	Becton Dickinson	|	BDX
+|	Franklin Resources	|	BEN
+|	Brookfield Renewable Partners	|	BEP
+|	Brookfield Renewable Corporation	|	BEPC
+|	Brown Forman	|	BF.B
+|	Bunge	|	BG
+|	Bausch Health Companies	|	BHC
+|	BHP Billiton	|	BHP
+|	Baidu	|	BIDU
+|	Biogen	|	BIIB
+|	Bilibili	|	BILI
+|	Bio-Rad Laboratories	|	BIO
+|	Brookfield Infrastructure Partners	|	BIP
+|	Brookfield Infrastructure Corp	|	BIPC
+|	BJ’s Wholesale Club Holdings	|	BJ
+|	BNY Mellon	|	BK
+|	Booking	|	BKNG
+|	Baker Hughes	|	BKR
+|	Ballard Power Systems	|	BLDP
+|	BlackRock	|	BLK
+|	Ball Corporation	|	BLL
+|	Banco Macro	|	BMA
+|	Bumble Inc.	|	BMBL
+|	Biomarin Pharmaceutical	|	BMRN
+|	Bristol-Myers Squibb	|	BMY
+|	BioNTech SE	|	BNTX
+|	Box	|	BOX
+|	BP plc	|	BP
+|	BRF	|	BRFS
+|	Berkshire Hathaway	|	BRK.B
+|	Brixmor Property Group	|	BRX
+|	Banco Santander (Brasil)	|	BSBR
+|	Grupo Financiero Santander Mexico	|	BSMX
+|	Boston Scientific	|	BSX
+|	B2Gold Corporation	|	BTG
+|	Anheuser Busch Inbev NV	|	BUD
+|	Compañía de Minas Buenaventura	|	BVN
+|	BorgWarner	|	BWA
+|	Blackstone	|	BX
+|	Beyond Meat	|	BYND
+|	Baozun Inc	|	BZUN
+|	Citigroup	|	C
+|	Cable One	|	CABO
+|	ConAgra Foods	|	CAG
+|	Cardinal Health	|	CAH
+|	Canon	|	CAJ
+|	Carrier Global Corp	|	CARR
+|	Cars.com	|	CARS
+|	Caterpillar	|	CAT
+|	CBOE Holdings	|	CBOE
+|	CBRE Group	|	CBRE
+|	Chemours Company, The	|	CC
+|	Crown Castle	|	CCI
+|	Carnival	|	CCL
+|	Coeur Mining	|	CDE
+|	Cadence Design Systems	|	CDNS
+|	Cerner	|	CERN
+|	CF Industries Holdings	|	CF
+|	Citizens Financial Group	|	CFG
+|	Carlyle Group	|	CG
+|	Cognex Corporation	|	CGNX
+|	Chegg	|	CHGG
+|	Check Point Software Technologies	|	CHKP
+|	China Mobile	|	CHL
+|	ChargePoint Holdings	|	CHPT
+|	Chico’s FAS	|	CHS
+|	Charter Communications	|	CHTR
+|	Chewy	|	CHWY
+|	Cigna	|	CI
+|	Ciena Corporation	|	CIEN
+|	Companhia Energética de Minas Gerais	|	CIG
+|	Chimera Investment	|	CIM
+|	Colgate-Palmolive	|	CL
+|	Cloudera	|	CLDR
+|	Cleveland-Cliffs Inc.	|	CLF
+|	Clean Energy Fuels	|	CLNE
+|	Colony Capital	|	CLNY
+|	Continental Resources	|	CLR
+|	Clovis Oncology	|	CLVS
+|	The Clorox Company	|	CLX
+|	Comerica	|	CMA
+|	Comcast	|	CMCSA
+|	CME Group (Class A)	|	CME
+|	Chipotle Mexican Grill	|	CMG
+|	Centene	|	CNC
+|	Conduent	|	CNDT
+|	CenterPoint Energy	|	CNP
+|	CNX Resources	|	CNX
+|	Capital One	|	COF
+|	Cabot Oil & Gas Corporation	|	COG
+|	Coinbase	|	COIN
+|	Americold Realty Trust	|	COLD
+|	CommScope Holding Company	|	COMM
+|	ConocoPhillips	|	COP
+|	Costco Wholesale	|	COST
+|	Coty	|	COTY
+|	Coupang	|	CPNG
+|	Salesforce	|	CRM
+|	Crocs	|	CROX
+|	CRISPR Therapeutics AG	|	CRSP
+|	CrowdStrike	|	CRWD
+|	Cisco	|	CSCO
+|	CoStar Group	|	CSGP
+|	Canadian Solar	|	CSIQ
+|	CSX	|	CSX
+|	Cintas	|	CTAS
+|	Cognizant Technology Solutions	|	CTSH
+|	Corteva	|	CTVA
+|	Citrix Systems	|	CTXS
+|	Covanta Holding Corp	|	CVA
+|	Cenovus Energy Inc	|	CVE
+|	Carvana Co.	|	CVNA
+|	CVS Health	|	CVS
+|	Chevron	|	CVX
+|	Clearway Energy	|	CWEN
+|	CEMEX, S.A.B. de C.V.	|	CX
+|	Community Health Systems	|	CYH
+|	Caesars Entertainment Inc.	|	CZR
+|	Dominion Energy	|	D
+|	Delta Air Lines	|	DAL
+|	Dana Holding	|	DAN
+|	Darling Ingredients	|	DAR
+|	DoorDash Inc	|	DASH
+|	Dropbox	|	DBX
+|	DuPont	|	DD
+|	Datadog	|	DDOG
+|	John Deere	|	DE
+|	Dell Technologies	|	DELL
+|	Discover Financial Services	|	DFS
+|	Dollar General	|	DG
+|	Diversified Healthcare Trust	|	DHC
+|	DR Horton	|	DHI
+|	Danaher	|	DHR
+|	Dine Brands Global Inc	|	DIN
+|	Walt Disney	|	DIS
+|	Discovery Communications	|	DISCA
+|	Discovery Communications	|	DISCK
+|	DISH Network	|	DISH
+|	DraftKings Inc	|	DKNG
+|	Digital Realty Trust	|	DLR
+|	Dollar Tree	|	DLTR
+|	DocuSign	|	DOCU
+|	The Dow Chemical Company	|	DOW
+|	Domino’s Pizza	|	DPZ
+|	Daqo New Energy Corp	|	DQ
+|	Duke Realty	|	DRE
+|	Darden Restaurants	|	DRI
+|	DTE Energy Co	|	DTE
+|	Duke Energy	|	DUK
+|	DaVita HealthCare Partners	|	DVA
+|	Devon Energy	|	DVN
+|	DXC Technology	|	DXC
+|	DexCom Inc	|	DXCM
+|	Electronic Arts	|	EA
+|	Eventbrite	|	EB
+|	eBay	|	EBAY
+|	Ecolab	|	ECL
+|	Consolidated Edison	|	ED
+|	New Oriental Education & Tech Group	|	EDU
+|	Equifax	|	EFX
+|	Eldorado Gold Corporation	|	EGO
+|	Edison International	|	EIX
+|	Estee Lauder	|	EL
+|	Elanco Animal Health	|	ELAN
+|	Emerson	|	EMR
+|	Enersis Americas S.A. American	|	ENIA
+|	EnLink Midstream LLC	|	ENLC
+|	Enphase Energy Inc	|	ENPH
+|	EOG Resources	|	EOG
+|	EPAM Systems	|	EPAM
+|	Enterprise Products Partners	|	EPD
+|	AXA Equitable Holdings	|	EQH
+|	Equinix	|	EQIX
+|	Equinor	|	EQNR
+|	Equity Residential	|	EQR
+|	EQT Corporation	|	EQT
+|	Embraer	|	ERJ
+|	Element Solutions	|	ESI
+|	Energy Transfer Equity	|	ET
+|	Entergy Corp	|	ETR
+|	Equitrans Midstream	|	ETRN
+|	Etsy	|	ETSY
+|	Evercore	|	EVR
+|	Edwards Lifesciences	|	EW
+|	Exact Sciences Corporation	|	EXAS
+|	Exelon	|	EXC
+|	Exelixis	|	EXEL
+|	Expedia	|	EXPE
+|	Ford	|	F
+|	Diamondback Energy Inc	|	FANG
+|	Fastenal Company	|	FAST
+|	Facebook	|	FB
+|	FuelCell Energy	|	FCEL
+|	Freeport	|	FCX
+|	FactSet Research Systems	|	FDS
+|	FedEx	|	FDX
+|	FirstEnergy	|	FE
+|	FireEye	|	FEYE
+|	FutureFuel	|	FF
+|	F5 Networks	|	FFIV
+|	First Horizon National Corporation	|	FHN
+|	FIS	|	FIS
+|	Fiserv	|	FISV
+|	Fitbit	|	FIT
+|	Fifth Third Bancorp	|	FITB
+|	Foot Locker	|	FL
+|	Flextronics International	|	FLEX
+|	Fluor Corporation	|	FLR
+|	FleetCor Technologies	|	FLT
+|	Amicus Therapeutics	|	FOLD
+|	21st Century Fox	|	FOXA
+|	Frequency Therapeutics	|	FREQ
+|	JFrog Ltd	|	FROG
+|	FS KKR Capital	|	FSK
+|	First Solar	|	FSLR
+|	Fastly	|	FSLY
+|	TechnipFMC plc	|	FTI
+|	Fortinet	|	FTNT
+|	Fortive	|	FTV
+|	Five Star Senior Living Inc	|	FVE
+|	Fiverr	|	FVRR
+|	Liberty Media Group	|	FWONK
+|	General Dynamics	|	GD
+|	GoDaddy	|	GDDY
+|	GDS Holdings	|	GDS
+|	General Electric	|	GE
+|	The GEO Group	|	GEO
+|	Guess	|	GES
+|	Gold Fields	|	GFI
+|	Grupo Financiero Galicia	|	GGAL
+|	Gerdau S.A.	|	GGB
+|	Gilead Sciences	|	GILD
+|	General Mills	|	GIS
+|	Glu Mobile	|	GLUU
+|	Corning	|	GLW
+|	General Motors	|	GM
+|	GameStop	|	GME
+|	Globus Medical Inc	|	GMED
+|	Global Net Lease	|	GNL
+|	Gentex	|	GNTX
+|	Genworth Financial	|	GNW
+|	Grocery Outlet Holding	|	GO
+|	Canoo	|	GOEV
+|	Gol Intelligent Airlines	|	GOL
+|	Barrick Gold	|	GOLD
+|	Alphabet (Class C)	|	GOOG
+|	Alphabet (Class A)	|	GOOGL
+|	Graphic Packaging Holding	|	GPK
+|	Green Plains	|	GPRE
+|	GoPro	|	GPRO
+|	GAP	|	GPS
+|	Groupon	|	GRPN
+|	GrubHub	|	GRUB
+|	Goldman Sachs	|	GS
+|	GlaxoSmithKline plc	|	GSK
+|	Goodyear	|	GT
+|	GW Pharmaceuticals plc	|	GWPH
+|	Hyatt Hotels	|	H
+|	Halliburton	|	HAL
+|	Hasbro	|	HAS
+|	Huntington Bancshares Incorporated	|	HBAN
+|	Hanesbrands	|	HBI
+|	HCA Healthcare	|	HCA
+|	Hutchison China	|	HCM
+|	Home Depot	|	HD
+|	HDFC Bank.	|	HDB
+|	Heico	|	HEI
+|	Hess Corporation	|	HES
+|	HollyFrontier	|	HFC
+|	Hilton Grand Vacations	|	HGV
+|	Hartford Financial Services Group	|	HIG
+|	Himax Technologies	|	HIMX
+|	Hecla Mining Co.	|	HL
+|	Herbalife	|	HLF
+|	Hilton	|	HLT
+|	Honda Motor	|	HMC
+|	Harmony Gold Mining Company Limited	|	HMY
+|	Harley-Davidson	|	HOG
+|	Hologic	|	HOLX
+|	At Home Group	|	HOME
+|	Honeywell	|	HON
+|	Hewlett Packard	|	HPE
+|	HP	|	HPQ
+|	H&R Block	|	HRB
+|	Hormel Foods Corporation	|	HRL
+|	Henry Schein	|	HSIC
+|	Host Hotels & Resorts	|	HST
+|	Huazhu Group	|	HTHT
+|	HubSpot	|	HUBS
+|	Humana	|	HUM
+|	Huntsman Corporation	|	HUN
+|	HUYA	|	HUYA
+|	Howmet Aerospace	|	HWM
+|	Iamgold Corp	|	IAG
+|	Interactive Brokers	|	IBKR
+|	IBM	|	IBM
+|	ICICI Bank	|	IBN
+|	Intercontinental Exchange	|	ICE
+|	Intercept Pharmaceuticals	|	ICPT
+|	IDEXX Laboratories	|	IDXX
+|	IGM Biosciences	|	IGMS
+|	International Game Technology	|	IGT
+|	Innovative Industrial Properties	|	IIPR
+|	Illumina	|	ILMN
+|	ImmunoGen	|	IMGN
+|	Incyte	|	INCY
+|	Infinera Corporation	|	INFN
+|	Infosys	|	INFY
+|	Inovio Pharmaceuticals In	|	INO
+|	Intel	|	INTC
+|	Intuit	|	INTU
+|	Invitation Homes	|	INVH
+|	International Paper Company	|	IP
+|	Interpublic Group of Companies	|	IPG
+|	iQIYI	|	IQ
+|	iRobot	|	IRBT
+|	Iron Mountain	|	IRM
+|	Investors Bancorp	|	ISBC
+|	Intuitive Surgical	|	ISRG
+|	Gartner	|	IT
+|	Itaú Unibanco	|	ITUB
+|	Illinois Tool Works	|	ITW
+|	Invesco Mortgage Capital	|	IVR
+|	Invesco	|	IVZ
+|	J.B. Hunt	|	JBHT
+|	JetBlue Airways	|	JBLU
+|	JD.com	|	JD
+|	Jefferies Financial Group	|	JEF
+|	Jack Henry & Associates	|	JKHY
+|	Jinkosolar Holding	|	JKS
+|	Jumia	|	JMIA
+|	J&J	|	JNJ
+|	Juniper Networks	|	JNPR
+|	JPMorgan	|	JPM
+|	Nordstrom	|	JWN
+|	Kellogg’s	|	K
+|	KAR Auction Services	|	KAR
+|	Keurig Dr Pepper	|	KDP
+|	KeyCorp.	|	KEY
+|	Keysight Technologies	|	KEYS
+|	Kinross Gold Corporation	|	KGC
+|	Kraft Heinz	|	KHC
+|	Kimco Realty Corporation	|	KIM
+|	KKR & Co	|	KKR
+|	Kimberly-Clark	|	KMB
+|	Kinder Morgan	|	KMI
+|	Knight-Swift Transportation Holdings	|	KNX
+|	Coca-Cola	|	KO
+|	Kroger Co	|	KR
+|	Kohl’s	|	KSS
+|	KT	|	KT
+|	Kratos	|	KTOS
+|	L Brands	|	LB
+|	Leidos Holdings	|	LDOS
+|	Lennar	|	LEN
+|	Leslies Inc	|	LESL
+|	Levi Strauss & Co	|	LEVI
+|	Li Auto Inc.	|	LI
+|	LKQ	|	LKQ
+|	Eli Lilly	|	LLY
+|	Lemonade	|	LMND
+|	Lockheed Martin	|	LMT
+|	Cheniere Energy	|	LNG
+|	Logitech International SA	|	LOGI
+|	Loma Negra Compania Industrial Argentina SA	|	LOMA
+|	Lowe’s	|	LOW
+|	LG Display	|	LPL
+|	Lam Research	|	LRCX
+|	Lattice Semiconductor Corp	|	LSCC
+|	LTC Properties	|	LTC
+|	Livent	|	LTHM
+|	Lululemon	|	LULU
+|	Lumen Technologies	|	LUMN
+|	Southwest Airlines	|	LUV
+|	Livongo Health	|	LVGO
+|	Las Vegas Sands	|	LVS
+|	LexinFintech Holdings	|	LX
+|	Lexicon Pharmaceuticals	|	LXRX
+|	Lyft	|	LYFT
+|	Live Nation Entertainment	|	LYV
+|	Macy’s	|	M
+|	Mastercard	|	MA
+|	Marriott	|	MAR
+|	Masco Corporation	|	MAS
+|	Mattel	|	MAT
+|	Maxeon Solar Technologies	|	MAXN
+|	Mobile TeleSystems PJSC	|	MBT
+|	McDonald’s	|	MCD
+|	McAfee Corp	|	MCFE
+|	Microchip Technology	|	MCHP
+|	Moody’s	|	MCO
+|	MongoDB	|	MDB
+|	Mondelez	|	MDLZ
+|	Allscripts Healthcare Solutions	|	MDRX
+|	Medtronic	|	MDT
+|	MercadoLibre	|	MELI
+|	Metlife	|	MET
+|	MFA Financial	|	MFA
+|	Mizuho Financial Group	|	MFG
+|	MoneyGram	|	MGI
+|	MGM Resorts	|	MGM
+|	Michaels Companies	|	MIK
+|	Markel Corp.	|	MKL
+|	Melco Crown Entertainment Limited	|	MLCO
+|	Marsh & McLennan	|	MMC
+|	3M	|	MMM
+|	Monster	|	MNST
+|	Altria	|	MO
+|	Momo	|	MOMO
+|	Morningstar	|	MORN
+|	Mosaic Company, The	|	MOS
+|	Marathon Petroleum	|	MPC
+|	MPLX LP	|	MPLX
+|	Medical Properties Trust	|	MPW
+|	Merck	|	MRK
+|	Moderna	|	MRNA
+|	Marathon Oil Corporation	|	MRO
+|	Marvell Technology	|	MRVL
+|	Morgan Stanley	|	MS
+|	Microsoft	|	MSFT
+|	Madison Square Garden Sports Corp	|	MSGS
+|	Motorola Solutions	|	MSI
+|	Datto Holding Corp	|	MSP
+|	Match Group	|	MTCH
+|	Mettler-Toledo International	|	MTD
+|	Matador Resources	|	MTDR
+|	MGIC Investment	|	MTG
+|	Micron Technology	|	MU
+|	MUFJ Financial Group	|	MUFG
+|	Murphy Oil Corporation	|	MUR
+|	McEwen Mining Inc	|	MUX
+|	Maxim Integrated	|	MXIM
+|	Navient Corporation	|	NAVI
+|	New Age Beverage	|	NBEV
+|	Neurocrine Biosciences	|	NBIX
+|	Norwegian Cruise Line Holdings	|	NCLH
+|	Nasdaq OMX Group	|	NDAQ
+|	NextEra Energy	|	NEE
+|	Newmont Mining	|	NEM
+|	Cloudflare	|	NET
+|	Netflix	|	NFLX
+|	NICE Systems	|	NICE
+|	NIO	|	NIO
+|	Nike	|	NKE
+|	Nikola Corporation	|	NKLA
+|	Nektar Therapeutics	|	NKTR
+|	NortonLifeLock	|	NLOK
+|	Annaly Capital Management	|	NLY
+|	Nomura	|	NMR
+|	Noah Holdings Limited	|	NOAH
+|	Northrop Grumman	|	NOC
+|	National Oilwell Varco	|	NOV
+|	Sunnova Energy International	|	NOVA
+|	ServiceNow	|	NOW
+|	NeoPhotonics	|	NPTN
+|	NRG Energy	|	NRG
+|	New Residential Investment	|	NRZ
+|	Norfolk Southern Corporation	|	NSC
+|	NetApp	|	NTAP
+|	Natura Holding S.A.	|	NTCO
+|	NetEase	|	NTES
+|	Nutanix	|	NTNX
+|	Northern Trust Corporation	|	NTRS
+|	Nucor	|	NUE
+|	NuVasive	|	NUVA
+|	Novavax	|	NVAX
+|	NovoCure	|	NVCR
+|	Nvidia	|	NVDA
+|	NVR	|	NVR
+|	Invitae Corporation	|	NVTA
+|	Newell Rubbermaid	|	NWL
+|	News Corporation	|	NWSA
+|	New York Community Bancorp	|	NYCB
+|	New York Mortgage Trust	|	NYMT
+|	New York Times	|	NYT
+|	Realty Income	|	O
+|	Oasis Petroleum	|	OASPQ
+|	Office Depot	|	ODP
+|	Oneok	|	OKE
+|	Okta	|	OKTA
+|	Olin	|	OLN
+|	Omnicom Group	|	OMC
+|	ON Semiconductor	|	ON
+|	Opko Health	|	OPK
+|	Ormat Technologies	|	ORA
+|	Oracle	|	ORCL
+|	O’Reilly Auto Parts	|	ORLY
+|	Oscar Health Inc.	|	OSCR
+|	Overstock.com	|	OSTK
+|	Otis Worldwide Corp	|	OTIS
+|	Encana Corporation	|	OVV
+|	Occidental	|	OXY
+|	Plains All American Pipeline	|	PAA
+|	Pan American Silver Corp	|	PAAS
+|	Pampa Energia SA	|	PAM
+|	Palo Alto Networks	|	PANW
+|	Paychex	|	PAYX
+|	People’s United Financial	|	PBCT
+|	PBF Energy	|	PBF
+|	Prestige Brands	|	PBH
+|	Pitney Bowes	|	PBI
+|	Petroleo Brasileiro S.A.	|	PBR
+|	Paccar	|	PCAR
+|	PG&E Corporation	|	PCG
+|	Pagerduty	|	PD
+|	PDC Energy Inc	|	PDCE
+|	Pinduoduo Inc	|	PDD
+|	Public Service Enterprise Group	|	PEG
+|	Penn National Gaming Inc	|	PENN
+|	PepsiCo	|	PEP
+|	Pfizer	|	PFE
+|	Proofpoint	|	PFPT
+|	P&G	|	PG
+|	Progressive	|	PGR
+|	Parker-Hannifin	|	PH
+|	PulteGroup	|	PHM
+|	Pinterest	|	PINS
+|	Anaplan	|	PLAN
+|	Prologis	|	PLD
+|	Planet Fitness	|	PLNT
+|	Palantir	|	PLTR
+|	Plug Power	|	PLUG
+|	Philip Morris	|	PM
+|	PNC Financial	|	PNC
+|	PPG Industries	|	PPG
+|	PPL Corporation	|	PPL
+|	Primerica	|	PRI
+|	Prudential Financial	|	PRU
+|	Pluralsight	|	PS
+|	Public Storage	|	PSA
+|	Pure Storage	|	PSTG
+|	Phillips 66	|	PSX
+|	Patterson-UTI Energy	|	PTEN
+|	Peloton Interactive	|	PTON
+|	Quanta Services	|	PWR
+|	Pioneer Natural Resources	|	PXD
+|	PayPal	|	PYPL
+|	Qualcomm	|	QCOM
+|	Qudian	|	QD
+|	Qualys	|	QLYS
+|	Qurate Retail	|	QRTEA
+|	Restaurant Brands International	|	QSR
+|	Q2 Holdings	|	QTWO
+|	Ferrari	|	RACE
+|	Rite Aid	|	RAD
+|	Roblox	|	RBLX
+|	Royal Caribbean Cruises	|	RCL
+|	Redfin Corporation	|	RDFN
+|	RealReal	|	REAL
+|	Renewable Energy Group	|	REGI
+|	Regeneron Pharmaceuticals	|	REGN
+|	RPC	|	RES
+|	Regions Financial	|	RF
+|	Restoration Hardware Holdings	|	RH
+|	Rocket Companies	|	RKT
+|	Ralph Lauren	|	RL
+|	Realogy Holdings	|	RLGY
+|	ResMed	|	RMD
+|	RingCentral	|	RNG
+|	Rockwell Automation	|	ROK
+|	Roku	|	ROKU
+|	Root Inc	|	ROOT
+|	Ross Stores	|	ROST
+|	Range Resources Corporation	|	RRC
+|	Republic Services	|	RSG
+|	Raytheon Technologies Corporation	|	RTX
+|	Sunrun	|	RUN
+|	Rackspace Technology	|	RXT
+|	Royal Bank of Canada	|	RY
+|	Spirit Airlines	|	SAVE
+|	Sally Beauty	|	SBH
+|	Companhia de Saneamento Basico	|	SBS
+|	Sibanye-Stillwater	|	SBSW
+|	Starbucks	|	SBUX
+|	Southern Copper	|	SCCO
+|	Charles Schwab	|	SCHW
+|	Sea Limited	|	SE
+|	Seaboard Corp.	|	SEB
+|	SolarEdge Technologies	|	SEDG
+|	Stitch Fix	|	SFIX
+|	Sprouts Farmers Market	|	SFM
+|	Sangamo Therapeutics	|	SGMO
+|	Shake Shack	|	SHAK
+|	Shopify	|	SHOP
+|	Sherwin-Williams	|	SHW
+|	Companhia Siderurgica Nacional	|	SID
+|	Sirius XM	|	SIRI
+|	Tanger Factory Outlet Centers	|	SKT
+|	Skechers	|	SKX
+|	Schlumberger	|	SLB
+|	US Silica Holdings	|	SLCA
+|	SLM Corporation	|	SLM
+|	SM Energy Company	|	SM
+|	Smartsheet	|	SMAR
+|	Sumitomo Mitsui Financial Group	|	SMFG
+|	The Scotts Miracle-Gro Company	|	SMG
+|	Snap	|	SNAP
+|	Sony	|	SONY
+|	Snowflake	|	SNOW
+|	Synopsys	|	SNPS
+|	Southern Company	|	SO
+|	Sogou	|	SOGO
+|	Virgin Galactic	|	SPCE
+|	Simon Property	|	SPG
+|	S&P	|	SPGI
+|	Splunk	|	SPLK
+|	Spotify	|	SPOT
+|	SunPower	|	SPWR
+|	Square	|	SQ
+|	Chemical & Mining Co. of Chile	|	SQM
+|	Sempra Energy	|	SRE
+|	SS&C Technologies Holdings	|	SSNC
+|	Sutter Rock Capital	|	SSSS
+|	Extended Stay America	|	STAY
+|	Stellantis	|	STLA
+|	Steel Dynamics	|	STLD
+|	StoneCo	|	STNE
+|	State Street	|	STT
+|	Seagate Technology	|	STX
+|	Constellation Brands	|	STZ
+|	Suncor Energy	|	SU
+|	Sumo Logic Inc	|	SUMO
+|	Grupo Supervielle	|	SUPV
+|	Stanley Black & Decker	|	SWK
+|	Skyworks Solutions	|	SWKS
+|	Southwestern Energy	|	SWN
+|	Synchrony Financial	|	SYF
+|	Stryker	|	SYK
+|	Sysco	|	SYY
+|	AT&T	|	T
+|	Takeda Pharmaceutical	|	TAK
+|	Tal Education Group	|	TAL
+|	Trip.com	|	TCOM
+|	Toronto-Dominion Bank	|	TD
+|	Teladoc	|	TDOC
+|	Atlassian Corporation Plc	|	TEAM
+|	Teck Resources	|	TECK
+|	Teradyne	|	TER
+|	Teva Pharmaceutical Industries	|	TEVA
+|	Truist Financial Corp	|	TFC
+|	Teleflex	|	TFX
+|	Triumph	|	TGI
+|	Target	|	TGT
+|	UP Fintech	|	TIGR
+|	TIM SA	|	TIMB
+|	TJX Companies Inc	|	TJX
+|	Tailored Brands	|	TLRDQ
+|	Toyota	|	TM
+|	Tencent Music Entertainment Group	|	TME
+|	Thermo Fisher Scientific	|	TMO
+|	T-Mobile	|	TMUS
+|	TPI Composites	|	TPIC
+|	Tapestry	|	TPR
+|	Tempur Sealy	|	TPX
+|	Targa Resources	|	TRGP
+|	TripAdvisor	|	TRIP
+|	T. Rowe Price	|	TROW
+|	Travelers	|	TRV
+|	Tesla	|	TSLA
+|	Taiwan Semiconductor	|	TSM
+|	Tyson Foods	|	TSN
+|	Trade Desk	|	TTD
+|	Tata Motors	|	TTM
+|	T2 Interactive	|	TTWO
+|	Grupo Televisa, S.A.B.	|	TV
+|	Tradeweb Markets	|	TW
+|	Twilio	|	TWLO
+|	Two Harbors Investment	|	TWO
+|	2U	|	TWOU
+|	Twitter	|	TWTR
+|	TherapeuticsMD	|	TXMD
+|	Texas Instruments	|	TXN
+|	Unity Software	|	U
+|	Under Armour (Class C)	|	UA
+|	Under Armour	|	UAA
+|	United Continental Holdings	|	UAL
+|	Uber	|	UBER
+|	Ultra Clean Holdings	|	UCTT
+|	Ultrapar Participações	|	UGP
+|	Ulta Beauty	|	ULTA
+|	United Microelectronics	|	UMC
+|	UnitedHealth	|	UNH
+|	Uniti Group	|	UNIT
+|	Unum Group	|	UNM
+|	Union Pacific	|	UNP
+|	UPS	|	UPS
+|	Urban Outfitters	|	URBN
+|	US Bancorp	|	USB
+|	Uxin	|	UXIN
+|	Visa	|	V
+|	Vale	|	VALE
+|	Veeva Systems	|	VEEV
+|	Vereit	|	VER
+|	VF Corporation	|	VFC
+|	Vonage Holdings	|	VG
+|	Vector Group	|	VGR
+|	ViacomCBS	|	VIACA
+|	VICI Properties	|	VICI
+|	Vipshop Holdings Limited	|	VIPS
+|	Vir Biotechnology Inc	|	VIR
+|	Telefonica Brasil	|	VIV
+|	Valero	|	VLO
+|	VMware	|	VMW
+|	Vroom Inc	|	VRM
+|	Verisk Analytics	|	VRSK
+|	Verisign	|	VRSN
+|	Vertex Pharmaceuticals	|	VRTX
+|	Vistra Energy	|	VST
+|	Ventas	|	VTR
+|	Viatris	|	VTRS
+|	Verizon	|	VZ
+|	Wayfair	|	W
+|	WABTEC Corporation	|	WAB
+|	Weibo	|	WB
+|	Walgreens Boots	|	WBA
+|	Waste Connections	|	WCN
+|	Workday	|	WDAY
+|	Western Digital	|	WDC
+|	Welltower	|	WELL
+|	Wendy’s Company	|	WEN
+|	WEX	|	WEX
+|	Wells Fargo	|	WFC
+|	Wingstop	|	WING
+|	Wipro	|	WIT
+|	Wix.com Ltd	|	WIX
+|	Workhorse Group Inc	|	WKHS
+|	Waste Management	|	WM
+|	Williams Companies	|	WMB
+|	Walmart	|	WMT
+|	Slack	|	WORK
+|	WestRock	|	WRK
+|	White Mountains Insurance Group	|	WTM
+|	Western Union	|	WU
+|	World Wrestling Entertainment	|	WWE
+|	Weyerhaeuser Co.	|	WY
+|	Wynn Resorts	|	WYNN
+|	United States Steel	|	X
+|	Cimarex Energy	|	XEC
+|	Xcel Energy	|	XEL
+|	Exagen	|	XGN
+|	Xilinx	|	XLNX
+|	Exxon Mobil	|	XOM
+|	Xpeng	|	XPEV
+|	Xerox	|	XRX
+|	YETI Holdings Inc	|	YETI
+|	YPF	|	YPF
+|	Yum!	|	YUM
+|	Yum!	|	YUMC
+|	YY	|	YY
+|	Zillow Group	|	Z
+|	Zimmer Biomet	|	ZBH
+|	Zebra Technologies	|	ZBRA
+|	Zendesk	|	ZEN
+|	Zions Bancorporation	|	ZION
+|	Zoom	|	ZM
+|	Zynga	|	ZNGA
+|	China Southern Airlines	|	ZNH
+|	Zscaler	|	ZS
+|	ZTO Express	|	ZTO
+|	Zoetis	|	ZTS
