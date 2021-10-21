@@ -96,7 +96,6 @@ class AlpacaBuySell():
 
     # Submit an order if quantity is above 0.
     def submitOrder(self, qty, stock, side, resp = None):
-
         if resp is None:
             resp= []
         
@@ -137,7 +136,7 @@ class AlpacaBuySell():
         return self.alpaca.close_position(sym)
 
     def close_all_postions(self):
-        return self.alpaca.close_all_position()
+        return self.alpaca.close_all_positions()
         
     async def stream_conn(self):
         conn = StreamConn()

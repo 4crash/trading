@@ -14,6 +14,7 @@ from alpaca_examples.utils import Utils
 from stockstats import StockDataFrame
 import logging
 import time
+from dataclasses import dataclass
 
 # create logger
 logger = logging.getLogger("buy_sell")
@@ -31,9 +32,13 @@ class OpenTradesSource(Enum):
     ALPACA="alpaca"
     DB = "db"
     
-
-class BuySell():
+@dataclass
+class TradingProvider:
+    name:str
+    instance:AlpacaBuySell
     
+class BuySell():
+    trading_provider: TradingProvider
     # buyed_titles = [{"buy_price","sell_price", "sym", "shares_amount", "buy_date", "sell_date", "profit", "remain_credit"}]
     # credit = {"start_amount", "curr_amount"}
     
@@ -43,9 +48,8 @@ class BuySell():
                  table_name="buy_sell_bt"):
 
 
-        self.trading_provider = None
         if trading_provider == TradingProviders.ALPACA:
-            self.trading_provider = {"name": trading_provider, "instance": AlpacaBuySell()}
+            self.trading_provider = TradingProvider(name=trading_provider, instance = AlpacaBuySell())
 
         self.trading_strategy = trading_strategy
         # self.credit["start_amount"] = 1000
@@ -55,7 +59,7 @@ class BuySell():
         # self.startCredit = 10000
         self.credit = {'curr_amount':10000, "start_amount":10000}
         
-        self.money:float = 10000
+        self.money:float = 100000
         self.prev_stock = None
         self.buyed_stocks = 0
         self.first_stock = pd.DataFrame()
@@ -76,12 +80,13 @@ class BuySell():
         self.table_name = table_name
         # self.tv = TradingVars()
         if fill_open_trades == OpenTradesSource.DB:
-            self.buy_sell_open = self.fill_trades_from_db()
+            self.buy_sell_open = self.fill_open_trades_from_db()
         elif fill_open_trades == OpenTradesSource.ALPACA:
+            # FIX DOESNT WORK 
             self.buy_sell_open = self.fill_trades_from_alpaca()
 
     def fill_trades_from_alpaca(self):
-        positions =  self.trading_provider["instance"].get_positions()
+        positions = self.trading_provider.instance.get_positions()
         # logger.debug(positions['symbol'])
         # todo parse this motherfucker to buy:sell structure
         for item in positions:
@@ -89,11 +94,18 @@ class BuySell():
         return positions
         
         
-    def fill_trades_from_db(self):
+    def fill_open_trades_from_db(self):
         sql_string = f"select * from {self.table_name} where state='open'"
-        print(sql_string)
+        logger.info(sql_string)
+        try:
+            return pd.read_sql(sql_string, con=self.db.engine)
+        except:
+            return pd.DataFrame()
+
+    def fill_closed_trades_from_db(self):
+        sql_string = f"select * from {self.table_name} where state='closed'"
+        logger.info(sql_string)
         return pd.read_sql(sql_string, con=self.db.engine)
-        
         
         
     # def sell_stock(self, stock:Union[pd.DataFrame,StockDataFrame],  sell_price: float= None, table_name: str= "buy_sell_bt",  shares_amount:float = 1)->None:
@@ -208,13 +220,13 @@ class BuySell():
             self.db.save_data(table_name=table_name,
                               data=self.buy_sell_closed, if_exists="replace")
         # sell stocks on provider platform
-        if self.trading_provider is not None and self.trading_provider["name"] == TradingProviders.ALPACA:
+        if self.trading_provider is not None and self.trading_provider.name == TradingProviders.ALPACA:
 
             if self.close_alpaca_postition == False:
-                self.trading_provider["instance"].submitOrder(
+                self.trading_provider.instance.submitOrder(
                     qty, sym, "sell")
             else:
-                self.trading_provider["instance"].close_postion(sym)
+                self.trading_provider.instance.close_postions(sym)
             
             
             return buyed_stock
@@ -242,9 +254,10 @@ class BuySell():
             logger.warning("not enough money")
         if already_buyed:
             logger.warning("symbol is already buyed")
-        
+        logger.info(money)
+        logger.debug(already_buyed)
         if money > 0 and already_buyed:
-               
+            logger.debug("sdfsd fsdf sdf sdf sdf sdf dsf sd f")
             self.money = money
             self.buyed_stocks += qty
         
@@ -269,17 +282,29 @@ class BuySell():
             self.last_buyed_stock = buy_sell_stock
             self.db.save_data(table_name=table_name,
                             data=self.buy_sell_open, if_exists="replace")
-
+           
+            logger.debug(self.trading_provider)
             # buy stocks on provider platform
-            if self.trading_provider is not None and self.trading_provider["name"] == TradingProviders.ALPACA:
-                self.trading_provider["instance"].submitOrder(
+            if self.trading_provider is not None and self.trading_provider.name == TradingProviders.ALPACA:
+                logger.debug("BUYIIIIIIIIIIIIIIIIIIIIIIIIIIIING")
+                self.trading_provider.instance.submitOrder(
                     qty, stock.tail(1)["sym"], "buy")
                 time.sleep(5)
 
         return buy_sell_stock
     
     def close_all_alpaca_postitions(self):
-        self.trading_provider["instance"].close_all_postion()
+        self.trading_provider.instance.close_all_postions()
+        
+    def clean_all_db_postitions(self):
+        # self.buy_sell_closed = self.fill_closed_trades_from_db()
+        
+        self.db.save_data(table_name=self.table_name,
+                          data=pd.DataFrame(), if_exists="append")
+
+        # self.db.save_data(table_name=self.table_name,
+        #                   data=self.buy_sell_closed, if_exists="replace")
+        
 
     def get_buyed_symbols_on_alpaca(self):
         

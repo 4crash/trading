@@ -40,8 +40,9 @@ class Trading():
                 logging.info(df_lr_raw.tail(1).iloc[0].prob_1)
                 if df_lr_raw.tail(1).iloc[0].prob_1 > prob_perc:
                    self.bs.buy_stock_t(stock=df_lr_raw.tail(
-                       1).iloc[0], price=df_lr_raw.tail(1).iloc[0].close, qty=1)
+                       1).iloc[0], price=df_lr_raw.tail(1).iloc[0].close, qty=1, buy_already_buyed=True)
                    logging.info("Buy" + sym)
+                   Utils.countdown(10)
                 elif df_lr_raw.tail(1).iloc[0].prob_1 < prob_perc and sym in self.bs.buy_sell_open["sym"]:
                     self.bs.sell_stock_t(sym=sym, price=df_lr_raw.tail(1).iloc[0].close, qty=1)
                     logging.info("Sell" + sym)
@@ -55,7 +56,12 @@ class Trading():
             logging.error("no data")
             
 
+    def close_all_alpaca_postitions(self):
+        self.bs.close_all_alpaca_postitions()
 
+    def close_all_db_postitions(self):
+        self.bs.clean_all_db_postitions()
+        
     @staticmethod
     def logistic_regression_raw(db:Database ,symbol="SPY"):
         df = db.load_data(
@@ -108,9 +114,16 @@ class Trading():
         df["sym"] = symbol
         return df
 
-tr = Trading()
-tr.lr_best_candidate()
+# tr = Trading()
+# tr.close_all_alpaca_postitions()
+# tr.close_all_db_postitions()
+# tr.lr_best_candidate()
 while True:
-    if True or datetime.today().weekday not in [5,6] and datetime.today().hour in [16,21] and datetime.today().minute == 45:
+    if datetime.today().weekday not in [5,6] and datetime.today().hour in [16,21] and datetime.today().minute == 45:
+        tr = Trading()
+        tr.close_all_db_postitions()
+        tr.close_all_alpaca_postitions()
         tr.lr_best_candidate()
-    Utils.countdown(30)
+        logging.info(datetime.now())
+        del tr
+    sleep(30)
