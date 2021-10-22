@@ -1,4 +1,5 @@
 from datetime import datetime
+import logging
 import time
 from email.message import EmailMessage
 import smtplib
@@ -11,6 +12,7 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+logger = logging.Logger(name = "Utils", level=logging.INFO)
 class Utils(object):
     """
     docstring
@@ -23,10 +25,10 @@ class Utils(object):
         while t:
             mins, secs = divmod(t, 60)
             timeformat = '{:02d}:{:02d}'.format(mins, secs)
-            print(timeformat, end='\r')
+            logger.info(timeformat, end='\r')
             time.sleep(1)
             t -= 1
-        print('Continue!\n\n\n\n\n')
+        logger.info('Continue!')
 
     @staticmethod
     def fig_to_mail(plt):
@@ -128,9 +130,9 @@ class Utils(object):
         # server.sendmail(sent_from, to,  email_text)
         server.close()
 
-        #     print('Email sent!')
+        #     logger.debug('Email sent!')
         # except:
-        #     print('Something went wrong...')
+        #     logger.debug('Something went wrong...')
 
         # def save_chart(self):
         #     plt.figure()
@@ -148,17 +150,17 @@ class Utils(object):
         #     while t:
         #         mins, secs = divmod(t, 60)
         #         timeformat = '{:02d}:{:02d}'.format(mins, secs)
-        #         print(timeformat, end='\r')
+        #         logger.debug(timeformat, end='\r')
         #         time.sleep(1)
         #         t -= 1
-        #     print('Continue!\n\n\n\n\n')
+        #     logger.debug('Continue!\n\n\n\n\n')
         
     @staticmethod
     def convert_to_minutes(data: str) -> int:
         minutes = 0
         
         if not isinstance(data, str) and not isinstance(data, int):
-            print("ERROR: Data for convertion must be str or int \r\n")
+            logger.error("ERROR: Data for convertion must be str or int \r\n")
             return None
             
         if isinstance(data, int):
@@ -180,15 +182,15 @@ class Utils(object):
             try:
                 minutes = int(data)
             except:
-                print("Pleas add correct timeformat eg: 1m, 1h, 1d or 1")
+                logger.error("Please add correct timeformat eg: 1m, 1h, 1d or 1")
 
         
         return minutes
 
     @staticmethod
     def calc_perc( first, last, round_num=2):
-        # print(first)
-        # print(last)
+        # logger.debug(first)
+        # logger.debug(last)
         if first is not None and last is not None \
             and (isinstance(first, str) or isinstance(first, float) or isinstance(first, int)) \
             and (isinstance(last, str) or isinstance(last, float) or isinstance(last, int)):
@@ -196,7 +198,7 @@ class Utils(object):
             last = float(last)
             if first == 0:
                 first = 0.0000001
-            # print("calc_perc() - done")
+            # logger.debug("calc_perc() - done")
             return round((last-first) / (first/100), round_num)
         
         
@@ -234,7 +236,7 @@ class Utils(object):
             out = pd.merge(data, flpd.round(2), on=[
                            "sym"], how="right", right_index=True)
             out.rename(columns={"close_y":"flpd","close_x":"close"},inplace=True)
-            # print(out.iloc[0])
+            # logger.debug(out.iloc[0])
         
         return out
             

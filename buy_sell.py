@@ -257,7 +257,7 @@ class BuySell():
         logger.info(money)
         logger.debug(already_buyed)
         if money > 0 and already_buyed:
-            logger.debug("sdfsd fsdf sdf sdf sdf sdf dsf sd f")
+            logger.debug("MOENY OK........................ ALREADY_BUUYED................OK")
             self.money = money
             self.buyed_stocks += qty
         
@@ -280,17 +280,21 @@ class BuySell():
             logger.info("buying: " + str(buy_sell_stock))
             self.buy_sell_open = self.buy_sell_open.append(buy_sell_stock)
             self.last_buyed_stock = buy_sell_stock
-            self.db.save_data(table_name=table_name,
-                            data=self.buy_sell_open, if_exists="replace")
-           
             logger.debug(self.trading_provider)
+            logger.debug("TRADIGN PROVIDER")
             # buy stocks on provider platform
             if self.trading_provider is not None and self.trading_provider.name == TradingProviders.ALPACA:
-                logger.debug("BUYIIIIIIIIIIIIIIIIIIIIIIIIIIIING")
+                logger.debug("BUYIIIIIIIIIIIIIIIIIIIIIIIIIIIING ON ALPACA")
                 self.trading_provider.instance.submitOrder(
                     qty, stock.tail(1)["sym"], "buy")
                 time.sleep(5)
 
+            try:
+                self.db.save_data(table_name=table_name,
+                                  data=self.buy_sell_open, if_exists="replace")
+            except Exception as e: 
+                logger.error("Database save failed:" + str(e))
+                
         return buy_sell_stock
     
     def close_all_alpaca_postitions(self):

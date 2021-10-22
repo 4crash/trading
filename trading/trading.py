@@ -13,7 +13,8 @@ from alpaca_examples.fin_i import FinI
 from alpaca_examples.utils import Utils
 import pandas as pd
 import ta
-logging.basicConfig(level = logging.DEBUG)
+logger = logging.getLogger("trading.py")
+logger.setLevel(logging.INFO)
 
 
 
@@ -32,28 +33,42 @@ class Trading():
         df_best_buy = pd.DataFrame()
         symbols = self.db.get_symbols()
         prob_perc = 0.9
-        for sym in symbols:
-            try:
-                logging.info(f"filling: {sym}")
-                df_lr_raw = self.logistic_regression_raw(self.db, sym)
-                df_best_buy = df_best_buy.append(df_lr_raw.tail(1))
-                logging.info(df_lr_raw.tail(1).iloc[0].prob_1)
-                if df_lr_raw.tail(1).iloc[0].prob_1 > prob_perc:
-                   self.bs.buy_stock_t(stock=df_lr_raw.tail(
-                       1).iloc[0], price=df_lr_raw.tail(1).iloc[0].close, qty=1, buy_already_buyed=True)
-                   logging.info("Buy" + sym)
-                   Utils.countdown(10)
-                elif df_lr_raw.tail(1).iloc[0].prob_1 < prob_perc and sym in self.bs.buy_sell_open["sym"]:
-                    self.bs.sell_stock_t(sym=sym, price=df_lr_raw.tail(1).iloc[0].close, qty=1)
-                    logging.info("Sell" + sym)
-                   
-            except Exception as e:
-                logging.info(e)
+        spy_lr_raw = self.logistic_regression_raw(self.db, symbol="SPY")
+        
+        if spy_lr_raw.tail(1).iloc[0].prob_1 > 0.7:
+            for sym in symbols:
+                try:
+                    logging.info(f"filling: {sym}")
+                    df_lr_raw = self.logistic_regression_raw(self.db, sym)
+                    df_best_buy = df_best_buy.append(df_lr_raw.tail(1))
+                    logging.info(sym + str(df_lr_raw.tail(1).iloc[0].prob_1))
+                    logging.info("SPY: " + str(spy_lr_raw.tail(1).iloc[0].prob_1))
+                    
+                    # BUY
+                    if  df_lr_raw.tail(1).iloc[0].prob_1 > prob_perc:
+                        self.bs.buy_stock_t(stock=df_lr_raw.tail(
+                            1).iloc[0], price=df_lr_raw.tail(1).iloc[0].close, qty=1, buy_already_buyed=True)
+                        logging.info("Buy" + sym)
+                        Utils.countdown(10)
+                        
+                    # SELL
+                    elif df_lr_raw.tail(1).iloc[0].prob_1 < prob_perc and sym in self.bs.buy_sell_open["sym"]:
+                        self.bs.sell_stock_t(sym=sym, price=df_lr_raw.tail(1).iloc[0].close, qty=1)
+                        logging.info("Sell" + sym)
+                        
+                except Exception as e:
+                    logging.info(e)
 
-        if len(df_best_buy) > 0:
-            logging.info(df_best_buy.sort_values(by="prob_1"))
+            if len(df_best_buy) > 0:
+                logging.info(df_best_buy.sort_values(by="prob_1"))
+            else:
+                logging.error("no data")
         else:
-            logging.error("no data")
+            self.close_all_alpaca_postitions()
+            self.close_all_db_postitions()
+            logger.info("Buy prob: " + str(spy_lr_raw.tail(
+                1).iloc[0].prob_1) +" Sell prob: " + str(spy_lr_raw.tail(1).iloc[0].prob_0))
+            
             
 
     def close_all_alpaca_postitions(self):
@@ -114,16 +129,17 @@ class Trading():
         df["sym"] = symbol
         return df
 
-# tr = Trading()
+tr = Trading()
 # tr.close_all_alpaca_postitions()
 # tr.close_all_db_postitions()
 # tr.lr_best_candidate()
+logger.info("Start: " + str(datetime.now()))
 while True:
     if datetime.today().weekday not in [5,6] and datetime.today().hour in [16,21] and datetime.today().minute == 45:
         tr = Trading()
         tr.close_all_db_postitions()
         tr.close_all_alpaca_postitions()
         tr.lr_best_candidate()
-        logging.info(datetime.now())
+        logger.info(datetime.now())
         del tr
     sleep(30)
