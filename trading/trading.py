@@ -26,6 +26,7 @@ class Trading():
                  trading_provider=TradingProviders.ALPACA,
                  fill_open_trades=OpenTradesSource.DB)
         self.bs.close_alpaca_postition = True
+        self.spy_limit = 0
         
     
     def lr_best_candidate(self):
@@ -35,7 +36,7 @@ class Trading():
         prob_perc = 0.9
         spy_lr_raw = self.logistic_regression_raw(self.db, symbol="SPY")
         
-        if spy_lr_raw.tail(1).iloc[0].prob_1 > 0.7:
+        if spy_lr_raw.tail(1).iloc[0].prob_1 > self.spy_limit:
             for sym in symbols:
                 try:
                     logging.info(f"filling: {sym}")

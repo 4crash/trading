@@ -19,7 +19,7 @@ class refreshFinancialsSync():
         # df.head()
 
     def getFinancials(self):
-        dfs = pd.read_csv("../datasets/RevolutStock.csv", delimiter="|")
+        dfs = pd.read_csv("./datasets/RevolutStock.csv", delimiter="|")
         dff = pd.DataFrame()
         # dfs = {"Symbol": "AAPL"}
         for row in dfs["Symbol"]:

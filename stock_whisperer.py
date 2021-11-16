@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 import sys
 import numpy
 sys.path.append('../')
-import market_src.alpaca2Login as al
+import alpaca2Login as al
 # from market_app.overview.refreshFinancials import refreshFinancials
 
 import numpy as np
@@ -19,17 +19,17 @@ utc = pytz.UTC
 # from sklearn import linear_model, preprocessing
 from pytz import timezone
 localtz = timezone('Europe/Prague')
-from .utils import Utils
-from .market_db import Database
-from .buy_sell import BuySell
-from .plot_i import PlotI
-from .fin_i import FinI 
-from .alpaca_buy_sell import AlpacaBuySell
-from .check_indicators import CheckIndicators as chi
-from .market_db import TableName
-from .stock_mess import StockMess
-from .sector_stats import SectorStats
-from .back_trader import BackTrader
+from utils import Utils
+from market_db import Database
+from buy_sell import BuySell
+from plot_i import PlotI
+from fin_i import FinI 
+from alpaca_buy_sell import AlpacaBuySell
+from check_indicators import CheckIndicators as chi
+from market_db import TableName
+from stock_mess import StockMess
+from sector_stats import SectorStats
+from back_trader import BackTrader
 
 class StockWhisperer():
     def __init__(self):

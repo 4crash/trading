@@ -3,10 +3,10 @@ import pandas as pd
 from sqlalchemy import create_engine
 import sys
 sys.path.append('../')
-from market_src import alpaca2Login as al
+import alpaca2Login as al
 # from alpaca_examples.back_tester import BackTest
-from .utils import Utils
-from .market_db import Database, TableName
+from utils import Utils
+from market_db import Database, TableName
 from datetime import datetime, timedelta
 import pytz
 utc=pytz.UTC
@@ -153,7 +153,7 @@ class getData():
     # param interval could be 1,5,15, 0 - for day
     def start_download(self, min_interval, start_date, infinity = False):
         
-        dfs = pd.read_csv("../datasets/RevolutStock.csv", delimiter="|")
+        dfs = pd.read_csv("./datasets/RevolutStock.csv", delimiter="|")
         print(start_date)
         min_interval = int(min_interval)
 

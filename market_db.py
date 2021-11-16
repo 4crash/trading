@@ -2,8 +2,8 @@
 import sys
 from typing import List
 sys.path.append('../')
-from alpaca_examples.utils import Utils
-from alpaca_examples.singleton import Singleton
+from utils import Utils
+from singleton import Singleton
 from pytz import timezone
 import pandas as pd
 from sqlalchemy import create_engine

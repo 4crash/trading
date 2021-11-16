@@ -5,7 +5,7 @@ import ta
 import numpy as np
 from stockstats import StockDataFrame as sdf
 from datetime import datetime, timedelta
-from alpaca_examples.utils import Utils
+from utils import Utils
 
 class FinI(object):
 

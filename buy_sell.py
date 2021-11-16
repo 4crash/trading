@@ -1,16 +1,16 @@
 
-from alpaca_examples.martingale import ALPACA_API_KEY
+from martingale import ALPACA_API_KEY
 from datetime import datetime
 import types
 from typing import Dict, Optional, Union
 import pandas as pd
 from traitlets.traitlets import Bool, Enum
-from alpaca_examples.market_db import Database, TableName
+from market_db import Database, TableName
 from matplotlib import pyplot as plt
-from alpaca_examples.plot_i import PlotI
-from alpaca_examples.fin_i import FinI
-from alpaca_examples.alpaca_buy_sell import AlpacaBuySell
-from alpaca_examples.utils import Utils
+from plot_i import PlotI
+from fin_i import FinI
+from alpaca_buy_sell import AlpacaBuySell
+from utils import Utils
 from stockstats import StockDataFrame
 import logging
 import time
@@ -243,7 +243,6 @@ class BuySell():
             self.first_buyed_price = price
 
         logger.warning(self.buy_sell_open)
-        
         
         money:float = (self.money - (price * qty))
         

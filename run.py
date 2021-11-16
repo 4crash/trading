@@ -3,9 +3,9 @@ import sys
 sys.path.append('../')
 from market_app.overview.refreshFinancials import refreshFinancials
 import asyncio
-from alpaca_examples.get_data import getData
-from alpaca_examples.stock_whisperer import StockWhisperer
-from alpaca_examples.market_db import TableName
+from get_data import getData
+from stock_whisperer import StockWhisperer
+from market_db import TableName
 from datetime import datetime, timedelta
 from pytz import timezone
 import pytz
@@ -75,7 +75,7 @@ if itype == "df":
 
 # FIND BEST RSI SETTINGS BY BACKTESTING BOLL MACD RSI
 # elif itype == "fbrm" or itype=="tr":
-#     from alpaca_examples.back_trader import BackTrader
+#     from back_trader import BackTrader
 #     btr = BackTrader()
 #     # bt.stock_stats.KDJ_WINDOW = 14
 #     if not btr.db.time_from:
@@ -85,7 +85,7 @@ if itype == "df":
 
 # back test strategy 1 bollinger bands with fibb levels
 elif itype == "ttr":
-    from alpaca_examples.back_trader import BackTrader
+    from back_trader import BackTrader
     btr = BackTrader()
     if not btr.db.time_from:
         btr.db.set_time_from("-365d")
@@ -94,7 +94,7 @@ elif itype == "ttr":
     
 # test trading strategy
 elif itype == "ttrs":
-    from alpaca_examples.back_trader import BackTrader
+    from back_trader import BackTrader
     btr = BackTrader()
     btr.symbols = sym
     # bt.stock_stats.KDJ_WINDOW = 14
@@ -172,7 +172,7 @@ elif itype == "tst":
     # sw.sectors_day_stats(table_name = TableName.DAY)
     #  bt.save_chart()
     
-    from alpaca_examples.back_tester import BackTest
+    from back_tester import BackTest
     bt = BackTest()
     bt.test_buy_alg()
 
@@ -235,7 +235,7 @@ elif itype == "dsc":
 
 # overnight stats
 elif itype == "on":
-    from alpaca_examples.back_trader import BackTrader
+    from back_trader import BackTrader
     btr = BackTrader()
     btr.symbols = sw.symbols
     btr.calculate_overnight(time_from="-120d")

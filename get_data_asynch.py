@@ -144,7 +144,7 @@ class getDataAsynch():
     # param interval could be 1,5,15, 0 - for day
     def start_download(self, min_interval, start_date):
         
-        dfs = pd.read_csv("../datasets/RevolutStock.csv", delimiter="|")
+        dfs = pd.read_csv("./datasets/RevolutStock.csv", delimiter="|")
         print(start_date)
         min_interval = int(min_interval)
 

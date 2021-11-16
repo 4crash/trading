@@ -1,7 +1,7 @@
 import sys
 args = sys.argv
 sys.path.append("../")
-from alpaca_examples.market_db import Database, TableName
+from market_db import Database, TableName
 from typing import Tuple
 import numpy
 import matplotlib.pyplot as plt

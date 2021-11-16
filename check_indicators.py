@@ -4,7 +4,7 @@ from typing import List, Optional, Tuple
 
 import pandas as pd
 path.append("../")
-from alpaca_examples.utils import Utils
+from utils import Utils
 
 def min_3_rows(func):
     def wrapper(*args, **kwargs):

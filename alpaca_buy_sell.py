@@ -6,7 +6,7 @@ import time
 import datetime
 import sys
 sys.path.append('../')
-import market_src.alpaca2Login as al
+import alpaca2Login as al
 import logging
 logging.basicConfig(level=logging.INFO)
 class AlpacaBuySell():

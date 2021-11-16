@@ -28,14 +28,14 @@ import dash_html_components as html
 import dash_core_components as dcc
 import dash
 import plotly.graph_objects as go
-from alpaca_examples.stock_whisperer import StockWhisperer
-from alpaca_examples.stock_mess import StockMess
-from alpaca_examples.plot_p import PlotP
-from alpaca_examples.fin_i import FinI
-from alpaca_examples.utils import Utils
-from alpaca_examples.market_db import Database, TableName
-from alpaca_examples.check_indicators import CheckIndicators as chi
-from alpaca_examples.buy_sell import BuySell
+from stock_whisperer import StockWhisperer
+from stock_mess import StockMess
+from plot_p import PlotP
+from fin_i import FinI
+from utils import Utils
+from market_db import Database, TableName
+from check_indicators import CheckIndicators as chi
+from buy_sell import BuySell
 import asyncio
 from datetime import datetime
 import numpy as np
@@ -103,7 +103,7 @@ class SlBt():
     def left_menu(self):
 
         self.time_from = st.sidebar.text_input(
-            "Time from now -1m, -1h, -1d,", value="-120d")
+            "Time from now -1m, -1h, -1d,", value="-120d") 
         self.time_to = st.sidebar.text_input("Time to 1m, 1h, 1d,")
 
         self.portfolio = st.sidebar.text_input(

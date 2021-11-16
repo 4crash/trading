@@ -3,8 +3,8 @@ import mplfinance as mpf
 import sys
 import numpy
 sys.path.append('../')
-from alpaca_examples.utils import Utils
-from alpaca_examples.fin_i import FinI
+from utils import Utils
+from fin_i import FinI
 from matplotlib.dates import date2num
 import pandas as pd
 

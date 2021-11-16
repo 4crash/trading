@@ -1,19 +1,18 @@
 from typing import List, Literal
-from alpaca_examples.indicators import Indicators
+from indicators import Indicators
 import logging
 import sys
 sys.path.append('../')
-from _datetime import timedelta
-from alpaca_examples.back_tester import TableName
-from alpaca_examples.fin_i import FinI
-from alpaca_examples.utils import Utils
+from back_tester import TableName
+from fin_i import FinI
+from utils import Utils
 import pandas as pd
 from stockstats import StockDataFrame as sdf
-from alpaca_examples.market_db import Database
-from alpaca_examples.buy_sell import BuySell
+from market_db import Database
+from buy_sell import BuySell
 import numpy
-from datetime import datetime
-from alpaca_examples.check_indicators import CheckIndicators
+from datetime import datetime, timedelta
+from check_indicators import CheckIndicators
 class BackTrader(object):
     """
     docstring

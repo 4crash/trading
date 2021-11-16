@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../')
 
-from alpaca_examples.singleton import Singleton
+from singleton import Singleton
 from datetime import timedelta
 import matplotlib.pyplot as plt
 from stockstats import StockDataFrame as sdf
@@ -11,16 +11,16 @@ import pandas as pd
 
 import pytz
 utc = pytz.UTC
-# from alpaca_examples.buy_sell import BuySell
+# from buy_sell import BuySell
 # from sklearn import linear_model, preprocessing
 from pytz import timezone
 localtz = timezone('Europe/Prague')
-from alpaca_examples.utils import Utils
-from alpaca_examples.market_db import Database
-from alpaca_examples.plot_i import PlotI
-from alpaca_examples.fin_i import FinI 
-from alpaca_examples.check_indicators import CheckIndicators as chi
-from alpaca_examples.market_db import TableName
+from utils import Utils
+from market_db import Database
+from plot_i import PlotI
+from fin_i import FinI 
+from check_indicators import CheckIndicators as chi
+from market_db import TableName
 import asyncio
 import io
 

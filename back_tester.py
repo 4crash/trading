@@ -7,23 +7,23 @@ import pandas as pd
 import sys
 import numpy
 sys.path.append('../')
-import market_src.alpaca2Login as al
+import alpaca2Login as al
 # from market_app.overview.refreshFinancials import refreshFinancials
 
 import pytz
 utc = pytz.UTC
-# from alpaca_examples.buy_sell import BuySell
+# from buy_sell import BuySell
 # from sklearn import linear_model, preprocessing
 from pytz import timezone
 localtz = timezone('Europe/Prague')
-from alpaca_examples.utils import Utils
-from alpaca_examples.market_db import Database
-from alpaca_examples.buy_sell import BuySell
-from alpaca_examples.fin_i import FinI 
-from alpaca_examples.alpaca_buy_sell import AlpacaBuySell
-from alpaca_examples.check_indicators import CheckIndicators as chi
-from alpaca_examples.market_db import TableName
-from alpaca_examples.stock_mess import StockMess
+from utils import Utils
+from market_db import Database
+from buy_sell import BuySell
+from fin_i import FinI 
+from alpaca_buy_sell import AlpacaBuySell
+from check_indicators import CheckIndicators as chi
+from market_db import TableName
+from stock_mess import StockMess
 import asyncio
 
 class BackTest():

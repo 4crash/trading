@@ -12,14 +12,14 @@ import sys
 
 from streamlit.commands.page_config import set_page_config
 sys.path.append('../')
-from alpaca_examples.market_db import Database, TableName
-from alpaca_examples.utils import Utils
-from alpaca_examples.fin_i import FinI
-from alpaca_examples.plot_p import PlotP
-from alpaca_examples.stock_mess import StockMess
-from alpaca_examples.sector_stats import SectorStats
+from market_db import Database, TableName
+from utils import Utils
+from fin_i import FinI
+from plot_p import PlotP
+from stock_mess import StockMess
+from sector_stats import SectorStats
 
-from alpaca_examples.stock_whisperer import StockWhisperer
+from stock_whisperer import StockWhisperer
 import plotly.graph_objects as go
 import dash
 import dash_core_components as dcc
