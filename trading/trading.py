@@ -136,7 +136,7 @@ tr = Trading()
 # tr.lr_best_candidate()
 logger.info("Start: " + str(datetime.now()))
 while True:
-    if datetime.today().weekday not in [5,6] and datetime.today().hour in [16,21] and datetime.today().minute == 45:
+    if datetime.today().weekday not in [5,6] and datetime.today().hour in [21] and datetime.today().minute == 45:
         tr = Trading()
         tr.close_all_db_postitions()
         tr.close_all_alpaca_postitions()
