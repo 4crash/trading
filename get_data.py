@@ -1,3 +1,7 @@
+
+from alpaca_trade_api.entity_v2 import BarsV2, Bar
+from alpaca_trade_api.rest import TimeFrame, TimeFrameUnit
+from asyncio.log import logger
 import pandas as pd
 # import PostgresConnect
 from sqlalchemy import create_engine
@@ -9,6 +13,8 @@ from utils import Utils
 from market_db import Database, TableName
 from datetime import datetime, timedelta
 import pytz
+
+  
 utc=pytz.UTC
 
 
@@ -24,11 +30,13 @@ class getData():
         # df = pd.DataFrame()
         
 
-    def  get_bars(self, symbol, interval, limit, after):
+    def  get_bars(self, symbol, interval, limit, after)-> BarsV2:
         # print(after.isoformat())
-        data = self.api.get_barset(symbol, interval, limit, after=after.isoformat())
-        data =  data.df[symbol]
-        print(data)
+        # print(self.api.get_bars)
+        timeframe = TimeFrame(15,TimeFrameUnit.Minute)
+        data = self.api.get_bars(symbol = symbol,timeframe= timeframe,limit = limit, start=after.isoformat())
+        # data =  data.df[symbol]
+        # print(data[symbol])
         return data
         
     def get_sentiment(self, days_before=0, days_after=30):
@@ -112,20 +120,42 @@ class getData():
                     after = dfp.iloc[0].last_time
 
                 # get data from ALPACA
-                df = self.get_bars(row, interval, limit, after)
-                
+                bars = self.get_bars(row, interval, limit, after)
+                # print(bars)
+                df = pd.DataFrame(bars._raw)
+                # print(df)
                 if len(df) > 0:
                     self.nothingToGet = False
                    
                     # add symbol
                     df["sym"] = row
+                    df.rename(columns={"t":'index',
+                                       "o": 'open',
+                                       "h": 'high',
+                                       "l": 'low',
+                                       "c":'close',
+                                       "v": 'volume'},
+                                       inplace=True)
+                    # df.o.rename('open', inplace=True)
+                    # df.h.rename('high', inplace=True)
+                    # df.l.rename('low', inplace=True)
+                    # df.c.rename('close', inplace=True)
+                    # df.v.rename('volume', inplace=True)
+                    df.drop('vw', inplace=True, axis=1)
+                    df.drop('n', inplace=True, axis=1)
+                    df.set_index('index', inplace=True)
                     
+                    # df.drop('level_0', inplace=True, axis=1)
+                    print(df)
+                    
+                   
                     #add sector
                     # dff = pd.read_sql('select sector from '+ self.fin_db + ' where symbol = \'' + row + '\' and sector is not null limit 1', con=self.engine)
                     # if len(dff) > 0 and dff.iloc[0].sector:
                     #     df["sector"] = dff.iloc[0].sector
-
-                    df.index.rename('index', inplace = True)
+                    # logger.info(df)
+                 
+                   
                   
                     #save DATAFRAME to database
                     df.to_sql(table_name, con=self.engine, if_exists='append', index = True)
@@ -154,7 +184,7 @@ class getData():
     def start_download(self, min_interval, start_date, infinity = False):
         
         dfs = pd.read_csv("./datasets/RevolutStock.csv", delimiter="|")
-        print(start_date)
+        print(start_date);
         min_interval = int(min_interval)
 
         if min_interval > 0:

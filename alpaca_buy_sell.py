@@ -1,6 +1,6 @@
 
 import alpaca_trade_api as tradeapi
-from alpaca_trade_api.polygon import StreamConn
+from alpaca_trade_api import Stream
 import threading
 import time
 import datetime
@@ -139,7 +139,7 @@ class AlpacaBuySell():
         return self.alpaca.close_all_positions()
         
     async def stream_conn(self):
-        conn = StreamConn()
+        conn = Stream()
 
 
         @conn.on(r'^trade_updates$')
