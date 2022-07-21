@@ -12,14 +12,16 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-logger = logging.Logger(name = "Utils", level=logging.INFO)
+logger = logging.Logger(name="Utils", level=logging.INFO)
+
+
 class Utils(object):
     """
     docstring
     """
     # def __init__(self):
     #     pass
-    
+
     @staticmethod
     def countdown(t: int):
         while t:
@@ -36,7 +38,6 @@ class Utils(object):
         plt.savefig(buf, format='png')
         buf.seek(0)
 
-        
         part = MIMEBase('application', "octet-stream")
         part.set_payload(buf.read())
         encoders.encode_base64(part)
@@ -66,18 +67,16 @@ class Utils(object):
         if plt:
             part = Utils.fig_to_mail(plt)
             msg.attach(part)
-        
+
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.ehlo()
         server.login(gmail_user, gmail_password)
-        
+
         text = msg.as_string()
         server.sendmail(sent_from, to, text)
         # server.send_message(text)
         server.close()
 
-  
-        
     @staticmethod
     def send_mail(subject: str, body: str):
         gmail_user = 'creaturives@gmail.com'
@@ -154,21 +153,21 @@ class Utils(object):
         #         time.sleep(1)
         #         t -= 1
         #     logger.debug('Continue!\n\n\n\n\n')
-        
+
     @staticmethod
     def convert_to_minutes(data: str) -> int:
         minutes = 0
-        
+
         if not isinstance(data, str) and not isinstance(data, int):
             logger.error("ERROR: Data for convertion must be str or int \r\n")
             return None
-            
+
         if isinstance(data, int):
             minutes = data
-            
-        elif isinstance(data, str) and data=="":
+
+        elif isinstance(data, str) and data == "":
             minutes = 0
-        
+
         elif data[-1].lower() == "h":
             minutes = int(data[0:len(data)-1]) * 60
 
@@ -182,72 +181,65 @@ class Utils(object):
             try:
                 minutes = int(data)
             except:
-                logger.error("Please add correct timeformat eg: 1m, 1h, 1d or 1")
+                logger.error(
+                    "Please add correct timeformat eg: 1m, 1h, 1d or 1")
 
-        
         return minutes
 
     @staticmethod
-    def calc_perc( first, last, round_num=2):
+    def calc_perc(first, last, round_num=2):
         # logger.debug(first)
         # logger.debug(last)
         if first is not None and last is not None \
-            and (isinstance(first, str) or isinstance(first, float) or isinstance(first, int)) \
-            and (isinstance(last, str) or isinstance(last, float) or isinstance(last, int)):
+                and (isinstance(first, str) or isinstance(first, float) or isinstance(first, int)) \
+                and (isinstance(last, str) or isinstance(last, float) or isinstance(last, int)):
             first = float(first)
             last = float(last)
             if first == 0:
                 first = 0.0000001
             # logger.debug("calc_perc() - done")
             return round((last-first) / (first/100), round_num)
-        
-        
+
         else:
             return None
-        
-       
-        
-        
- 
-    
+
     @staticmethod
-    def calc_flpd(sub_data, column = "close"):
-       if column == "close":
+    def calc_flpd(sub_data, column="close"):
+        if column == "close":
             return round((sub_data.iloc[-1].close - sub_data.iloc[0].open) / (sub_data.iloc[0].open/100), 2)
-       else:
-           return round((sub_data.iloc[-1][column] - sub_data.iloc[0][column]) / (sub_data.iloc[0][column]/100), 2)
-           
-    
+        else:
+            return round((sub_data.iloc[-1][column] - sub_data.iloc[0][column]) / (sub_data.iloc[0][column]/100), 2)
+
     @staticmethod
     def zero_one_vals(min, max, val):
         return ((val - min) / (max - min))
-    
+
     @staticmethod
-    def add_first_last_perc_diff(data, column = "close"):
+    def add_first_last_perc_diff(data, column="close"):
         if "flpd" in data:
             return data
-        
+
         out = None
-        if data is not None and len(data)>0:
+        if data is not None and len(data) > 0:
             # symbols = data.groupby(by="sym")w
             flpd = (data.groupby(by="sym").last()[column]-data.groupby(
                 by="sym").first()[column]) / (data.groupby(by="sym").first()[column]/100)
-          
+
             out = pd.merge(data, flpd.round(2), on=[
-                           "sym"], how="right", right_index=True)
-            out.rename(columns={"close_y":"flpd","close_x":"close"},inplace=True)
+                           "sym"], how="right")
+            out.rename(columns={"close_y": "flpd",
+                       "close_x": "close"}, inplace=True)
             # logger.debug(out.iloc[0])
-        
+
         return out
-            
-          
+
     @staticmethod
     def human_format(num):
         if not pd.isnull(num) and not isinstance(num, Timestamp) and not isinstance(num, datetime):
             num = float(num)
         else:
             return num
-        
+
         magnitude = 0
         while abs(num) >= 1000:
             magnitude += 1

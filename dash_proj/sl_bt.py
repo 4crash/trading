@@ -4,7 +4,7 @@
 # visit http://127.0.0.1:8050/ in your web browser.
 
 import sys
-from typing import List
+from typing import List, Optional
 import pytz
 sys.path.insert(1, '.')
 sys.path.append('../')
@@ -146,21 +146,26 @@ class SlBt():
             try:
                 st.write(f"filling: {sym}")
                 df_lr_raw = self.logistic_regression_raw(sym)
-                df_best_buy =  df_best_buy.append(df_lr_raw.tail(1)) 
+                if df_lr_raw is not None and df_lr_raw.empty:
+                    df_best_buy =  df_best_buy.append(df_lr_raw.tail(1))
+                else:
+                     st.write(f"No DATA: {sym}")
+
             except Exception as e:
                 st.write(e)
                 
                 
         st.dataframe(df_best_buy.sort_values(by="prob_1"))
         
-    def logistic_regression_raw(self, symbol="SPY"):
+    def logistic_regression_raw(self, symbol="SPY")-> Optional[pd.DataFrame]:
         #TODO finish thos functioo for find best buy for stock with best Linear Regression probability params
         df = self.db.load_data(
             table_name=TableName.DAY,  time_from=self.time_from, symbols=[symbol])
 
         # m_df_spy = self.db.load_data(
         #     table_name=TableName.DAY,  time_from=self.time_from, symbols=["SPY"])
-
+        if len(df) < 1:
+            return None
         df['open-close'] = df['close'] - df['open'].shift(1)
         df['close-close'] = df['close'].shift(-1) - df['close']
         # wrong close close only for research 
@@ -222,7 +227,8 @@ class SlBt():
         df_best_buy = pd.DataFrame()
         df_lr_raw = self.logistic_regression_raw()
         st.write("logistic regression RAW SPY")
-        st.dataframe(df_lr_raw)
+        if df_lr_raw:
+            st.dataframe(df_lr_raw)
         
           # remove volume, industry, symbol cols
         # df = df.iloc[:,:4]
