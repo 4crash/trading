@@ -227,7 +227,7 @@ class SlBt():
         df_best_buy = pd.DataFrame()
         df_lr_raw = self.logistic_regression_raw()
         st.write("logistic regression RAW SPY")
-        if df_lr_raw:
+        if df_lr_raw is not None and df_lr_raw.empty is not None:
             st.dataframe(df_lr_raw)
         
           # remove volume, industry, symbol cols

@@ -393,6 +393,7 @@ class RunData():
             tickfont=dict(
                 color="#8888ff"
             ),
+            hoverinfo='skip',
             anchor="free",
             overlaying="y",
             side="left",
@@ -427,58 +428,58 @@ class RunData():
     def inday_price_graph(self, option, df, ax = "y2" ):
         st.write("In day chart: -" + str(self.inday_days) + "d")
          
-        sets = [{'x': df["index"], 'open': df.open, 'close': df.close,
+        sets = [{'x': df["index"], 'open': df.open, 'close': df.close,'hoverinfo':'skip',
                  'high': df.high, 'low': df.low, 'yaxis':  ax, "hovertext":"", 'type': 'candlestick'}]
 
-        sets += [{'x': df["index"], 'y': df.boll, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'Boll'}]
 
-        sets += [{'x': df["index"], 'y':  df.boll + df.boll_2, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y':  df.boll + df.boll_2, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df["index"], 'y': df.boll + df.boll_3, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll + df.boll_3, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
         # sets += [{'x': df["index"], 'y': df.boll + df.boll_5, 'yaxis':  ax, 'type': 'scatter',
         #           'mode': 'lines', 'line': {'width': 0.3, 'color': 'green'}, 'name': '-'}]
 
-        sets += [{'x': df["index"], 'y': df.boll + df.boll_6, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll + df.boll_6, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df["index"], 'y': df.boll - df.boll_2, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll - df.boll_2, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df["index"], 'y': df.boll - df.boll_3, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll - df.boll_3, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
         # sets += [{'x': df["index"], 'y': df.boll - df.boll_5, 'yaxis':  ax, 'type': 'scatter',
         #           'mode': 'lines', 'line': {'width': 0.3, 'color': 'green'}, 'name': '-'}]
 
-        sets += [{'x': df["index"], 'y': df.boll - df.boll_6, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll - df.boll_6, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df["index"], 'y': df.boll_ub, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll_ub, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'Boll UP'}]
         sets  += [{'x': df["index"], 'y': df.boll, 'yaxis':  ax,
                 'type': 'scatter', "fill": 'tonexty', 'line': {'width': 0, } ,"fillcolor": 'rgba(128, 255, 128,0.2)'}]
-        sets += [{'x': df["index"], 'y': df.boll_lb, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.boll_lb, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'Boll Down'}]
-        sets += [{'x': df["index"], 'y': df.boll, 'yaxis':  ax,
+        sets += [{'x': df["index"], 'y': df.boll, 'yaxis':  ax,'hoverinfo':'skip',
                 'type': 'scatter', "fill": 'tonexty',  'line': {'width': 0,},"fillcolor": 'rgba(128, 255, 128,0.2)'}]
 
-        sets += [{'x': df["index"], 'y': df.sma9, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.sma9, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 1, 'color': 'blue'}, 'name': 'sma9'}]
 
-        sets += [{'x': df["index"], 'y': df.sma50, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.sma50, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 1, 'color': 'darkblue'}, 'name': 'sma50'}]
 
-        sets += [{'x': df["index"], 'y': df.sma100, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df["index"], 'y': df.sma100, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 1, 'color': 'orange'}, 'name': 'sma100'}]
 
         df = FinI.add_levels(df)
         for i, r in df.iterrows():
             if r.price_level is not None:
-                sets += [{'x': [r["index"], df.iloc[-1]["index"]], 'y': [r.price_level,r.price_level], 'yaxis':  ax, 'type': 'scatter',
+                sets += [{'x': [r["index"], df.iloc[-1]["index"]], 'y': [r.price_level,r.price_level], 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                           'mode': 'lines', 'line': {'width': 1, 'color': 'brown', "dash": "dot"}, 'name': ''}]
         # print(levels)
         # sets += [{'x': df["index"], 'y': df.price_level, 'yaxis':  ax, 'type': 'scatter',
@@ -508,15 +509,15 @@ class RunData():
 
 
         # fig['layout']['margin'] = {'l': 30, 'r': 10, 'b': 50, 't': 25}
-        fig.update_yaxes(showgrid=True, zeroline=False, showticklabels=True,
+        fig.update_yaxes(showgrid=False, zeroline=False, showticklabels=True,
                          showspikes=True, spikemode='across', spikesnap='cursor', showline=True, spikedash='dash', spikethickness=0.5)
 
 
-        fig.update_xaxes(showgrid=True, zeroline=False, rangeslider_visible=False, showticklabels=True,
+        fig.update_xaxes(showgrid=False, zeroline=False, rangeslider_visible=False, showticklabels=True,
                          showspikes=True,  showline=True, spikemode='across', spikesnap='cursor', spikedash='dash', spikethickness=0.5)
 
         fig.update_layout(autosize=True, height=600,
-                          hoverdistance=1, hovermode='y', spikedistance=10000
+                          hoverdistance=1, hovermode='y', spikedistance=10
                       
                           )
         st.plotly_chart(fig, use_container_width=True,
@@ -529,53 +530,53 @@ class RunData():
         st.write("Days chart: " + str(self.time_from))
 
         sets = [{'x': df.index, 'open': df.open, 'close': df.close,
-                 'high': df.high, 'low': df.low, 'yaxis':  ax, "hovertext":"", 
+                 'high': df.high, 'low': df.low, 'yaxis':  ax,'hoverinfo':'skip', 
                  'type': 'candlestick'}]
 
-        sets += [{'x': df.index, 'y': df.boll, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'Boll'}]
 
-        sets += [{'x': df.index, 'y':  df.boll + df.boll_2, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y':  df.boll + df.boll_2, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df.index, 'y': df.boll + df.boll_3, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll + df.boll_3, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
         # sets += [{'x': df.index, 'y': df.boll + df.boll_5, 'yaxis':  ax, 'type': 'scatter',
         #           'mode': 'lines', 'line': {'width': 0.3, 'color': 'green'}, 'name': '-'}]
 
-        sets += [{'x': df.index, 'y': df.boll + df.boll_6, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll + df.boll_6, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df.index, 'y': df.boll - df.boll_2, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll - df.boll_2, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df.index, 'y': df.boll - df.boll_3, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll - df.boll_3, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
         # sets += [{'x': df.index, 'y': df.boll - df.boll_5, 'yaxis':  ax, 'type': 'scatter',
         #           'mode': 'lines', 'line': {'width': 0.3, 'color': 'green'}, 'name': '-'}]
 
-        sets += [{'x': df.index, 'y': df.boll - df.boll_6, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll - df.boll_6, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                   'mode': 'lines', 'line': {'width': 0.3, 'color': 'green', "dash": "dot"}, 'name': '-'}]
 
-        sets += [{'x': df.index, 'y': df.boll_ub, 'yaxis':  ax, 'type': 'scatter',
+        sets += [{'x': df.index, 'y': df.boll_ub, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'Boll UP'}]
         sets  += [{'x': df.index, 'y': df.boll, 'yaxis':  ax,
-                'type': 'scatter', "fill": 'tonexty', 'line': {'width': 0, } ,"fillcolor": 'rgba(128, 255, 128,0.2)'}]
-        sets += [{'x': df.index, 'y': df.boll_lb, 'yaxis':  ax, 'type': 'scatter',
+                'type': 'scatter', "fill": 'tonexty', 'line': {'width': 0, } ,"fillcolor": 'rgba(128, 255, 128,0.2)','hoverinfo':'skip',}]
+        sets += [{'x': df.index, 'y': df.boll_lb, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'Boll Down'}]
         sets += [{'x': df.index, 'y': df.boll, 'yaxis':  ax,
-                'type': 'scatter', "fill": 'tonexty',  'line': {'width': 0,},"fillcolor": 'rgba(255, 128, 128,0.2)'}]
+                'type': 'scatter', "fill": 'tonexty',  'line': {'width': 0,},"fillcolor": 'rgba(255, 128, 128,0.2)','hoverinfo':'skip',}]
 
         sets += [{'x': df.index, 'y': df.sma9, 'yaxis':  ax, 'type': 'scatter',
-                  'mode': 'lines', 'line': {'width': 1, 'color': 'blue'}, 'name': 'sma9'}]
+                  'mode': 'lines', 'line': {'width': 1, 'color': 'blue'}, 'name': 'sma9','hoverinfo':'skip',}]
 
         sets += [{'x': df.index, 'y': df.sma50, 'yaxis':  ax, 'type': 'scatter',
-                  'mode': 'lines', 'line': {'width': 1, 'color': 'darkblue'}, 'name': 'sma50'}]
+                  'mode': 'lines', 'line': {'width': 1, 'color': 'darkblue'}, 'name': 'sma50','hoverinfo':'skip',}]
 
         sets += [{'x': df.index, 'y': df.sma100, 'yaxis':  ax, 'type': 'scatter',
-                  'mode': 'lines', 'line': {'width': 1, 'color': 'orange'}, 'name': 'sma100'}]
+                  'mode': 'lines', 'line': {'width': 1, 'color': 'orange'}, 'name': 'sma100','hoverinfo':'skip',}]
 
     
 
@@ -595,10 +596,13 @@ class RunData():
         #         line_group="country")
         # fig = go.Figure(data=sets)
         fig = make_subplots(rows=3, cols=1, shared_xaxes=True,
-                            vertical_spacing=0.009, horizontal_spacing=0.009, row_width=[0.2, 0.1, 0.5], specs=[[{"secondary_y": True}], [{"secondary_y": True}], [{"secondary_y": True}]])
+                            vertical_spacing=0.009, 
+                            horizontal_spacing=0.009, 
+                            row_width=[0.2, 0.1, 0.5], 
+                            specs=[[{"secondary_y": True}], [{"secondary_y": True}], [{"secondary_y": True}]])
         fig.add_traces(data=sets, cols=1, rows=1)
         if m_df_spy is not None:
-            fig.add_trace({'x': m_df_spy.index, 'y': m_df_spy.oc_mean,  'type': 'scatter', 'yaxis':  "y",
+            fig.add_trace({'x': m_df_spy.index, 'y': m_df_spy.oc_mean,  'type': 'scatter', 'yaxis':  "y",'hovertemplate':' ',
                        'mode': 'lines', 'line': {'width': 1, 'color': 'red'}, 'name': 'SPY'}, 1, 1, secondary_y=True,)
 
         # data = PlotP.plot_rsi(df, ax="y")
@@ -609,28 +613,27 @@ class RunData():
         
         rsi = PlotP.plot_rsi(df=df, ax="y3")
         fig.add_traces(data=rsi, rows=3, cols=1,
-                       secondary_ys=[True, True, True, True, True])
+                       secondary_ys=[True, True, True, True, True],)
         
         df.loc[df.open > df.close, "vol_color"] = "red"
         df.loc[df.open <= df.close, "vol_color"] = "green"
         # print(df.vol_color)
         
-        fig.add_trace({'x': df.index, 'y': df.volume,
+        fig.add_trace({'x': df.index, 'y': df.volume,'hoverinfo':'skip',
                        'type': 'bar', 'name': 'Volume', 'marker_color': df.vol_color}, 2, 1, secondary_y=False, )
 
 
         # fig['layout']['margin'] = {'l': 30, 'r': 10, 'b': 50, 't': 25}
-        fig.update_yaxes(showgrid=True, zeroline=False, showticklabels=True,
+        fig.update_yaxes(showgrid=False, zeroline=False, showticklabels=True,
                          showspikes=True, spikemode='across', spikesnap='cursor', showline=True, spikedash='dash', spikethickness=0.5)
 
 
-        fig.update_xaxes(showgrid=True, zeroline=False, rangeslider_visible=False, showticklabels=True,
+        fig.update_xaxes(showgrid=False, zeroline=False, rangeslider_visible=False, showticklabels=True,
                          showspikes=True,  showline=True, spikemode='across', spikesnap='cursor', spikedash='dash', spikethickness=0.5)
 
         fig.update_layout(autosize=True, height=600,
-                          hoverdistance=1, hovermode='y', spikedistance=10000,
-                      
-                          )
+                          hoverdistance=1, hovermode='y',  spikedistance=10000,)
+
         st.plotly_chart(fig, use_container_width=True,
                         use_container_height=True, template="plotly_dark",)
 
