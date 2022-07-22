@@ -1,7 +1,7 @@
 
 import sys
 sys.path.append('../')
-from market_app.overview.refreshFinancials import refreshFinancials
+from refreshFinancials_sync import refreshFinancialsSync
 import asyncio
 from get_data import getData
 from stock_whisperer import StockWhisperer
@@ -70,7 +70,7 @@ for arg in args:
 
 # download financials
 if itype == "df":
-    rf = refreshFinancials()
+    rf = refreshFinancialsSync()
     asyncio.run(rf.start(send=None))
 
 # FIND BEST RSI SETTINGS BY BACKTESTING BOLL MACD RSI

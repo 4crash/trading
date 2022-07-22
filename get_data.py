@@ -32,8 +32,11 @@ class getData():
 
     def  get_bars(self, symbol, interval, limit, after)-> BarsV2:
         # print(after.isoformat())
-        # print(self.api.get_bars)
-        timeframe = TimeFrame(15,TimeFrameUnit.Minute)
+        if interval != "day":
+            timeframe = TimeFrame(interval,TimeFrameUnit.Minute)
+        else:
+            timeframe = TimeFrame(1,TimeFrameUnit.Day)
+
         data = self.api.get_bars(symbol = symbol,timeframe= timeframe,limit = limit, start=after.isoformat())
         # data =  data.df[symbol]
         # print(data[symbol])
@@ -196,7 +199,7 @@ class getData():
            
             try:
                 if min_interval > 0:
-                    self.fill_database(dfs,str(min_interval) + "Min",1000, 'p_'+ str(min_interval) +'min', start_date)
+                    self.fill_database(dfs,int(min_interval) ,1000, 'p_'+ str(min_interval) +'min', start_date)
                 else:
                     self.fill_database(dfs,"day",1000, 'p_day', start_date)
                 

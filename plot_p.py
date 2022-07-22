@@ -19,13 +19,13 @@ class PlotP(object):
         df.loc[df.kdjk <= df.kdjd, "kdjk_color"] = "rgba(150, 26, 65, 0.1)"
         # df["rsi_color"] = "rgba(26, 150, 65, 0.1)"
         # df["rsi_color"] = df[df.kdjk > df.kdjd, "rgba(150, 26, 65, 0.1)"]
-        set2 = {'x': df.index, 'y': df.kdjk, 'yaxis': ax, 'type': 'scatter',
+        set2 = {'x': df.index, 'y': df.kdjk, 'yaxis': ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'blue'}, 'name': 'kdjk'}
 
-        set3 = {'x': df.index, 'y': df.kdjd, 'yaxis': ax, 'type': 'scatter',
+        set3 = {'x': df.index, 'y': df.kdjd, 'yaxis': ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 1, 'color': 'green'}, 'name': 'kdjd'}
         
-        set4 = {'x': df.index, 'y': df.kdjk,
+        set4 = {'x': df.index, 'y': df.kdjk,'hoverinfo':'skip',
                 'type': 'scatter', 'line': {'width': 1, 'color': 'red'}, "fill": 'tonexty', "fillcolor": "rgba(26, 65, 150, 0.1)"}
 
         # set5 = {'x': [df.iloc[0].index, df.iloc[-1].index], 'y': [70, 70], 'yaxis': ax, 'type': 'scatter',
@@ -47,23 +47,23 @@ class PlotP(object):
         if "boll" not in df or "macd" not in df:
             df = FinI.add_indicators(df)
 
-        out += [{'x': df.index, 'y': df.macd,  'yaxis':  ax, 'type': 'scatter',
+        out += [{'x': df.index, 'y': df.macd,  'yaxis':  ax, 'type': 'scatter', 'hovertemplate':' ',
                  'mode': 'lines', 'line': {'width': 1, 'color': 'rgba(128, 128, 256,1)'}, 'name': 'Macd'}]
         
-        out += [{'x': df.index, 'y': df.boll_lb_macd, 'yaxis':  ax,
+        out += [{'x': df.index, 'y': df.boll_lb_macd, 'yaxis':  ax,'hoverinfo':'skip',
                  'type': 'scatter', 'line': {'width': 0, 'color': 'rgba(256, 128, 128,0.1)'}, "fill": 'tonexty', "fillcolor": 'rgba(128, 128, 128,0.2)'}]
 
 
-        out += [{'x': df.index, 'y': df.boll_ub_macd, 'yaxis':  ax, 'type': 'scatter',
+        out += [{'x': df.index, 'y': df.boll_ub_macd, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                 'mode': 'lines', 'line': {'width': 0.6, 'color': 'rgba(128, 128, 256,0.6)'}, 'name': 'bollup'}]
         
         # out += [{'x': df.index, 'y': df.macd, 'yaxis':  ax,
         #          'type': 'scatter', "fill": 'tonexty', "fillcolor": 'rgba(51, 204, 51,0.3)'}]
 
-        out += [{'x': df.index, 'y': df.boll_lb_macd, 'yaxis':  ax, 'type': 'scatter',
+        out += [{'x': df.index, 'y': df.boll_lb_macd, 'yaxis':  ax, 'type': 'scatter','hoverinfo':'skip',
                  'mode': 'lines', 'line': {'width': 0.6, 'color': 'rgba(128, 128, 256,0.6)'}, 'name': 'boll dwn'}]
 
-        out += [{'x': df.index, 'y': df.boll_ub_macd, 'yaxis':  ax,
+        out += [{'x': df.index, 'y': df.boll_ub_macd, 'yaxis':  ax,'hoverinfo':'skip',
                  'type': 'scatter', 'line': {'width': 0, 'color': 'rgba(128, 128, 256,0.6)'}, "fill": 'tonexty', "fillcolor": 'rgba(128, 128, 128,0.2)'}]
         
        

@@ -3,7 +3,7 @@ aiohttp==3.6.2
 alpaca-trade-api==1.2.0
 altair==4.1.0
 aniso8601==7.0.0
-argon2-cffi==20.1.0
+# argon2-cffi==20.1.0
 asgiref==3.2.10
 astor==0.8.1
 astunparse==1.6.3
@@ -22,14 +22,14 @@ Brotli==1.0.9
 bs4==0.0.1
 cachetools==4.1.1
 certifi==2020.6.20
-cffi==1.14.5
+# cffi==1.14.5
 chardet==3.0.4
 click==7.1.2
 cmdstanpy==0.9.5
 colorama==0.4.4
 convertdate==2.2.2
 cvxopt
-cvxpy==1.1.7
+# cvxpy==1.1.7
 cycler==0.10.0
 Cython==0.29.21
 dash==1.18.1
