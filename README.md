@@ -17,3 +17,7 @@ This shows a basic approach to opening a streaming connection for Polygon market
 ## Martingale
 
 This trading algorithm explores a strategy based on a gambling technique. Trading every few seconds, it maintains a position in the $SPY symbol of a size determined by the number of up or down candles it's experienced in a row. For a more complete explanation, please see [this post](https://forum.alpaca.markets/t/martingale-day-trading-with-the-alpaca-trading-api/).
+
+#This package use stream
+streamlit run --server.runOnSave True sl_bt.py
+streamlit run --server.runOnSave True sl.py
