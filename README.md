@@ -21,3 +21,4 @@ This trading algorithm explores a strategy based on a gambling technique. Tradin
 # This package uses stream
 streamlit run --server.runOnSave True sl_bt.py
 streamlit run --server.runOnSave True sl.py
+
