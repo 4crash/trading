@@ -1,7 +1,7 @@
 
 import sys
 sys.path.append('../')
-from refreshFinancials_sync import refreshFinancialsSync
+from refreshFinancials import refreshFinancials
 import asyncio
 from get_data import getData
 from stock_whisperer import StockWhisperer
@@ -70,7 +70,7 @@ for arg in args:
 
 # download financials
 if itype == "df":
-    rf = refreshFinancialsSync()
+    rf = refreshFinancials()
     asyncio.run(rf.start(send=None))
 
 # FIND BEST RSI SETTINGS BY BACKTESTING BOLL MACD RSI
@@ -208,8 +208,7 @@ elif itype == "de":
 # download prices
 elif itype == "dd":
     gd = getData()
-    gd.start_download(interval, utc.localize(
-            datetime.now() - timedelta(days=365)))
+    gd.start_download(interval)
     
 # show earning dates
 elif itype == "se":

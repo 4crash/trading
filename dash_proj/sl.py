@@ -191,12 +191,15 @@ class RunData():
             output = self.sw.find_stocks(TableName.DAY, False)
         except KeyboardInterrupt:
             st.write("stopped by keyboard")
+
+        if 'sym' in output: 
+            stocks = output.loc[:,["close", "open", "high",
+                            "low", "volume", "amount", "flpd","sym"]]
+            stocks = output
             
-        stocks = output[["close", "open", "high",
-                          "low", "volume", "amount", "flpd","sym"]]
-        # print(stocks)
-        self.print_stocks_list(stocks, True,
+            self.print_stocks_list(stocks, True,
                           from_top=0, show_stocks_num=50)
+       
 
     def show_sectors(self, stocks, is_industries= False):
         

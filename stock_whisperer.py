@@ -2,7 +2,7 @@ import asyncio
 import logging
 import twitterSentiment
 import matplotlib.pyplot as plt
-from stockstats import StockDataFrame as sdf
+from stockstats import StockDataFrame
 import pandas as pd
 from sqlalchemy import create_engine
 import sys
@@ -35,8 +35,8 @@ class StockWhisperer():
     def __init__(self):
         
         # self.best_at_settings = None
-        self.stocks = sdf()
-        self.spy = sdf()
+        self.stocks = StockDataFrame()
+        self.spy = StockDataFrame()
         self.db = Database()
         self.ss = SectorStats()
         # self.processed_data = None
@@ -46,7 +46,7 @@ class StockWhisperer():
         self.df = pd.DataFrame()
         self.classificators= {}
         # start tradining stats
-        # self.stock_stats = sdf()
+        # self.stock_stats = StockDataFrame()
         self.startCredit = 10000
         self.money = 0
         # self.prev_stock = None
@@ -76,12 +76,12 @@ class StockWhisperer():
    
     def load_data(self, table_name = None, symbols = None, sectors = None, limit = None, time_from = None, time_to=None):
         symbols = symbols if symbols is not None else self.symbols
-        return sdf.retype(self.db.load_data(table_name, symbols=symbols, sectors=sectors, 
+        return StockDataFrame.retype(self.db.load_data(table_name, symbols=symbols, sectors=sectors, 
                                             limit=limit, time_from=time_from, time_to=time_to))
     
         
     def load_spy(self, table_name = None, time_from = None, time_to=None):
-        return sdf.retype(self.db.load_spy(table_name, time_from=time_from, time_to=time_to))
+        return StockDataFrame.retype(self.db.load_spy(table_name, time_from=time_from, time_to=time_to))
     
     def check_entered_sym(self, symbol):
         # print(symbol)
@@ -255,7 +255,7 @@ class StockWhisperer():
       
         
     def iterate_by_symbol(self, table_name, mail_stats, call_back_f ):
-        df_out = sdf()
+        df_out = StockDataFrame()
         if self.symbols:
             symbols = self.symbols
         else:
@@ -450,8 +450,8 @@ class StockWhisperer():
         
         return spy_mess
 
-    def find_stocks(self, table_name: TableName, mail_stats):
-        df_out = sdf()
+    def find_stocks(self, table_name: TableName, mail_stats)->StockDataFrame:
+        df_out = StockDataFrame()
         symbols = self.db.get_symbols()
         
         # if self.time_from is None:
@@ -478,7 +478,7 @@ class StockWhisperer():
                         sub_data, mail_stats=False, earnings=sub_earnings, sentiment=sub_sentiment, financials=sub_financials, latest_stocks=sub_latest_stocks)
                     
                     if buyed_stocks is not None and len(buyed_stocks)>0:
-                        df_out = df_out.append(buyed_stocks)
+                        df_out =  pd.concat([df_out,buyed_stocks])
         except KeyboardInterrupt:
             exit()
             
@@ -1019,7 +1019,7 @@ class StockWhisperer():
         # self.stocks = self.stocks.append(stocks.iloc[0])
       
     def volume_stats(self, stocks_count = 10, mail_stats = False):
-        # self.stocks = sdf()
+        # self.stocks = StockDataFrame()
         self.db.limit = 2
         stocks = self.iterate_by_symbol(self.db.price_table_name, mail_stats, self.volume_movement)
         

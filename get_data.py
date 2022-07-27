@@ -11,7 +11,7 @@ import alpaca2Login as al
 # from alpaca_examples.back_tester import BackTest
 from utils import Utils
 from market_db import Database, TableName
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 import pytz
 
   
@@ -34,8 +34,10 @@ class getData():
         # print(after.isoformat())
         if interval != "day":
             timeframe = TimeFrame(interval,TimeFrameUnit.Minute)
+            after =  after + timedelta(minutes=interval)
         else:
             timeframe = TimeFrame(1,TimeFrameUnit.Day)
+            after = after + timedelta(days=1)
 
         data = self.api.get_bars(symbol = symbol,timeframe= timeframe,limit = limit, start=after.isoformat())
         # data =  data.df[symbol]
@@ -109,7 +111,7 @@ class getData():
     #         df[col] = pd.to_datetime(df[col],unit="s")
     #     return df
 
-    def fill_database(self, dfs,interval, limit, table_name, after):
+    def fill_database(self, dfs,interval, limit, table_name):
         self.nothingToGet = True
         for row in dfs['Symbol']:
             if row:
@@ -121,6 +123,8 @@ class getData():
                 
                 if dfp.iloc[0].last_time is not None:
                     after = dfp.iloc[0].last_time
+                else:
+                    after = date(year=2021,month=1,day=1)
 
                 # get data from ALPACA
                 bars = self.get_bars(row, interval, limit, after)
@@ -184,24 +188,18 @@ class getData():
                        if_exists='replace', index=False)
     
     # param interval could be 1,5,15, 0 - for day
-    def start_download(self, min_interval, start_date, infinity = False):
+    def start_download(self, min_interval):
         
         dfs = pd.read_csv("./datasets/RevolutStock.csv", delimiter="|")
-        print(start_date);
         min_interval = int(min_interval)
-
-        if min_interval > 0:
-            db_name = 'p_'+ str(min_interval) +'min'
-        else:
-            db_name = 'p_day'
-        
+   
         while True:
            
             try:
                 if min_interval > 0:
-                    self.fill_database(dfs,int(min_interval) ,1000, 'p_'+ str(min_interval) +'min', start_date)
+                    self.fill_database(dfs,int(min_interval) ,1000, 'p_'+ str(min_interval) +'min')
                 else:
-                    self.fill_database(dfs,"day",1000, 'p_day', start_date)
+                    self.fill_database(dfs,"day",1000, 'p_day')
                 
                 if infinity and self.nothingToGet:
                     break
@@ -216,7 +214,7 @@ class getData():
                 Utils.countdown(60)
 
         
-        print("DONE")    
+        print("DONE")
             
 
            

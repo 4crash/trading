@@ -37,12 +37,14 @@ from market_db import Database, TableName
 from check_indicators import CheckIndicators as chi
 from buy_sell import BuySell
 import asyncio
-from datetime import datetime
+from datetime import datetime, timedelta
 import numpy as np
 # import datetime
 from plotly.subplots import make_subplots
 import logging
 import ta
+import seaborn as sns
+import matplotlib.pyplot as plt
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -146,26 +148,29 @@ class SlBt():
             try:
                 st.write(f"filling: {sym}")
                 df_lr_raw = self.logistic_regression_raw(sym)
-                if df_lr_raw is not None and df_lr_raw.empty:
+                if df_lr_raw is not None:
                     df_best_buy =  df_best_buy.append(df_lr_raw.tail(1))
                 else:
                      st.write(f"No DATA: {sym}")
 
             except Exception as e:
-                st.write(e)
+                st.write(e) 
                 
-                
-        st.dataframe(df_best_buy.sort_values(by="prob_1"))
+        if "prob_1" in df_best_buy:        
+            st.dataframe(df_best_buy.sort_values(by="prob_1"))
         
     def logistic_regression_raw(self, symbol="SPY")-> Optional[pd.DataFrame]:
         #TODO finish thos functioo for find best buy for stock with best Linear Regression probability params
+        st.write(self.time_from)
+        time_from = datetime.today() - timedelta(minutes=Utils.convert_to_minutes(self.time_from.replace('-','')))
         df = self.db.load_data(
-            table_name=TableName.DAY,  time_from=self.time_from, symbols=[symbol])
-
+            table_name=TableName.DAY,  time_from=time_from, symbols=[symbol])
         # m_df_spy = self.db.load_data(
         #     table_name=TableName.DAY,  time_from=self.time_from, symbols=["SPY"])
         if len(df) < 1:
             return None
+            
+        
         df['open-close'] = df['close'] - df['open'].shift(1)
         df['close-close'] = df['close'].shift(-1) - df['close']
         # wrong close close only for research 
@@ -193,7 +198,8 @@ class SlBt():
         # We will instantiate the logistic regression in Python using ‘LogisticRegression’
         # function and fit the model on the training dataset using ‘fit’ function.
         model = LogisticRegression()
-        model = model.fit(X_train, y_train)
+        if len(y_train) > 5:
+            model = model.fit(X_train, y_train)
 
         # Examine coeficients
         # pd.DataFrame(zip(X.columns, np.transpose(model.coef_)))
@@ -611,12 +617,15 @@ class SlBt():
       # fig = px.scatter_matrix(df)
         # fig.show()
 
-        df_c = pd.DataFrame(df, columns=["size_body", "size_prev_chng", "weekday","week_in_month", "size_btm", "size_top", 
+        df_c = pd.DataFrame(df, columns=["size_body", "size_prev_chng", "weekday","week_in_month", "size_btm", "size_top", 'volume',
                                          "size_body-1", "size_top-1", "size_btm-1",
                                          "size_body-2", "size_top-2", "size_btm-2", 
                                          "size_body-3",  "size_top-3", "size_btm-3", 
                                          "size_sma9","size_sma20", "size_boll", "size_boll_ub", "size_boll_lb", "green_red_row", "up_down_row"])
-        st.write(df_c.corr())
+        fig, ax = plt.subplots()
+        sns.heatmap(df_c.corr(), ax=ax)
+        st.write(fig)
+        # st.write(df_c.corr())
       
 
     def portfolio_opt(self):
